@@ -1,0 +1,3253 @@
+[
+  {
+    "id": "pe-clearlake-qualus-2026",
+    "name": "Clearlake acquires Qualus from New Mountain Capital",
+    "theme": "grid-infrastructure",
+    "geography": "United States",
+    "status": "completed",
+    "dealType": "acquisition",
+    "announcementDate": "2026-03-25",
+    "completionDate": "2026-04-30",
+    "targetCompanyId": "qualus",
+    "investorCompanyId": "clearlake-capital",
+    "parties": [
+      {
+        "role": "target",
+        "name": "Qualus",
+        "companyId": "qualus",
+        "sourceId": "pe-clearlake-qualus-2026:src-1"
+      },
+      {
+        "role": "buyer",
+        "name": "Clearlake Capital",
+        "companyId": "clearlake-capital",
+        "sourceId": "pe-clearlake-qualus-2026:src-1"
+      },
+      {
+        "role": "investor",
+        "name": "New Mountain Capital",
+        "companyId": "new-mountain-capital",
+        "sourceId": "pe-clearlake-qualus-2026:src-1"
+      },
+      {
+        "role": "management",
+        "name": "Lars Johansson",
+        "personId": "lars-johansson",
+        "note": "seller dealmaker; public deal-source evidence only",
+        "sourceId": "pe-clearlake-qualus-2026:src-1"
+      }
+    ],
+    "advisors": [
+      {
+        "role": "financial-advisor-seller",
+        "name": "AEC Advisors",
+        "note": "lead financial advisor target and seller",
+        "sourceId": "pe-clearlake-qualus-2026:src-1"
+      },
+      {
+        "role": "financial-advisor-seller",
+        "name": "Harris Williams",
+        "companyId": "harris-williams",
+        "note": "co financial advisor target and seller",
+        "sourceId": "pe-clearlake-qualus-2026:src-1"
+      },
+      {
+        "role": "financial-advisor-buyer",
+        "name": "Goldman Sachs",
+        "companyId": "goldman-sachs",
+        "note": "financial advisor buyer",
+        "sourceId": "pe-clearlake-qualus-2026:src-1"
+      },
+      {
+        "role": "financial-advisor-buyer",
+        "name": "Houlihan Lokey",
+        "companyId": "houlihan-lokey",
+        "note": "financial advisor buyer",
+        "sourceId": "pe-clearlake-qualus-2026:src-1"
+      },
+      {
+        "role": "financial-advisor-buyer",
+        "name": "Perella Weinberg Partners",
+        "note": "financial advisor buyer",
+        "sourceId": "pe-clearlake-qualus-2026:src-1"
+      },
+      {
+        "role": "financial-advisor-buyer",
+        "name": "Stifel",
+        "note": "financial advisor buyer",
+        "sourceId": "pe-clearlake-qualus-2026:src-1"
+      },
+      {
+        "role": "legal-counsel-seller",
+        "name": "Simpson Thacher",
+        "note": "legal counsel target",
+        "sourceId": "pe-clearlake-qualus-2026:src-1"
+      },
+      {
+        "role": "legal-counsel-buyer",
+        "name": "Wachtell Lipton",
+        "note": "legal counsel buyer",
+        "sourceId": "pe-clearlake-qualus-2026:src-1"
+      },
+      {
+        "role": "financial-advisor-buyer",
+        "name": "Apollo",
+        "note": "financing provider",
+        "sourceId": "pe-clearlake-qualus-2026:src-1"
+      },
+      {
+        "role": "financial-advisor-buyer",
+        "name": "Goldman Sachs Alternatives",
+        "note": "financing provider",
+        "sourceId": "pe-clearlake-qualus-2026:src-1"
+      }
+    ],
+    "facts": [
+      {
+        "id": "pe-clearlake-qualus-2026:fact-1",
+        "dealId": "pe-clearlake-qualus-2026",
+        "factType": "target_company",
+        "factValue": "Qualus",
+        "normalizedValue": "qualus",
+        "sourceId": "pe-clearlake-qualus-2026:src-1",
+        "evidenceChunkId": "pe-clearlake-qualus-2026:evidence-1",
+        "evidenceText": "Clearlake announced the secondary buyout and named the target CEO, sponsor dealmakers, advisors, and financing providers.",
+        "confidence": 0.91,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-clearlake-qualus-2026:fact-2",
+        "dealId": "pe-clearlake-qualus-2026",
+        "factType": "buyer_or_investor",
+        "factValue": "Clearlake Capital; New Mountain Capital",
+        "sourceId": "pe-clearlake-qualus-2026:src-1",
+        "evidenceChunkId": "pe-clearlake-qualus-2026:evidence-2",
+        "evidenceText": "Clearlake announced the secondary buyout and named the target CEO, sponsor dealmakers, advisors, and financing providers.",
+        "confidence": 0.89,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-clearlake-qualus-2026:fact-3",
+        "dealId": "pe-clearlake-qualus-2026",
+        "factType": "deal_type",
+        "factValue": "secondary buyout",
+        "sourceId": "pe-clearlake-qualus-2026:src-1",
+        "evidenceChunkId": "pe-clearlake-qualus-2026:evidence-3",
+        "evidenceText": "Clearlake announced the secondary buyout and named the target CEO, sponsor dealmakers, advisors, and financing providers.",
+        "confidence": 0.86,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-clearlake-qualus-2026:fact-4",
+        "dealId": "pe-clearlake-qualus-2026",
+        "factType": "announcement_date",
+        "factValue": "2026-03-25",
+        "sourceId": "pe-clearlake-qualus-2026:src-1",
+        "evidenceChunkId": "pe-clearlake-qualus-2026:evidence-4",
+        "evidenceText": "Clearlake announced the secondary buyout and named the target CEO, sponsor dealmakers, advisors, and financing providers.",
+        "confidence": 0.84,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-clearlake-qualus-2026:fact-5",
+        "dealId": "pe-clearlake-qualus-2026",
+        "factType": "theme",
+        "factValue": "grid infrastructure",
+        "sourceId": "pe-clearlake-qualus-2026:src-1",
+        "evidenceChunkId": "pe-clearlake-qualus-2026:evidence-5",
+        "evidenceText": "Pure-play grid advisory, engineering, digital, program-management, and field-services platform serving utilities and data centers.",
+        "confidence": 0.84,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-clearlake-qualus-2026:fact-6",
+        "dealId": "pe-clearlake-qualus-2026",
+        "factType": "investment_relevance",
+        "factValue": "Pure-play grid advisory, engineering, digital, program-management, and field-services platform serving utilities and data centers.",
+        "sourceId": "pe-clearlake-qualus-2026:src-1",
+        "evidenceChunkId": "pe-clearlake-qualus-2026:evidence-6",
+        "evidenceText": "Pure-play grid advisory, engineering, digital, program-management, and field-services platform serving utilities and data centers.",
+        "confidence": 0.82,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-clearlake-qualus-2026:fact-7",
+        "dealId": "pe-clearlake-qualus-2026",
+        "factType": "advisors",
+        "factValue": "AEC Advisors (lead financial advisor target and seller); Harris Williams (co financial advisor target and seller); Goldman Sachs (financial advisor buyer); Houlihan Lokey (financial advisor buyer); Perella Weinberg Partners (financial advisor buyer); Stifel (financial advisor buyer); Simpson Thacher (legal counsel target); Wachtell Lipton (legal counsel buyer); Apollo (financing provider); Goldman Sachs Alternatives (financing provider)",
+        "sourceId": "pe-clearlake-qualus-2026:src-1",
+        "evidenceChunkId": "pe-clearlake-qualus-2026:evidence-7",
+        "evidenceText": "Clearlake announced the secondary buyout and named the target CEO, sponsor dealmakers, advisors, and financing providers.",
+        "confidence": 0.84,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-clearlake-qualus-2026:fact-8",
+        "dealId": "pe-clearlake-qualus-2026",
+        "factType": "named_people",
+        "factValue": "José E. Feliciano (buyer dealmaker); Arta Tabaee (buyer dealmaker); Naveen Shahani (buyer dealmaker); Joe Walker (seller dealmaker); Lars Johansson (seller dealmaker); Greg Herasymuik (target ceo)",
+        "sourceId": "pe-clearlake-qualus-2026:src-1",
+        "evidenceChunkId": "pe-clearlake-qualus-2026:evidence-8",
+        "evidenceText": "Clearlake announced the secondary buyout and named the target CEO, sponsor dealmakers, advisors, and financing providers.",
+        "confidence": 0.82,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-clearlake-qualus-2026:fact-9",
+        "dealId": "pe-clearlake-qualus-2026",
+        "factType": "completion_date",
+        "factValue": "2026-04-30",
+        "sourceId": "pe-clearlake-qualus-2026:src-1",
+        "evidenceChunkId": "pe-clearlake-qualus-2026:evidence-9",
+        "evidenceText": "Clearlake confirmed completion on April 30, 2026 and disclosed additional buyer-side financial advisors.",
+        "confidence": 0.86,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-clearlake-qualus-2026:fact-10",
+        "dealId": "pe-clearlake-qualus-2026",
+        "factType": "transaction_value",
+        "factValue": "not_disclosed",
+        "sourceId": "pe-clearlake-qualus-2026:src-1",
+        "evidenceChunkId": "pe-clearlake-qualus-2026:evidence-10",
+        "evidenceText": "No transaction value was disclosed in the public source set.",
+        "confidence": 0.72,
+        "extractionMethod": "curated",
+        "reviewStatus": "not_disclosed"
+      }
+    ],
+    "sourceIds": [
+      "pe-clearlake-qualus-2026:src-1",
+      "pe-clearlake-qualus-2026:src-2"
+    ],
+    "sources": [
+      {
+        "title": "Clearlake to Acquire Qualus From New Mountain Capital",
+        "publisher": "Clearlake Capital",
+        "url": "https://clearlake.com/news/clearlake-to-acquire-qualus-a-pure-play-power-electric-grid-services-platform-from-new-mountain-capital/"
+      },
+      {
+        "title": "Clearlake Completes Acquisition of Qualus",
+        "publisher": "Clearlake Capital",
+        "url": "https://clearlake.com/news/clearlake-completes-acquisition-of-qualus/"
+      }
+    ],
+    "investmentRelevance": "Pure-play grid advisory, engineering, digital, program-management, and field-services platform serving utilities and data centers.",
+    "strategicRationale": "peer platform: private equity",
+    "companiesSurfaced": [
+      "qualus",
+      "clearlake-capital",
+      "new-mountain-capital",
+      "harris-williams",
+      "goldman-sachs",
+      "houlihan-lokey"
+    ],
+    "expertsSurfaced": [
+      "lars-johansson"
+    ],
+    "missingFacts": [
+      "transaction_value",
+      "leverage",
+      "management_rollover",
+      "value_creation_plan",
+      "named_advisor_individuals"
+    ],
+    "followUpSearches": [
+      "\"Qualus\" \"Clearlake acquires Qualus from New Mountain Capital\" transaction value",
+      "\"Qualus\" \"Clearlake Capital\" legal counsel financial advisor",
+      "\"Qualus\" management rollover debt financing",
+      "\"AEC Advisors\" \"Qualus\" lead financial advisor target and seller",
+      "\"Harris Williams\" \"Qualus\" co financial advisor target and seller"
+    ],
+    "confidence": 0.94
+  },
+  {
+    "id": "pe-golden-gate-dmc-power-exit-2025",
+    "name": "Golden Gate Capital sells DMC Power to Hubbell",
+    "theme": "grid-infrastructure",
+    "geography": "United States",
+    "status": "completed",
+    "dealType": "acquisition",
+    "announcementDate": "2025-08-12",
+    "completionDate": "2025-10-01",
+    "targetCompanyId": "dmc-power",
+    "parties": [
+      {
+        "role": "target",
+        "name": "DMC Power",
+        "companyId": "dmc-power",
+        "sourceId": "pe-golden-gate-dmc-power-exit-2025:src-1"
+      },
+      {
+        "role": "investor",
+        "name": "Golden Gate Capital",
+        "sourceId": "pe-golden-gate-dmc-power-exit-2025:src-1"
+      }
+    ],
+    "advisors": [
+      {
+        "role": "financial-advisor-buyer",
+        "name": "Stephens",
+        "note": "financial advisor buyer",
+        "sourceId": "pe-golden-gate-dmc-power-exit-2025:src-1"
+      },
+      {
+        "role": "legal-counsel-buyer",
+        "name": "Holland & Knight",
+        "note": "legal counsel buyer",
+        "sourceId": "pe-golden-gate-dmc-power-exit-2025:src-1"
+      },
+      {
+        "role": "financial-advisor-seller",
+        "name": "Harris Williams",
+        "companyId": "harris-williams",
+        "note": "financial advisor seller",
+        "sourceId": "pe-golden-gate-dmc-power-exit-2025:src-1"
+      },
+      {
+        "role": "financial-advisor-seller",
+        "name": "Lincoln International",
+        "companyId": "lincoln-international",
+        "note": "financial advisor seller",
+        "sourceId": "pe-golden-gate-dmc-power-exit-2025:src-1"
+      },
+      {
+        "role": "legal-counsel-seller",
+        "name": "Paul Weiss",
+        "note": "legal counsel seller",
+        "sourceId": "pe-golden-gate-dmc-power-exit-2025:src-1"
+      }
+    ],
+    "facts": [
+      {
+        "id": "pe-golden-gate-dmc-power-exit-2025:fact-1",
+        "dealId": "pe-golden-gate-dmc-power-exit-2025",
+        "factType": "target_company",
+        "factValue": "DMC Power",
+        "normalizedValue": "dmc-power",
+        "sourceId": "pe-golden-gate-dmc-power-exit-2025:src-1",
+        "evidenceChunkId": "pe-golden-gate-dmc-power-exit-2025:evidence-1",
+        "evidenceText": "Hubbell's filed announcement confirmed completion on October 1, 2025 and described the acquisition financing.",
+        "confidence": 0.91,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-golden-gate-dmc-power-exit-2025:fact-2",
+        "dealId": "pe-golden-gate-dmc-power-exit-2025",
+        "factType": "buyer_or_investor",
+        "factValue": "Golden Gate Capital",
+        "sourceId": "pe-golden-gate-dmc-power-exit-2025:src-1",
+        "evidenceChunkId": "pe-golden-gate-dmc-power-exit-2025:evidence-2",
+        "evidenceText": "Hubbell's filed announcement confirmed completion on October 1, 2025 and described the acquisition financing.",
+        "confidence": 0.89,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-golden-gate-dmc-power-exit-2025:fact-3",
+        "dealId": "pe-golden-gate-dmc-power-exit-2025",
+        "factType": "deal_type",
+        "factValue": "sponsor exit to strategic",
+        "sourceId": "pe-golden-gate-dmc-power-exit-2025:src-1",
+        "evidenceChunkId": "pe-golden-gate-dmc-power-exit-2025:evidence-3",
+        "evidenceText": "Hubbell's filed announcement confirmed completion on October 1, 2025 and described the acquisition financing.",
+        "confidence": 0.86,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-golden-gate-dmc-power-exit-2025:fact-4",
+        "dealId": "pe-golden-gate-dmc-power-exit-2025",
+        "factType": "announcement_date",
+        "factValue": "2025-08-12",
+        "sourceId": "pe-golden-gate-dmc-power-exit-2025:src-1",
+        "evidenceChunkId": "pe-golden-gate-dmc-power-exit-2025:evidence-4",
+        "evidenceText": "Hubbell's filed announcement confirmed completion on October 1, 2025 and described the acquisition financing.",
+        "confidence": 0.84,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-golden-gate-dmc-power-exit-2025:fact-5",
+        "dealId": "pe-golden-gate-dmc-power-exit-2025",
+        "factType": "theme",
+        "factValue": "grid infrastructure",
+        "sourceId": "pe-golden-gate-dmc-power-exit-2025:src-1",
+        "evidenceChunkId": "pe-golden-gate-dmc-power-exit-2025:evidence-5",
+        "evidenceText": "Sponsor exit establishes a disclosed benchmark for substation connector systems and grid-infrastructure products.",
+        "confidence": 0.84,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-golden-gate-dmc-power-exit-2025:fact-6",
+        "dealId": "pe-golden-gate-dmc-power-exit-2025",
+        "factType": "investment_relevance",
+        "factValue": "Sponsor exit establishes a disclosed benchmark for substation connector systems and grid-infrastructure products.",
+        "sourceId": "pe-golden-gate-dmc-power-exit-2025:src-1",
+        "evidenceChunkId": "pe-golden-gate-dmc-power-exit-2025:evidence-6",
+        "evidenceText": "Sponsor exit establishes a disclosed benchmark for substation connector systems and grid-infrastructure products.",
+        "confidence": 0.82,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-golden-gate-dmc-power-exit-2025:fact-7",
+        "dealId": "pe-golden-gate-dmc-power-exit-2025",
+        "factType": "advisors",
+        "factValue": "Stephens (financial advisor buyer); Holland & Knight (legal counsel buyer); Harris Williams (financial advisor seller); Lincoln International (financial advisor seller); Paul Weiss (legal counsel seller)",
+        "sourceId": "pe-golden-gate-dmc-power-exit-2025:src-1",
+        "evidenceChunkId": "pe-golden-gate-dmc-power-exit-2025:evidence-7",
+        "evidenceText": "Hubbell's filed announcement confirmed completion on October 1, 2025 and described the acquisition financing.",
+        "confidence": 0.84,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-golden-gate-dmc-power-exit-2025:fact-8",
+        "dealId": "pe-golden-gate-dmc-power-exit-2025",
+        "factType": "named_people",
+        "factValue": "Javier Puig (seller dealmaker); Tony Ward (target ceo); Gerben Bakker (buyer ceo); Greg Gumbs (buyer business president)",
+        "sourceId": "pe-golden-gate-dmc-power-exit-2025:src-1",
+        "evidenceChunkId": "pe-golden-gate-dmc-power-exit-2025:evidence-8",
+        "evidenceText": "Hubbell's filed announcement confirmed completion on October 1, 2025 and described the acquisition financing.",
+        "confidence": 0.82,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-golden-gate-dmc-power-exit-2025:fact-9",
+        "dealId": "pe-golden-gate-dmc-power-exit-2025",
+        "factType": "completion_date",
+        "factValue": "2025-10-01",
+        "sourceId": "pe-golden-gate-dmc-power-exit-2025:src-1",
+        "evidenceChunkId": "pe-golden-gate-dmc-power-exit-2025:evidence-9",
+        "evidenceText": "Hubbell's filed announcement confirmed completion on October 1, 2025 and described the acquisition financing.",
+        "confidence": 0.86,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-golden-gate-dmc-power-exit-2025:fact-10",
+        "dealId": "pe-golden-gate-dmc-power-exit-2025",
+        "factType": "transaction_value",
+        "factValue": "825 USDm",
+        "normalizedValue": "825000000 USD",
+        "sourceId": "pe-golden-gate-dmc-power-exit-2025:src-1",
+        "evidenceChunkId": "pe-golden-gate-dmc-power-exit-2025:evidence-10",
+        "evidenceText": "Hubbell's filed announcement confirmed completion on October 1, 2025 and described the acquisition financing.",
+        "confidence": 0.82,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      }
+    ],
+    "sourceIds": [
+      "pe-golden-gate-dmc-power-exit-2025:src-1",
+      "pe-golden-gate-dmc-power-exit-2025:src-2"
+    ],
+    "sources": [
+      {
+        "title": "Hubbell Incorporated Completes Acquisition of DMC Power",
+        "publisher": "Hubbell",
+        "url": "https://hubbell.gcs-web.com/static-files/f6d34440-8b3f-432c-9797-fb60db9f6b30"
+      },
+      {
+        "title": "Hubbell to Acquire DMC Power",
+        "publisher": "Golden Gate Capital",
+        "url": "https://goldengatecap.com/hubbell-to-acquire-dmc-power/"
+      }
+    ],
+    "investmentRelevance": "Sponsor exit establishes a disclosed benchmark for substation connector systems and grid-infrastructure products.",
+    "strategicRationale": "peer exit: private equity",
+    "companiesSurfaced": [
+      "dmc-power",
+      "harris-williams",
+      "lincoln-international"
+    ],
+    "expertsSurfaced": [],
+    "missingFacts": [
+      "additional_golden_gate_deal_team",
+      "entry_value",
+      "returns",
+      "valuation_multiple",
+      "named_advisor_individuals"
+    ],
+    "followUpSearches": [
+      "\"DMC Power\" \"Golden Gate Capital sells DMC Power to Hubbell\" transaction value",
+      "\"DMC Power\" \"Golden Gate Capital\" legal counsel financial advisor",
+      "\"DMC Power\" management rollover debt financing",
+      "\"Stephens\" \"DMC Power\" financial advisor buyer",
+      "\"Holland & Knight\" \"DMC Power\" legal counsel buyer"
+    ],
+    "confidence": 0.8
+  },
+  {
+    "id": "pe-nuveen-ally-energy-2025",
+    "name": "Nuveen Private Equity Impact acquires majority interest in Ally Energy Solutions",
+    "theme": "clean-energy-advisory",
+    "geography": "United States",
+    "status": "completed",
+    "dealType": "acquisition",
+    "announcementDate": "2025-09-30",
+    "targetCompanyId": "ally-energy-solutions",
+    "parties": [
+      {
+        "role": "target",
+        "name": "Ally Energy Solutions",
+        "companyId": "ally-energy-solutions",
+        "sourceId": "pe-nuveen-ally-energy-2025:src-1"
+      },
+      {
+        "role": "buyer",
+        "name": "Nuveen Private Equity Impact",
+        "sourceId": "pe-nuveen-ally-energy-2025:src-1"
+      },
+      {
+        "role": "management",
+        "name": "Ally Energy Solutions management",
+        "sourceId": "pe-nuveen-ally-energy-2025:src-1"
+      }
+    ],
+    "advisors": [
+      {
+        "role": "legal-counsel-buyer",
+        "name": "Gibson Dunn",
+        "note": "legal counsel buyer",
+        "sourceId": "pe-nuveen-ally-energy-2025:src-1"
+      },
+      {
+        "role": "financial-advisor-seller",
+        "name": "FMI Capital Advisors",
+        "note": "financial advisor target",
+        "sourceId": "pe-nuveen-ally-energy-2025:src-1"
+      },
+      {
+        "role": "legal-counsel-seller",
+        "name": "Dentons",
+        "note": "legal counsel target",
+        "sourceId": "pe-nuveen-ally-energy-2025:src-1"
+      }
+    ],
+    "facts": [
+      {
+        "id": "pe-nuveen-ally-energy-2025:fact-1",
+        "dealId": "pe-nuveen-ally-energy-2025",
+        "factType": "target_company",
+        "factValue": "Ally Energy Solutions",
+        "normalizedValue": "ally-energy-solutions",
+        "sourceId": "pe-nuveen-ally-energy-2025:src-1",
+        "evidenceChunkId": "pe-nuveen-ally-energy-2025:evidence-1",
+        "evidenceText": "Nuveen announced the majority investment and named its deal lead and advisor firms.",
+        "confidence": 0.91,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-nuveen-ally-energy-2025:fact-2",
+        "dealId": "pe-nuveen-ally-energy-2025",
+        "factType": "buyer_or_investor",
+        "factValue": "Nuveen Private Equity Impact",
+        "sourceId": "pe-nuveen-ally-energy-2025:src-1",
+        "evidenceChunkId": "pe-nuveen-ally-energy-2025:evidence-2",
+        "evidenceText": "Nuveen announced the majority investment and named its deal lead and advisor firms.",
+        "confidence": 0.89,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-nuveen-ally-energy-2025:fact-3",
+        "dealId": "pe-nuveen-ally-energy-2025",
+        "factType": "deal_type",
+        "factValue": "majority investment",
+        "sourceId": "pe-nuveen-ally-energy-2025:src-1",
+        "evidenceChunkId": "pe-nuveen-ally-energy-2025:evidence-3",
+        "evidenceText": "Nuveen announced the majority investment and named its deal lead and advisor firms.",
+        "confidence": 0.86,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-nuveen-ally-energy-2025:fact-4",
+        "dealId": "pe-nuveen-ally-energy-2025",
+        "factType": "announcement_date",
+        "factValue": "2025-09-30",
+        "sourceId": "pe-nuveen-ally-energy-2025:src-1",
+        "evidenceChunkId": "pe-nuveen-ally-energy-2025:evidence-4",
+        "evidenceText": "Nuveen announced the majority investment and named its deal lead and advisor firms.",
+        "confidence": 0.84,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-nuveen-ally-energy-2025:fact-5",
+        "dealId": "pe-nuveen-ally-energy-2025",
+        "factType": "theme",
+        "factValue": "clean energy advisory",
+        "sourceId": "pe-nuveen-ally-energy-2025:src-1",
+        "evidenceChunkId": "pe-nuveen-ally-energy-2025:evidence-5",
+        "evidenceText": "Energy-solutions provider delivering complex decarbonization, modernization, and resilient-power projects for commercial and industrial customers.",
+        "confidence": 0.84,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-nuveen-ally-energy-2025:fact-6",
+        "dealId": "pe-nuveen-ally-energy-2025",
+        "factType": "investment_relevance",
+        "factValue": "Energy-solutions provider delivering complex decarbonization, modernization, and resilient-power projects for commercial and industrial customers.",
+        "sourceId": "pe-nuveen-ally-energy-2025:src-1",
+        "evidenceChunkId": "pe-nuveen-ally-energy-2025:evidence-6",
+        "evidenceText": "Energy-solutions provider delivering complex decarbonization, modernization, and resilient-power projects for commercial and industrial customers.",
+        "confidence": 0.82,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-nuveen-ally-energy-2025:fact-7",
+        "dealId": "pe-nuveen-ally-energy-2025",
+        "factType": "advisors",
+        "factValue": "Gibson Dunn (legal counsel buyer); FMI Capital Advisors (financial advisor target); Dentons (legal counsel target)",
+        "sourceId": "pe-nuveen-ally-energy-2025:src-1",
+        "evidenceChunkId": "pe-nuveen-ally-energy-2025:evidence-7",
+        "evidenceText": "Nuveen announced the majority investment and named its deal lead and advisor firms.",
+        "confidence": 0.84,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-nuveen-ally-energy-2025:fact-8",
+        "dealId": "pe-nuveen-ally-energy-2025",
+        "factType": "named_people",
+        "factValue": "Ted Maa (buyer dealmaker)",
+        "sourceId": "pe-nuveen-ally-energy-2025:src-1",
+        "evidenceChunkId": "pe-nuveen-ally-energy-2025:evidence-8",
+        "evidenceText": "Nuveen announced the majority investment and named its deal lead and advisor firms.",
+        "confidence": 0.82,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-nuveen-ally-energy-2025:fact-10",
+        "dealId": "pe-nuveen-ally-energy-2025",
+        "factType": "transaction_value",
+        "factValue": "not_disclosed",
+        "sourceId": "pe-nuveen-ally-energy-2025:src-1",
+        "evidenceChunkId": "pe-nuveen-ally-energy-2025:evidence-10",
+        "evidenceText": "No transaction value was disclosed in the public source set.",
+        "confidence": 0.72,
+        "extractionMethod": "curated",
+        "reviewStatus": "not_disclosed"
+      }
+    ],
+    "sourceIds": [
+      "pe-nuveen-ally-energy-2025:src-1"
+    ],
+    "sources": [
+      {
+        "title": "Nuveen Private Equity Impact Acquires Majority Interest in Ally Energy Solutions",
+        "publisher": "Nuveen",
+        "url": "https://www.nuveen.com/global/insights/news/2025/nuveen-private-equity-impact-acquires-majority-interest-in-ally-energy-solutions"
+      }
+    ],
+    "investmentRelevance": "Energy-solutions provider delivering complex decarbonization, modernization, and resilient-power projects for commercial and industrial customers.",
+    "strategicRationale": "peer platform: private equity impact",
+    "companiesSurfaced": [
+      "ally-energy-solutions"
+    ],
+    "expertsSurfaced": [],
+    "missingFacts": [
+      "transaction_value",
+      "seller_identity",
+      "management_rollover",
+      "debt_financing",
+      "named_advisor_individuals"
+    ],
+    "followUpSearches": [
+      "\"Ally Energy Solutions\" \"Nuveen Private Equity Impact acquires majority interest in Ally Energy Solutions\" transaction value",
+      "\"Ally Energy Solutions\" \"Nuveen Private Equity Impact\" legal counsel financial advisor",
+      "\"Ally Energy Solutions\" management rollover debt financing",
+      "\"Gibson Dunn\" \"Ally Energy Solutions\" legal counsel buyer",
+      "\"FMI Capital Advisors\" \"Ally Energy Solutions\" financial advisor target"
+    ],
+    "confidence": 0.88
+  },
+  {
+    "id": "pe-towerbrook-gmc-2025",
+    "name": "TowerBrook invests in GMC Group",
+    "theme": "smart-water",
+    "geography": "Ireland",
+    "status": "completed",
+    "dealType": "minority-investment",
+    "announcementDate": "2025-09-15",
+    "targetCompanyId": "gmc-group",
+    "investorCompanyId": "towerbrook",
+    "parties": [
+      {
+        "role": "target",
+        "name": "GMC Group",
+        "companyId": "gmc-group",
+        "sourceId": "pe-towerbrook-gmc-2025:src-1"
+      },
+      {
+        "role": "investor",
+        "name": "TowerBrook",
+        "companyId": "towerbrook",
+        "sourceId": "pe-towerbrook-gmc-2025:src-1"
+      },
+      {
+        "role": "management",
+        "name": "GMC Group management",
+        "sourceId": "pe-towerbrook-gmc-2025:src-1"
+      },
+      {
+        "role": "management",
+        "name": "Joseph Knoll",
+        "personId": "joseph-knoll",
+        "note": "towerbrook deal lead; public deal-source evidence only",
+        "sourceId": "pe-towerbrook-gmc-2025:src-1"
+      },
+      {
+        "role": "management",
+        "name": "Sumit Dheir",
+        "personId": "sumit-dheir",
+        "note": "towerbrook deal lead; public deal-source evidence only",
+        "sourceId": "pe-towerbrook-gmc-2025:src-1"
+      },
+      {
+        "role": "management",
+        "name": "Shane McCloskey",
+        "personId": "shane-mccloskey",
+        "note": "target ceo; public deal-source evidence only",
+        "sourceId": "pe-towerbrook-gmc-2025:src-1"
+      }
+    ],
+    "advisors": [
+      {
+        "role": "financial-advisor-seller",
+        "name": "Clearwater",
+        "note": "financial advisor target",
+        "sourceId": "pe-towerbrook-gmc-2025:src-1"
+      }
+    ],
+    "facts": [
+      {
+        "id": "pe-towerbrook-gmc-2025:fact-1",
+        "dealId": "pe-towerbrook-gmc-2025",
+        "factType": "target_company",
+        "factValue": "GMC Group",
+        "normalizedValue": "gmc-group",
+        "sourceId": "pe-towerbrook-gmc-2025:src-1",
+        "evidenceChunkId": "pe-towerbrook-gmc-2025:evidence-1",
+        "evidenceText": "TowerBrook announced the investment, named the TowerBrook deal leads and GMC CEO, and described management's continuing majority ownership.",
+        "confidence": 0.91,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-towerbrook-gmc-2025:fact-2",
+        "dealId": "pe-towerbrook-gmc-2025",
+        "factType": "buyer_or_investor",
+        "factValue": "TowerBrook",
+        "sourceId": "pe-towerbrook-gmc-2025:src-1",
+        "evidenceChunkId": "pe-towerbrook-gmc-2025:evidence-2",
+        "evidenceText": "TowerBrook announced the investment, named the TowerBrook deal leads and GMC CEO, and described management's continuing majority ownership.",
+        "confidence": 0.89,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-towerbrook-gmc-2025:fact-3",
+        "dealId": "pe-towerbrook-gmc-2025",
+        "factType": "deal_type",
+        "factValue": "strategic minority investment",
+        "sourceId": "pe-towerbrook-gmc-2025:src-1",
+        "evidenceChunkId": "pe-towerbrook-gmc-2025:evidence-3",
+        "evidenceText": "TowerBrook announced the investment, named the TowerBrook deal leads and GMC CEO, and described management's continuing majority ownership.",
+        "confidence": 0.86,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-towerbrook-gmc-2025:fact-4",
+        "dealId": "pe-towerbrook-gmc-2025",
+        "factType": "announcement_date",
+        "factValue": "2025-09-15",
+        "sourceId": "pe-towerbrook-gmc-2025:src-1",
+        "evidenceChunkId": "pe-towerbrook-gmc-2025:evidence-4",
+        "evidenceText": "TowerBrook announced the investment, named the TowerBrook deal leads and GMC CEO, and described management's continuing majority ownership.",
+        "confidence": 0.84,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-towerbrook-gmc-2025:fact-5",
+        "dealId": "pe-towerbrook-gmc-2025",
+        "factType": "theme",
+        "factValue": "smart water",
+        "sourceId": "pe-towerbrook-gmc-2025:src-1",
+        "evidenceChunkId": "pe-towerbrook-gmc-2025:evidence-5",
+        "evidenceText": "Founder- and management-led multi-utility infrastructure-services platform spanning water, power, renewables, and public infrastructure.",
+        "confidence": 0.84,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-towerbrook-gmc-2025:fact-6",
+        "dealId": "pe-towerbrook-gmc-2025",
+        "factType": "investment_relevance",
+        "factValue": "Founder- and management-led multi-utility infrastructure-services platform spanning water, power, renewables, and public infrastructure.",
+        "sourceId": "pe-towerbrook-gmc-2025:src-1",
+        "evidenceChunkId": "pe-towerbrook-gmc-2025:evidence-6",
+        "evidenceText": "Founder- and management-led multi-utility infrastructure-services platform spanning water, power, renewables, and public infrastructure.",
+        "confidence": 0.82,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-towerbrook-gmc-2025:fact-7",
+        "dealId": "pe-towerbrook-gmc-2025",
+        "factType": "advisors",
+        "factValue": "Clearwater (financial advisor target)",
+        "sourceId": "pe-towerbrook-gmc-2025:src-1",
+        "evidenceChunkId": "pe-towerbrook-gmc-2025:evidence-7",
+        "evidenceText": "TowerBrook announced the investment, named the TowerBrook deal leads and GMC CEO, and described management's continuing majority ownership.",
+        "confidence": 0.84,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-towerbrook-gmc-2025:fact-8",
+        "dealId": "pe-towerbrook-gmc-2025",
+        "factType": "named_people",
+        "factValue": "Joseph Knoll (towerbrook deal lead); Sumit Dheir (towerbrook deal lead); Shane McCloskey (target ceo)",
+        "sourceId": "pe-towerbrook-gmc-2025:src-1",
+        "evidenceChunkId": "pe-towerbrook-gmc-2025:evidence-8",
+        "evidenceText": "TowerBrook announced the investment, named the TowerBrook deal leads and GMC CEO, and described management's continuing majority ownership.",
+        "confidence": 0.82,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-towerbrook-gmc-2025:fact-10",
+        "dealId": "pe-towerbrook-gmc-2025",
+        "factType": "transaction_value",
+        "factValue": "not_disclosed",
+        "sourceId": "pe-towerbrook-gmc-2025:src-1",
+        "evidenceChunkId": "pe-towerbrook-gmc-2025:evidence-10",
+        "evidenceText": "No transaction value was disclosed in the public source set.",
+        "confidence": 0.72,
+        "extractionMethod": "curated",
+        "reviewStatus": "not_disclosed"
+      }
+    ],
+    "sourceIds": [
+      "pe-towerbrook-gmc-2025:src-1",
+      "pe-towerbrook-gmc-2025:src-2",
+      "pe-towerbrook-gmc-2025:src-3"
+    ],
+    "sources": [
+      {
+        "title": "TowerBrook announces Strategic Investment in GMC Group",
+        "publisher": "TowerBrook",
+        "url": "https://www.towerbrook.com/towerbrook-announces-strategic-investment-in-the-irish-infrastructure-services-provider-and-engineering-firm-gmc-group/"
+      },
+      {
+        "title": "GMC secures investment from TowerBrook Capital Partners",
+        "publisher": "Clearwater",
+        "url": "https://www.clearwatercf.com/en-gb/experience/transactions/ire-gmc-on-its-investment-from-towerbrook-capital-partners/"
+      },
+      {
+        "title": "TowerBrook Investments",
+        "publisher": "TowerBrook",
+        "url": "https://www.towerbrook.com/investments/"
+      }
+    ],
+    "investmentRelevance": "Founder- and management-led multi-utility infrastructure-services platform spanning water, power, renewables, and public infrastructure.",
+    "strategicRationale": "towerbrook: private equity",
+    "companiesSurfaced": [
+      "gmc-group",
+      "towerbrook"
+    ],
+    "expertsSurfaced": [
+      "joseph-knoll",
+      "sumit-dheir",
+      "shane-mccloskey"
+    ],
+    "missingFacts": [
+      "transaction_value",
+      "towerbrook_stake",
+      "completion_date",
+      "legal_advisors",
+      "commercial_and_financial_diligence"
+    ],
+    "followUpSearches": [
+      "\"GMC Group\" \"TowerBrook invests in GMC Group\" transaction value",
+      "\"GMC Group\" \"TowerBrook\" legal counsel financial advisor",
+      "\"GMC Group\" management rollover debt financing",
+      "\"Clearwater\" \"GMC Group\" financial advisor target"
+    ],
+    "confidence": 0.89
+  },
+  {
+    "id": "mizuho-augusta-co-acquisition",
+    "name": "Mizuho acquires Augusta & Co",
+    "theme": "clean-energy-advisory",
+    "geography": "UK / Europe",
+    "status": "completed",
+    "dealType": "acquisition",
+    "completionDate": "2025-07-01",
+    "targetCompanyId": "augusta-co",
+    "parties": [
+      {
+        "role": "target",
+        "name": "Augusta & Co",
+        "companyId": "augusta-co",
+        "sourceId": "mizuho-augusta-1"
+      },
+      {
+        "role": "buyer",
+        "name": "Mizuho",
+        "sourceId": "mizuho-augusta-1"
+      },
+      {
+        "role": "management",
+        "name": "Mortimer Menzel",
+        "personId": "mortimer-menzel",
+        "note": "Co-founder and managing partner linked to Augusta & Co."
+      },
+      {
+        "role": "management",
+        "name": "James Knight",
+        "personId": "james-knight",
+        "note": "Co-founder and managing partner linked to Augusta & Co."
+      }
+    ],
+    "advisors": [],
+    "facts": [
+      {
+        "id": "mizuho-augusta-f1",
+        "dealId": "mizuho-augusta-co-acquisition",
+        "factType": "target_company",
+        "factValue": "Augusta & Co",
+        "normalizedValue": "augusta-co",
+        "sourceId": "mizuho-augusta-1",
+        "evidenceChunkId": "mizuho-augusta-e1",
+        "evidenceText": "Mizuho completed its acquisition of Augusta & Co.",
+        "confidence": 0.9,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "mizuho-augusta-f2",
+        "dealId": "mizuho-augusta-co-acquisition",
+        "factType": "buyer",
+        "factValue": "Mizuho",
+        "sourceId": "mizuho-augusta-1",
+        "evidenceChunkId": "mizuho-augusta-e1",
+        "evidenceText": "Mizuho completed the acquisition.",
+        "confidence": 0.9,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "mizuho-augusta-f3",
+        "dealId": "mizuho-augusta-co-acquisition",
+        "factType": "completion_date",
+        "factValue": "2025-07-01",
+        "normalizedValue": "2025-07-01",
+        "sourceId": "mizuho-augusta-1",
+        "evidenceChunkId": "mizuho-augusta-e2",
+        "evidenceText": "The completion source is dated July 2025.",
+        "confidence": 0.82,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "mizuho-augusta-f4",
+        "dealId": "mizuho-augusta-co-acquisition",
+        "factType": "enterprise_value",
+        "factValue": "not_disclosed",
+        "confidence": 0.72,
+        "extractionMethod": "curated",
+        "reviewStatus": "not_disclosed"
+      }
+    ],
+    "sourceIds": [
+      "mizuho-augusta-1",
+      "mizuho-augusta-2"
+    ],
+    "sources": [
+      {
+        "title": "Mizuho completes acquisition of Augusta & Co",
+        "url": "https://www.mizuhogroup.com/emea/news/2025/mizuho-completes-acquisition-of-augusta--co.html",
+        "publisher": "Mizuho"
+      },
+      {
+        "title": "Augusta & Co advisory team",
+        "url": "https://augustaco.com/advisory-team/",
+        "publisher": "Augusta & Co"
+      }
+    ],
+    "investmentRelevance": "Strategic acquisition of a specialist energy-transition advisory boutique, useful for mapping banker access and renewables transaction flow.",
+    "strategicRationale": "Mizuho added a specialist renewables advisory franchise to broaden energy-transition M&A coverage.",
+    "companiesSurfaced": [
+      "augusta-co"
+    ],
+    "expertsSurfaced": [
+      "mortimer-menzel",
+      "james-knight"
+    ],
+    "comparableDealIds": [
+      "bp-lightsource-bp-remaining-stake"
+    ],
+    "missingFacts": [
+      "announcement_date",
+      "enterprise_value",
+      "financial_advisor_to_seller",
+      "legal_counsel_to_buyer",
+      "legal_counsel_to_seller"
+    ],
+    "followUpSearches": [
+      "\"Mizuho\" \"Augusta & Co\" financial advisor",
+      "\"Mizuho\" \"Augusta & Co\" legal counsel",
+      "\"Mizuho\" \"Augusta & Co\" valuation"
+    ],
+    "confidence": 0.86
+  },
+  {
+    "id": "pe-eqt-seven-seas-water-2025",
+    "name": "EQT acquires Seven Seas Water from Morgan Stanley Infrastructure Partners",
+    "theme": "smart-water",
+    "geography": "Americas",
+    "status": "completed",
+    "dealType": "acquisition",
+    "announcementDate": "2025-05-22",
+    "targetCompanyId": "seven-seas-water-group",
+    "investorCompanyId": "eqt-infrastructure",
+    "parties": [
+      {
+        "role": "target",
+        "name": "Seven Seas Water Group",
+        "companyId": "seven-seas-water-group",
+        "sourceId": "pe-eqt-seven-seas-water-2025:src-1"
+      },
+      {
+        "role": "buyer",
+        "name": "EQT Infrastructure",
+        "companyId": "eqt-infrastructure",
+        "sourceId": "pe-eqt-seven-seas-water-2025:src-1"
+      },
+      {
+        "role": "investor",
+        "name": "Morgan Stanley Infrastructure Partners",
+        "sourceId": "pe-eqt-seven-seas-water-2025:src-1"
+      }
+    ],
+    "advisors": [
+      {
+        "role": "financial-advisor-buyer",
+        "name": "Royal Bank of Canada",
+        "note": "financial advisor buyer",
+        "sourceId": "pe-eqt-seven-seas-water-2025:src-1"
+      },
+      {
+        "role": "legal-counsel-buyer",
+        "name": "A&O Shearman",
+        "companyId": "aoshearman",
+        "note": "legal counsel buyer",
+        "sourceId": "pe-eqt-seven-seas-water-2025:src-1"
+      }
+    ],
+    "facts": [
+      {
+        "id": "pe-eqt-seven-seas-water-2025:fact-1",
+        "dealId": "pe-eqt-seven-seas-water-2025",
+        "factType": "target_company",
+        "factValue": "Seven Seas Water Group",
+        "normalizedValue": "seven-seas-water-group",
+        "sourceId": "pe-eqt-seven-seas-water-2025:src-1",
+        "evidenceChunkId": "pe-eqt-seven-seas-water-2025:evidence-1",
+        "evidenceText": "EQT announced the secondary buyout and named its deal lead, target CEO, and advisors.",
+        "confidence": 0.91,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-eqt-seven-seas-water-2025:fact-2",
+        "dealId": "pe-eqt-seven-seas-water-2025",
+        "factType": "buyer_or_investor",
+        "factValue": "EQT Infrastructure; Morgan Stanley Infrastructure Partners",
+        "sourceId": "pe-eqt-seven-seas-water-2025:src-1",
+        "evidenceChunkId": "pe-eqt-seven-seas-water-2025:evidence-2",
+        "evidenceText": "EQT announced the secondary buyout and named its deal lead, target CEO, and advisors.",
+        "confidence": 0.89,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-eqt-seven-seas-water-2025:fact-3",
+        "dealId": "pe-eqt-seven-seas-water-2025",
+        "factType": "deal_type",
+        "factValue": "secondary buyout",
+        "sourceId": "pe-eqt-seven-seas-water-2025:src-1",
+        "evidenceChunkId": "pe-eqt-seven-seas-water-2025:evidence-3",
+        "evidenceText": "EQT announced the secondary buyout and named its deal lead, target CEO, and advisors.",
+        "confidence": 0.86,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-eqt-seven-seas-water-2025:fact-4",
+        "dealId": "pe-eqt-seven-seas-water-2025",
+        "factType": "announcement_date",
+        "factValue": "2025-05-22",
+        "sourceId": "pe-eqt-seven-seas-water-2025:src-1",
+        "evidenceChunkId": "pe-eqt-seven-seas-water-2025:evidence-4",
+        "evidenceText": "EQT announced the secondary buyout and named its deal lead, target CEO, and advisors.",
+        "confidence": 0.84,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-eqt-seven-seas-water-2025:fact-5",
+        "dealId": "pe-eqt-seven-seas-water-2025",
+        "factType": "theme",
+        "factValue": "smart water",
+        "sourceId": "pe-eqt-seven-seas-water-2025:src-1",
+        "evidenceChunkId": "pe-eqt-seven-seas-water-2025:evidence-5",
+        "evidenceText": "Water-as-a-Service platform owning and operating more than 220 water and wastewater plants with a long-term contracted model.",
+        "confidence": 0.84,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-eqt-seven-seas-water-2025:fact-6",
+        "dealId": "pe-eqt-seven-seas-water-2025",
+        "factType": "investment_relevance",
+        "factValue": "Water-as-a-Service platform owning and operating more than 220 water and wastewater plants with a long-term contracted model.",
+        "sourceId": "pe-eqt-seven-seas-water-2025:src-1",
+        "evidenceChunkId": "pe-eqt-seven-seas-water-2025:evidence-6",
+        "evidenceText": "Water-as-a-Service platform owning and operating more than 220 water and wastewater plants with a long-term contracted model.",
+        "confidence": 0.82,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-eqt-seven-seas-water-2025:fact-7",
+        "dealId": "pe-eqt-seven-seas-water-2025",
+        "factType": "advisors",
+        "factValue": "Royal Bank of Canada (financial advisor buyer); A&O Shearman (legal counsel buyer)",
+        "sourceId": "pe-eqt-seven-seas-water-2025:src-1",
+        "evidenceChunkId": "pe-eqt-seven-seas-water-2025:evidence-7",
+        "evidenceText": "EQT announced the secondary buyout and named its deal lead, target CEO, and advisors.",
+        "confidence": 0.84,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-eqt-seven-seas-water-2025:fact-8",
+        "dealId": "pe-eqt-seven-seas-water-2025",
+        "factType": "named_people",
+        "factValue": "Alex Darden (buyer dealmaker); Henry Charrabé (target ceo); Alberto Donzelli (seller dealmaker)",
+        "sourceId": "pe-eqt-seven-seas-water-2025:src-1",
+        "evidenceChunkId": "pe-eqt-seven-seas-water-2025:evidence-8",
+        "evidenceText": "EQT announced the secondary buyout and named its deal lead, target CEO, and advisors.",
+        "confidence": 0.82,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-eqt-seven-seas-water-2025:fact-10",
+        "dealId": "pe-eqt-seven-seas-water-2025",
+        "factType": "transaction_value",
+        "factValue": "not_disclosed",
+        "sourceId": "pe-eqt-seven-seas-water-2025:src-1",
+        "evidenceChunkId": "pe-eqt-seven-seas-water-2025:evidence-10",
+        "evidenceText": "No transaction value was disclosed in the public source set.",
+        "confidence": 0.72,
+        "extractionMethod": "curated",
+        "reviewStatus": "not_disclosed"
+      }
+    ],
+    "sourceIds": [
+      "pe-eqt-seven-seas-water-2025:src-1",
+      "pe-eqt-seven-seas-water-2025:src-2",
+      "pe-eqt-seven-seas-water-2025:src-3"
+    ],
+    "sources": [
+      {
+        "title": "EQT to acquire Seven Seas Water Group",
+        "publisher": "EQT",
+        "url": "https://eqtgroup.com/en/news/eqt-to-acquire-seven-seas-water-group-a-leading-provider-of-sustainable-water-and-wastewater-solutions-2025-05-22"
+      },
+      {
+        "title": "Morgan Stanley Infrastructure Partners Agrees to Sell Seven Seas Water",
+        "publisher": "Morgan Stanley",
+        "url": "https://www.morganstanley.com/press-releases/msip-agrees-to-sell-seven-seas-water"
+      },
+      {
+        "title": "EQT Current Portfolio",
+        "publisher": "EQT",
+        "url": "https://eqtgroup.com/about/current-portfolio"
+      }
+    ],
+    "investmentRelevance": "Water-as-a-Service platform owning and operating more than 220 water and wastewater plants with a long-term contracted model.",
+    "strategicRationale": "peer platform: infrastructure",
+    "companiesSurfaced": [
+      "seven-seas-water-group",
+      "eqt-infrastructure",
+      "aoshearman"
+    ],
+    "expertsSurfaced": [],
+    "missingFacts": [
+      "transaction_value",
+      "completion_date",
+      "seller_advisors",
+      "debt_financing",
+      "management_rollover"
+    ],
+    "followUpSearches": [
+      "\"Seven Seas Water Group\" \"EQT acquires Seven Seas Water from Morgan Stanley Infrastructure Partners\" transaction value",
+      "\"Seven Seas Water Group\" \"EQT Infrastructure\" legal counsel financial advisor",
+      "\"Seven Seas Water Group\" management rollover debt financing",
+      "\"Royal Bank of Canada\" \"Seven Seas Water Group\" financial advisor buyer",
+      "\"A&O Shearman\" \"Seven Seas Water Group\" legal counsel buyer"
+    ],
+    "confidence": 0.87
+  },
+  {
+    "id": "pe-wind-point-sigma-2025",
+    "name": "Wind Point Partners acquires Sigma",
+    "theme": "smart-water",
+    "geography": "North America",
+    "status": "completed",
+    "dealType": "acquisition",
+    "announcementDate": "2025-04-10",
+    "targetCompanyId": "sigma-companies-international",
+    "parties": [
+      {
+        "role": "target",
+        "name": "Sigma Companies International",
+        "companyId": "sigma-companies-international",
+        "sourceId": "pe-wind-point-sigma-2025:src-1"
+      },
+      {
+        "role": "buyer",
+        "name": "Wind Point Partners",
+        "sourceId": "pe-wind-point-sigma-2025:src-1"
+      },
+      {
+        "role": "management",
+        "name": "Sigma management",
+        "sourceId": "pe-wind-point-sigma-2025:src-1"
+      }
+    ],
+    "advisors": [
+      {
+        "role": "legal-counsel-buyer",
+        "name": "Kirkland & Ellis",
+        "companyId": "kirkland-ellis",
+        "note": "legal counsel buyer",
+        "sourceId": "pe-wind-point-sigma-2025:src-1"
+      },
+      {
+        "role": "financial-advisor-buyer",
+        "name": "KPMG",
+        "note": "transaction advisor buyer",
+        "sourceId": "pe-wind-point-sigma-2025:src-1"
+      },
+      {
+        "role": "financial-advisor-seller",
+        "name": "Janney Montgomery Scott",
+        "note": "financial advisor target",
+        "sourceId": "pe-wind-point-sigma-2025:src-1"
+      }
+    ],
+    "facts": [
+      {
+        "id": "pe-wind-point-sigma-2025:fact-1",
+        "dealId": "pe-wind-point-sigma-2025",
+        "factType": "target_company",
+        "factValue": "Sigma Companies International",
+        "normalizedValue": "sigma-companies-international",
+        "sourceId": "pe-wind-point-sigma-2025:src-1",
+        "evidenceChunkId": "pe-wind-point-sigma-2025:evidence-1",
+        "evidenceText": "Wind Point announced the platform acquisition and named management, its deal lead, incoming chair, and advisors.",
+        "confidence": 0.91,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-wind-point-sigma-2025:fact-2",
+        "dealId": "pe-wind-point-sigma-2025",
+        "factType": "buyer_or_investor",
+        "factValue": "Wind Point Partners",
+        "sourceId": "pe-wind-point-sigma-2025:src-1",
+        "evidenceChunkId": "pe-wind-point-sigma-2025:evidence-2",
+        "evidenceText": "Wind Point announced the platform acquisition and named management, its deal lead, incoming chair, and advisors.",
+        "confidence": 0.89,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-wind-point-sigma-2025:fact-3",
+        "dealId": "pe-wind-point-sigma-2025",
+        "factType": "deal_type",
+        "factValue": "platform acquisition",
+        "sourceId": "pe-wind-point-sigma-2025:src-1",
+        "evidenceChunkId": "pe-wind-point-sigma-2025:evidence-3",
+        "evidenceText": "Wind Point announced the platform acquisition and named management, its deal lead, incoming chair, and advisors.",
+        "confidence": 0.86,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-wind-point-sigma-2025:fact-4",
+        "dealId": "pe-wind-point-sigma-2025",
+        "factType": "announcement_date",
+        "factValue": "2025-04-10",
+        "sourceId": "pe-wind-point-sigma-2025:src-1",
+        "evidenceChunkId": "pe-wind-point-sigma-2025:evidence-4",
+        "evidenceText": "Wind Point announced the platform acquisition and named management, its deal lead, incoming chair, and advisors.",
+        "confidence": 0.84,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-wind-point-sigma-2025:fact-5",
+        "dealId": "pe-wind-point-sigma-2025",
+        "factType": "theme",
+        "factValue": "smart water",
+        "sourceId": "pe-wind-point-sigma-2025:src-1",
+        "evidenceChunkId": "pe-wind-point-sigma-2025:evidence-5",
+        "evidenceText": "Waterworks-products platform with an explicit product-line expansion and complementary-M&A value-creation plan.",
+        "confidence": 0.84,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-wind-point-sigma-2025:fact-6",
+        "dealId": "pe-wind-point-sigma-2025",
+        "factType": "investment_relevance",
+        "factValue": "Waterworks-products platform with an explicit product-line expansion and complementary-M&A value-creation plan.",
+        "sourceId": "pe-wind-point-sigma-2025:src-1",
+        "evidenceChunkId": "pe-wind-point-sigma-2025:evidence-6",
+        "evidenceText": "Waterworks-products platform with an explicit product-line expansion and complementary-M&A value-creation plan.",
+        "confidence": 0.82,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-wind-point-sigma-2025:fact-7",
+        "dealId": "pe-wind-point-sigma-2025",
+        "factType": "advisors",
+        "factValue": "Kirkland & Ellis (legal counsel buyer); KPMG (transaction advisor buyer); Janney Montgomery Scott (financial advisor target)",
+        "sourceId": "pe-wind-point-sigma-2025:src-1",
+        "evidenceChunkId": "pe-wind-point-sigma-2025:evidence-7",
+        "evidenceText": "Wind Point announced the platform acquisition and named management, its deal lead, incoming chair, and advisors.",
+        "confidence": 0.84,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-wind-point-sigma-2025:fact-8",
+        "dealId": "pe-wind-point-sigma-2025",
+        "factType": "named_people",
+        "factValue": "Peter Leemputte (buyer dealmaker); Victor Pais (target ceo); Larry Rybacki (target president); Frank Firsching (incoming chair)",
+        "sourceId": "pe-wind-point-sigma-2025:src-1",
+        "evidenceChunkId": "pe-wind-point-sigma-2025:evidence-8",
+        "evidenceText": "Wind Point announced the platform acquisition and named management, its deal lead, incoming chair, and advisors.",
+        "confidence": 0.82,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-wind-point-sigma-2025:fact-10",
+        "dealId": "pe-wind-point-sigma-2025",
+        "factType": "transaction_value",
+        "factValue": "not_disclosed",
+        "sourceId": "pe-wind-point-sigma-2025:src-1",
+        "evidenceChunkId": "pe-wind-point-sigma-2025:evidence-10",
+        "evidenceText": "No transaction value was disclosed in the public source set.",
+        "confidence": 0.72,
+        "extractionMethod": "curated",
+        "reviewStatus": "not_disclosed"
+      }
+    ],
+    "sourceIds": [
+      "pe-wind-point-sigma-2025:src-1",
+      "pe-wind-point-sigma-2025:src-2"
+    ],
+    "sources": [
+      {
+        "title": "Wind Point Partners Acquires Sigma",
+        "publisher": "Wind Point Partners",
+        "url": "https://www.wppartners.com/wind-point-partners-acquires-sigma/"
+      },
+      {
+        "title": "SIGMA Acquires Masonry Supply",
+        "publisher": "Wind Point Partners",
+        "url": "https://www.wppartners.com/sigma-acquires-masonry-supply-inc/"
+      }
+    ],
+    "investmentRelevance": "Waterworks-products platform with an explicit product-line expansion and complementary-M&A value-creation plan.",
+    "strategicRationale": "peer platform: private equity",
+    "companiesSurfaced": [
+      "sigma-companies-international",
+      "kirkland-ellis"
+    ],
+    "expertsSurfaced": [],
+    "missingFacts": [
+      "transaction_value",
+      "seller_identity",
+      "debt_financing",
+      "named_advisor_individuals",
+      "add_on_values"
+    ],
+    "followUpSearches": [
+      "\"Sigma Companies International\" \"Wind Point Partners acquires Sigma\" transaction value",
+      "\"Sigma Companies International\" \"Wind Point Partners\" legal counsel financial advisor",
+      "\"Sigma Companies International\" management rollover debt financing",
+      "\"Kirkland & Ellis\" \"Sigma Companies International\" legal counsel buyer",
+      "\"KPMG\" \"Sigma Companies International\" transaction advisor buyer"
+    ],
+    "confidence": 0.87
+  },
+  {
+    "id": "enverus-pearl-street-acquisition",
+    "name": "Enverus acquires Pearl Street Technologies",
+    "theme": "grid-infrastructure",
+    "geography": "United States",
+    "status": "completed",
+    "dealType": "acquisition",
+    "announcementDate": "2025-03-13",
+    "targetCompanyId": "pearl-street-technologies",
+    "buyerCompanyId": "enverus",
+    "parties": [
+      {
+        "role": "target",
+        "name": "Pearl Street Technologies",
+        "companyId": "pearl-street-technologies",
+        "sourceId": "pearl-1"
+      },
+      {
+        "role": "buyer",
+        "name": "Enverus",
+        "companyId": "enverus",
+        "sourceId": "pearl-1"
+      },
+      {
+        "role": "management",
+        "name": "David Bromberg",
+        "personId": "david-bromberg",
+        "note": "Co-founder and CEO surfaced through the target company record."
+      }
+    ],
+    "advisors": [],
+    "facts": [
+      {
+        "id": "pearl-f1",
+        "dealId": "enverus-pearl-street-acquisition",
+        "factType": "target_company",
+        "factValue": "Pearl Street Technologies",
+        "normalizedValue": "pearl-street-technologies",
+        "sourceId": "pearl-1",
+        "evidenceChunkId": "pearl-e1",
+        "evidenceText": "Enverus acquired Pearl Street Technologies.",
+        "confidence": 0.92,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pearl-f2",
+        "dealId": "enverus-pearl-street-acquisition",
+        "factType": "buyer",
+        "factValue": "Enverus",
+        "normalizedValue": "enverus",
+        "sourceId": "pearl-1",
+        "evidenceChunkId": "pearl-e1",
+        "evidenceText": "Enverus was the buyer.",
+        "confidence": 0.9,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pearl-f3",
+        "dealId": "enverus-pearl-street-acquisition",
+        "factType": "market_thesis",
+        "factValue": "Interconnection queue bottlenecks and transmission study automation",
+        "sourceId": "pearl-1",
+        "evidenceChunkId": "pearl-e2",
+        "evidenceText": "Enverus cited grid reliability and queue bottlenecks as acquisition rationale.",
+        "confidence": 0.84,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pearl-f4",
+        "dealId": "enverus-pearl-street-acquisition",
+        "factType": "enterprise_value",
+        "factValue": "not_disclosed",
+        "confidence": 0.7,
+        "extractionMethod": "curated",
+        "reviewStatus": "not_disclosed"
+      }
+    ],
+    "sourceIds": [
+      "pearl-1",
+      "pearl-2"
+    ],
+    "sources": [
+      {
+        "title": "Enverus Acquires Pearl Street Technologies",
+        "url": "https://www.enverus.com/newsroom/undo-the-queue-enverus-acquires-pearl-street-technologies-to-solve-for-a-more-reliable-resilient-grid/",
+        "publisher": "Enverus"
+      },
+      {
+        "title": "Pearl Street Technologies About Us",
+        "url": "https://pearlstreettechnologies.com/about-us/",
+        "publisher": "Pearl Street Technologies"
+      }
+    ],
+    "investmentRelevance": "Direct grid-connection software precedent: a strategic data platform acquired interconnection automation capability to address a core bottleneck for renewables developers.",
+    "strategicRationale": "Enverus added tools for queue, transmission-provider and developer studies.",
+    "companiesSurfaced": [
+      "pearl-street-technologies",
+      "enverus"
+    ],
+    "expertsSurfaced": [
+      "david-bromberg"
+    ],
+    "missingFacts": [
+      "completion_date",
+      "enterprise_value",
+      "financial_advisor_to_buyer",
+      "financial_advisor_to_seller",
+      "legal_counsel_to_buyer",
+      "legal_counsel_to_seller"
+    ],
+    "followUpSearches": [
+      "\"Pearl Street Technologies\" Enverus financial advisor",
+      "\"Pearl Street Technologies\" Enverus legal counsel",
+      "\"Pearl Street Technologies\" Enverus valuation"
+    ],
+    "confidence": 0.86
+  },
+  {
+    "id": "pe-towerbrook-brg-2025",
+    "name": "TowerBrook makes majority investment in Berkeley Research Group",
+    "theme": "clean-energy-advisory",
+    "geography": "Global",
+    "status": "completed",
+    "dealType": "acquisition",
+    "announcementDate": "2025-02-27",
+    "targetCompanyId": "berkeley-research-group",
+    "investorCompanyId": "towerbrook",
+    "parties": [
+      {
+        "role": "target",
+        "name": "Berkeley Research Group",
+        "companyId": "berkeley-research-group",
+        "sourceId": "pe-towerbrook-brg-2025:src-1"
+      },
+      {
+        "role": "buyer",
+        "name": "TowerBrook",
+        "companyId": "towerbrook",
+        "sourceId": "pe-towerbrook-brg-2025:src-1"
+      },
+      {
+        "role": "investor",
+        "name": "Endeavour Capital",
+        "sourceId": "pe-towerbrook-brg-2025:src-1"
+      }
+    ],
+    "advisors": [
+      {
+        "role": "financial-advisor-buyer",
+        "name": "Jefferies",
+        "note": "financial advisor investor",
+        "sourceId": "pe-towerbrook-brg-2025:src-1"
+      },
+      {
+        "role": "legal-counsel-buyer",
+        "name": "Benesch",
+        "note": "legal counsel investor",
+        "sourceId": "pe-towerbrook-brg-2025:src-1"
+      },
+      {
+        "role": "legal-counsel-buyer",
+        "name": "Debevoise & Plimpton",
+        "companyId": "debevoise-plimpton",
+        "note": "debt financing counsel investor",
+        "sourceId": "pe-towerbrook-brg-2025:src-1"
+      },
+      {
+        "role": "financial-advisor-buyer",
+        "name": "Royal Bank of Canada",
+        "note": "financing provider",
+        "sourceId": "pe-towerbrook-brg-2025:src-1"
+      },
+      {
+        "role": "financial-advisor-buyer",
+        "name": "Deutsche Bank",
+        "note": "financing provider",
+        "sourceId": "pe-towerbrook-brg-2025:src-1"
+      },
+      {
+        "role": "financial-advisor-buyer",
+        "name": "Wells Fargo",
+        "note": "financing provider",
+        "sourceId": "pe-towerbrook-brg-2025:src-1"
+      },
+      {
+        "role": "financial-advisor-buyer",
+        "name": "TD",
+        "note": "financing provider",
+        "sourceId": "pe-towerbrook-brg-2025:src-1"
+      },
+      {
+        "role": "financial-advisor-buyer",
+        "name": "Jefferies",
+        "note": "financing provider",
+        "sourceId": "pe-towerbrook-brg-2025:src-1"
+      },
+      {
+        "role": "financial-advisor-buyer",
+        "name": "Sumitomo Mitsui Banking Corporation",
+        "note": "financing provider",
+        "sourceId": "pe-towerbrook-brg-2025:src-1"
+      },
+      {
+        "role": "financial-advisor-seller",
+        "name": "JPMorgan",
+        "note": "lead financial advisor target",
+        "sourceId": "pe-towerbrook-brg-2025:src-1"
+      },
+      {
+        "role": "financial-advisor-seller",
+        "name": "American Discovery Capital",
+        "note": "financial advisor target",
+        "sourceId": "pe-towerbrook-brg-2025:src-1"
+      },
+      {
+        "role": "legal-counsel-seller",
+        "name": "Kirkland & Ellis",
+        "companyId": "kirkland-ellis",
+        "note": "legal counsel target",
+        "sourceId": "pe-towerbrook-brg-2025:src-1"
+      }
+    ],
+    "facts": [
+      {
+        "id": "pe-towerbrook-brg-2025:fact-1",
+        "dealId": "pe-towerbrook-brg-2025",
+        "factType": "target_company",
+        "factValue": "Berkeley Research Group",
+        "normalizedValue": "berkeley-research-group",
+        "sourceId": "pe-towerbrook-brg-2025:src-1",
+        "evidenceChunkId": "pe-towerbrook-brg-2025:evidence-1",
+        "evidenceText": "TowerBrook announced the majority investment and named the sponsor lead, target leaders, seller, financing providers, and transaction advisors.",
+        "confidence": 0.91,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-towerbrook-brg-2025:fact-2",
+        "dealId": "pe-towerbrook-brg-2025",
+        "factType": "buyer_or_investor",
+        "factValue": "TowerBrook",
+        "sourceId": "pe-towerbrook-brg-2025:src-1",
+        "evidenceChunkId": "pe-towerbrook-brg-2025:evidence-2",
+        "evidenceText": "TowerBrook announced the majority investment and named the sponsor lead, target leaders, seller, financing providers, and transaction advisors.",
+        "confidence": 0.89,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-towerbrook-brg-2025:fact-3",
+        "dealId": "pe-towerbrook-brg-2025",
+        "factType": "deal_type",
+        "factValue": "majority investment",
+        "sourceId": "pe-towerbrook-brg-2025:src-1",
+        "evidenceChunkId": "pe-towerbrook-brg-2025:evidence-3",
+        "evidenceText": "TowerBrook announced the majority investment and named the sponsor lead, target leaders, seller, financing providers, and transaction advisors.",
+        "confidence": 0.86,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-towerbrook-brg-2025:fact-4",
+        "dealId": "pe-towerbrook-brg-2025",
+        "factType": "announcement_date",
+        "factValue": "2025-02-27",
+        "sourceId": "pe-towerbrook-brg-2025:src-1",
+        "evidenceChunkId": "pe-towerbrook-brg-2025:evidence-4",
+        "evidenceText": "TowerBrook announced the majority investment and named the sponsor lead, target leaders, seller, financing providers, and transaction advisors.",
+        "confidence": 0.84,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-towerbrook-brg-2025:fact-5",
+        "dealId": "pe-towerbrook-brg-2025",
+        "factType": "theme",
+        "factValue": "clean energy advisory",
+        "sourceId": "pe-towerbrook-brg-2025:src-1",
+        "evidenceChunkId": "pe-towerbrook-brg-2025:evidence-5",
+        "evidenceText": "TowerBrook-owned expert-services and consulting platform with a large bench across energy, construction, corporate finance, disputes, and performance improvement.",
+        "confidence": 0.84,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-towerbrook-brg-2025:fact-6",
+        "dealId": "pe-towerbrook-brg-2025",
+        "factType": "investment_relevance",
+        "factValue": "TowerBrook-owned expert-services and consulting platform with a large bench across energy, construction, corporate finance, disputes, and performance improvement.",
+        "sourceId": "pe-towerbrook-brg-2025:src-1",
+        "evidenceChunkId": "pe-towerbrook-brg-2025:evidence-6",
+        "evidenceText": "TowerBrook-owned expert-services and consulting platform with a large bench across energy, construction, corporate finance, disputes, and performance improvement.",
+        "confidence": 0.82,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-towerbrook-brg-2025:fact-7",
+        "dealId": "pe-towerbrook-brg-2025",
+        "factType": "advisors",
+        "factValue": "Jefferies (financial advisor investor); Benesch (legal counsel investor); Debevoise & Plimpton (debt financing counsel investor); Royal Bank of Canada (financing provider); Deutsche Bank (financing provider); Wells Fargo (financing provider); TD (financing provider); Jefferies (financing provider); Sumitomo Mitsui Banking Corporation (financing provider); JPMorgan (lead financial advisor target); American Discovery Capital (financial advisor target); Kirkland & Ellis (legal counsel target)",
+        "sourceId": "pe-towerbrook-brg-2025:src-1",
+        "evidenceChunkId": "pe-towerbrook-brg-2025:evidence-7",
+        "evidenceText": "TowerBrook announced the majority investment and named the sponsor lead, target leaders, seller, financing providers, and transaction advisors.",
+        "confidence": 0.84,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-towerbrook-brg-2025:fact-8",
+        "dealId": "pe-towerbrook-brg-2025",
+        "factType": "named_people",
+        "factValue": "Walter Weil (towerbrook deal lead); Tri MacDonald (target ceo president); David Teece (outgoing executive chair and continuing professional); Ravi Agarwal (legal counsel target); Ed Lee (legal counsel target); Rex Hupy (legal counsel target); Alice Billmire (legal counsel target); Brett Novick (debt financing counsel investor); Scott Selinger (debt financing counsel investor)",
+        "sourceId": "pe-towerbrook-brg-2025:src-1",
+        "evidenceChunkId": "pe-towerbrook-brg-2025:evidence-8",
+        "evidenceText": "TowerBrook announced the majority investment and named the sponsor lead, target leaders, seller, financing providers, and transaction advisors.",
+        "confidence": 0.82,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-towerbrook-brg-2025:fact-10",
+        "dealId": "pe-towerbrook-brg-2025",
+        "factType": "transaction_value",
+        "factValue": "not_disclosed",
+        "sourceId": "pe-towerbrook-brg-2025:src-1",
+        "evidenceChunkId": "pe-towerbrook-brg-2025:evidence-10",
+        "evidenceText": "No transaction value was disclosed in the public source set.",
+        "confidence": 0.72,
+        "extractionMethod": "curated",
+        "reviewStatus": "not_disclosed"
+      }
+    ],
+    "sourceIds": [
+      "pe-towerbrook-brg-2025:src-1",
+      "pe-towerbrook-brg-2025:src-2",
+      "pe-towerbrook-brg-2025:src-3"
+    ],
+    "sources": [
+      {
+        "title": "TowerBrook Capital Partners Announces Strategic Investment in BRG",
+        "publisher": "TowerBrook",
+        "url": "https://www.towerbrook.com/towerbrook-capital-partners-announces-strategic-investment-in-brg/"
+      },
+      {
+        "title": "Kirkland Advises Berkeley Research Group on Investment from TowerBrook",
+        "publisher": "Kirkland & Ellis",
+        "url": "https://www.kirkland.com/news/press-release/2025/02/kirkland-advises-berkeley-research-group-on-investment-from-towerbrook"
+      },
+      {
+        "title": "Debevoise Advised TowerBrook in the Debt Financing Aspects of Its Strategic Investment in BRG",
+        "publisher": "Debevoise & Plimpton",
+        "url": "https://www.debevoise.com/news/2025/03/debevoise-advised-towerbrook"
+      }
+    ],
+    "investmentRelevance": "TowerBrook-owned expert-services and consulting platform with a large bench across energy, construction, corporate finance, disputes, and performance improvement.",
+    "strategicRationale": "towerbrook: private equity",
+    "companiesSurfaced": [
+      "berkeley-research-group",
+      "towerbrook",
+      "debevoise-plimpton",
+      "kirkland-ellis"
+    ],
+    "expertsSurfaced": [],
+    "missingFacts": [
+      "transaction_value",
+      "towerbrook_stake",
+      "additional_towerbrook_deal_team",
+      "post_deal_board",
+      "energy_practice_leaders"
+    ],
+    "followUpSearches": [
+      "\"Berkeley Research Group\" \"TowerBrook makes majority investment in Berkeley Research Group\" transaction value",
+      "\"Berkeley Research Group\" \"TowerBrook\" legal counsel financial advisor",
+      "\"Berkeley Research Group\" management rollover debt financing",
+      "\"Jefferies\" \"Berkeley Research Group\" financial advisor investor",
+      "\"Benesch\" \"Berkeley Research Group\" legal counsel investor"
+    ],
+    "confidence": 0.87
+  },
+  {
+    "id": "badger-meter-smartcover-acquisition",
+    "name": "Badger Meter acquires SmartCover Systems",
+    "theme": "smart-water",
+    "geography": "United States",
+    "status": "completed",
+    "dealType": "acquisition",
+    "announcementDate": "2025-01-31",
+    "completionDate": "2025-01-31",
+    "targetCompanyId": "smartcover",
+    "buyerCompanyId": "badger-meter",
+    "sellerCompanyId": "xpv-water-partners",
+    "parties": [
+      {
+        "role": "target",
+        "name": "SmartCover Systems",
+        "companyId": "smartcover",
+        "sourceId": "smartcover-1"
+      },
+      {
+        "role": "buyer",
+        "name": "Badger Meter",
+        "companyId": "badger-meter",
+        "sourceId": "smartcover-1"
+      },
+      {
+        "role": "seller",
+        "name": "XPV Water Partners",
+        "companyId": "xpv-water-partners",
+        "sourceId": "smartcover-2"
+      }
+    ],
+    "advisors": [
+      {
+        "role": "financial-advisor-seller",
+        "name": "Houlihan Lokey",
+        "companyId": "houlihan-lokey",
+        "sourceId": "smartcover-3"
+      }
+    ],
+    "facts": [
+      {
+        "id": "smartcover-f1",
+        "dealId": "badger-meter-smartcover-acquisition",
+        "factType": "target_company",
+        "factValue": "SmartCover Systems",
+        "normalizedValue": "smartcover",
+        "sourceId": "smartcover-1",
+        "evidenceChunkId": "smartcover-e1",
+        "evidenceText": "Badger Meter acquired SmartCover Systems.",
+        "confidence": 0.94,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "smartcover-f2",
+        "dealId": "badger-meter-smartcover-acquisition",
+        "factType": "buyer",
+        "factValue": "Badger Meter",
+        "normalizedValue": "badger-meter",
+        "sourceId": "smartcover-1",
+        "evidenceChunkId": "smartcover-e1",
+        "evidenceText": "Badger Meter was the buyer.",
+        "confidence": 0.92,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "smartcover-f3",
+        "dealId": "badger-meter-smartcover-acquisition",
+        "factType": "seller",
+        "factValue": "XPV Water Partners",
+        "normalizedValue": "xpv-water-partners",
+        "sourceId": "smartcover-2",
+        "evidenceChunkId": "smartcover-e2",
+        "evidenceText": "XPV Water Partners announced the sale of SmartCover to Badger Meter.",
+        "confidence": 0.88,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "smartcover-f4",
+        "dealId": "badger-meter-smartcover-acquisition",
+        "factType": "enterprise_value",
+        "factValue": "$185m",
+        "normalizedValue": "185000000 USD",
+        "sourceId": "smartcover-1",
+        "evidenceChunkId": "smartcover-e3",
+        "evidenceText": "Badger Meter acquired SmartCover Systems for $185m.",
+        "confidence": 0.9,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "smartcover-f5",
+        "dealId": "badger-meter-smartcover-acquisition",
+        "factType": "revenue",
+        "factValue": "Approximately $35m annual revenue",
+        "normalizedValue": "35000000 USD",
+        "sourceId": "smartcover-1",
+        "evidenceChunkId": "smartcover-e4",
+        "evidenceText": "The company had approximately $35m of annual revenue at acquisition.",
+        "confidence": 0.86,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "smartcover-f6",
+        "dealId": "badger-meter-smartcover-acquisition",
+        "factType": "financial_advisor_to_seller",
+        "factValue": "Houlihan Lokey",
+        "normalizedValue": "houlihan-lokey",
+        "sourceId": "smartcover-3",
+        "evidenceChunkId": "smartcover-e5",
+        "evidenceText": "Houlihan Lokey advised SmartCover Systems.",
+        "confidence": 0.84,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      }
+    ],
+    "sourceIds": [
+      "smartcover-1",
+      "smartcover-2",
+      "smartcover-3"
+    ],
+    "sources": [
+      {
+        "title": "Badger Meter Extends BlueEdge Suite with Acquisition of SmartCover Systems",
+        "url": "https://www.badgermeter.com/newsroom/smartcover/",
+        "publisher": "Badger Meter"
+      },
+      {
+        "title": "XPV Water Partners Announces Sale of SmartCover to Badger Meter",
+        "url": "https://xpvwaterpartners.com/insights/news/2025/01/31/xpv-water-partners-announces-sale-of-smartcover-to-badger-meter",
+        "publisher": "XPV Water Partners"
+      },
+      {
+        "title": "Houlihan Lokey Advises SmartCover Systems",
+        "url": "https://hl.com/about-us/transactions/smartcover-xpv-water-partners-badger-meter/",
+        "publisher": "Houlihan Lokey"
+      }
+    ],
+    "investmentRelevance": "Strong smart-water precedent with named buyer, seller, banker, revenue scale and transaction value, giving TowerBrook a compact comp for wastewater monitoring and analytics.",
+    "strategicRationale": "Badger Meter extended its BlueEdge suite into collection-system monitoring, sewer, lift-station and stormwater analytics.",
+    "companiesSurfaced": [
+      "smartcover",
+      "badger-meter",
+      "xpv-water-partners",
+      "houlihan-lokey"
+    ],
+    "expertsSurfaced": [
+      "corey-williams",
+      "sam-saintonge"
+    ],
+    "comparableDealIds": [
+      "autodesk-innovyze-acquisition"
+    ],
+    "missingFacts": [
+      "legal_counsel_to_buyer",
+      "legal_counsel_to_seller",
+      "debt_financing",
+      "valuation_multiple"
+    ],
+    "followUpSearches": [
+      "\"SmartCover\" \"Badger Meter\" legal counsel",
+      "\"SmartCover\" \"Badger Meter\" debt financing",
+      "\"SmartCover\" \"Badger Meter\" valuation multiple"
+    ],
+    "confidence": 0.91
+  },
+  {
+    "id": "pe-frontenac-crom-2025",
+    "name": "Frontenac acquires CROM from Sciens Water",
+    "theme": "smart-water",
+    "geography": "United States",
+    "status": "completed",
+    "dealType": "acquisition",
+    "announcementDate": "2025-02-03",
+    "completionDate": "2025-01-31",
+    "targetCompanyId": "crom",
+    "parties": [
+      {
+        "role": "target",
+        "name": "CROM",
+        "companyId": "crom",
+        "sourceId": "pe-frontenac-crom-2025:src-1"
+      },
+      {
+        "role": "buyer",
+        "name": "Frontenac",
+        "sourceId": "pe-frontenac-crom-2025:src-1"
+      },
+      {
+        "role": "investor",
+        "name": "Sciens Water",
+        "sourceId": "pe-frontenac-crom-2025:src-1"
+      }
+    ],
+    "advisors": [
+      {
+        "role": "financial-advisor-seller",
+        "name": "Raymond James",
+        "note": "financial advisor target",
+        "sourceId": "pe-frontenac-crom-2025:src-1"
+      }
+    ],
+    "facts": [
+      {
+        "id": "pe-frontenac-crom-2025:fact-1",
+        "dealId": "pe-frontenac-crom-2025",
+        "factType": "target_company",
+        "factValue": "CROM",
+        "normalizedValue": "crom",
+        "sourceId": "pe-frontenac-crom-2025:src-1",
+        "evidenceChunkId": "pe-frontenac-crom-2025:evidence-1",
+        "evidenceText": "Frontenac announced the acquisition from Sciens Water, named the target CEO, buyer dealmaker, executive chair, and financial advisor, and confirmed the closing date.",
+        "confidence": 0.91,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-frontenac-crom-2025:fact-2",
+        "dealId": "pe-frontenac-crom-2025",
+        "factType": "buyer_or_investor",
+        "factValue": "Frontenac; Sciens Water",
+        "sourceId": "pe-frontenac-crom-2025:src-1",
+        "evidenceChunkId": "pe-frontenac-crom-2025:evidence-2",
+        "evidenceText": "Frontenac announced the acquisition from Sciens Water, named the target CEO, buyer dealmaker, executive chair, and financial advisor, and confirmed the closing date.",
+        "confidence": 0.89,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-frontenac-crom-2025:fact-3",
+        "dealId": "pe-frontenac-crom-2025",
+        "factType": "deal_type",
+        "factValue": "secondary buyout",
+        "sourceId": "pe-frontenac-crom-2025:src-1",
+        "evidenceChunkId": "pe-frontenac-crom-2025:evidence-3",
+        "evidenceText": "Frontenac announced the acquisition from Sciens Water, named the target CEO, buyer dealmaker, executive chair, and financial advisor, and confirmed the closing date.",
+        "confidence": 0.86,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-frontenac-crom-2025:fact-4",
+        "dealId": "pe-frontenac-crom-2025",
+        "factType": "announcement_date",
+        "factValue": "2025-02-03",
+        "sourceId": "pe-frontenac-crom-2025:src-1",
+        "evidenceChunkId": "pe-frontenac-crom-2025:evidence-4",
+        "evidenceText": "Frontenac announced the acquisition from Sciens Water, named the target CEO, buyer dealmaker, executive chair, and financial advisor, and confirmed the closing date.",
+        "confidence": 0.84,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-frontenac-crom-2025:fact-5",
+        "dealId": "pe-frontenac-crom-2025",
+        "factType": "theme",
+        "factValue": "smart water",
+        "sourceId": "pe-frontenac-crom-2025:src-1",
+        "evidenceChunkId": "pe-frontenac-crom-2025:evidence-5",
+        "evidenceText": "Water-infrastructure services platform using a rapid buy-and-build strategy across tank construction, restoration, and maintenance.",
+        "confidence": 0.84,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-frontenac-crom-2025:fact-6",
+        "dealId": "pe-frontenac-crom-2025",
+        "factType": "investment_relevance",
+        "factValue": "Water-infrastructure services platform using a rapid buy-and-build strategy across tank construction, restoration, and maintenance.",
+        "sourceId": "pe-frontenac-crom-2025:src-1",
+        "evidenceChunkId": "pe-frontenac-crom-2025:evidence-6",
+        "evidenceText": "Water-infrastructure services platform using a rapid buy-and-build strategy across tank construction, restoration, and maintenance.",
+        "confidence": 0.82,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-frontenac-crom-2025:fact-7",
+        "dealId": "pe-frontenac-crom-2025",
+        "factType": "advisors",
+        "factValue": "Raymond James (financial advisor target)",
+        "sourceId": "pe-frontenac-crom-2025:src-1",
+        "evidenceChunkId": "pe-frontenac-crom-2025:evidence-7",
+        "evidenceText": "Frontenac announced the acquisition from Sciens Water, named the target CEO, buyer dealmaker, executive chair, and financial advisor, and confirmed the closing date.",
+        "confidence": 0.84,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-frontenac-crom-2025:fact-8",
+        "dealId": "pe-frontenac-crom-2025",
+        "factType": "named_people",
+        "factValue": "Ron Kuehl (buyer dealmaker); Bobby Oyenarte (target ceo); Jim McGivern (executive chair)",
+        "sourceId": "pe-frontenac-crom-2025:src-1",
+        "evidenceChunkId": "pe-frontenac-crom-2025:evidence-8",
+        "evidenceText": "Frontenac announced the acquisition from Sciens Water, named the target CEO, buyer dealmaker, executive chair, and financial advisor, and confirmed the closing date.",
+        "confidence": 0.82,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-frontenac-crom-2025:fact-9",
+        "dealId": "pe-frontenac-crom-2025",
+        "factType": "completion_date",
+        "factValue": "2025-01-31",
+        "sourceId": "pe-frontenac-crom-2025:src-1",
+        "evidenceChunkId": "pe-frontenac-crom-2025:evidence-9",
+        "evidenceText": "Frontenac announced the acquisition from Sciens Water, named the target CEO, buyer dealmaker, executive chair, and financial advisor, and confirmed the closing date.",
+        "confidence": 0.86,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-frontenac-crom-2025:fact-10",
+        "dealId": "pe-frontenac-crom-2025",
+        "factType": "transaction_value",
+        "factValue": "not_disclosed",
+        "sourceId": "pe-frontenac-crom-2025:src-1",
+        "evidenceChunkId": "pe-frontenac-crom-2025:evidence-10",
+        "evidenceText": "No transaction value was disclosed in the public source set.",
+        "confidence": 0.72,
+        "extractionMethod": "curated",
+        "reviewStatus": "not_disclosed"
+      }
+    ],
+    "sourceIds": [
+      "pe-frontenac-crom-2025:src-1",
+      "pe-frontenac-crom-2025:src-2"
+    ],
+    "sources": [
+      {
+        "title": "Frontenac Welcomes Water Infrastructure Solutions Provider CROM",
+        "publisher": "Frontenac",
+        "url": "https://frontenac.com/frontenac-welcomes-water-infrastructure-solutions-provider-crom-as-its-newest-portfolio-company/"
+      },
+      {
+        "title": "CROM portfolio profile",
+        "publisher": "Frontenac",
+        "url": "https://frontenac.com/portfolio/crom/"
+      }
+    ],
+    "investmentRelevance": "Water-infrastructure services platform using a rapid buy-and-build strategy across tank construction, restoration, and maintenance.",
+    "strategicRationale": "peer platform: private equity",
+    "companiesSurfaced": [
+      "crom"
+    ],
+    "expertsSurfaced": [],
+    "missingFacts": [
+      "transaction_value",
+      "additional_deal_team",
+      "legal_advisors",
+      "debt_financing",
+      "add_on_values"
+    ],
+    "followUpSearches": [
+      "\"CROM\" \"Frontenac acquires CROM from Sciens Water\" transaction value",
+      "\"CROM\" \"Frontenac\" legal counsel financial advisor",
+      "\"CROM\" management rollover debt financing",
+      "\"Raymond James\" \"CROM\" financial advisor target"
+    ],
+    "confidence": 0.86
+  },
+  {
+    "id": "pe-eqt-scale-microgrids-2025",
+    "name": "EQT acquires Scale Microgrids from Warburg Pincus",
+    "theme": "grid-infrastructure",
+    "geography": "North America",
+    "status": "completed",
+    "dealType": "acquisition",
+    "announcementDate": "2025-01-09",
+    "targetCompanyId": "scale-microgrids",
+    "investorCompanyId": "eqt-infrastructure",
+    "parties": [
+      {
+        "role": "target",
+        "name": "Scale Microgrids",
+        "companyId": "scale-microgrids",
+        "sourceId": "pe-eqt-scale-microgrids-2025:src-1"
+      },
+      {
+        "role": "buyer",
+        "name": "EQT Infrastructure",
+        "companyId": "eqt-infrastructure",
+        "sourceId": "pe-eqt-scale-microgrids-2025:src-1"
+      },
+      {
+        "role": "investor",
+        "name": "Warburg Pincus",
+        "sourceId": "pe-eqt-scale-microgrids-2025:src-1"
+      }
+    ],
+    "advisors": [
+      {
+        "role": "legal-counsel-buyer",
+        "name": "Weil Gotshal & Manges",
+        "note": "legal counsel buyer",
+        "sourceId": "pe-eqt-scale-microgrids-2025:src-1"
+      },
+      {
+        "role": "financial-advisor-buyer",
+        "name": "Guggenheim Securities",
+        "note": "financial advisor buyer",
+        "sourceId": "pe-eqt-scale-microgrids-2025:src-1"
+      },
+      {
+        "role": "legal-counsel-seller",
+        "name": "Latham & Watkins",
+        "companyId": "latham-watkins",
+        "note": "legal counsel target",
+        "sourceId": "pe-eqt-scale-microgrids-2025:src-1"
+      },
+      {
+        "role": "financial-advisor-seller",
+        "name": "Nomura Greentech",
+        "companyId": "nomura-greentech",
+        "note": "financial advisor target",
+        "sourceId": "pe-eqt-scale-microgrids-2025:src-1"
+      },
+      {
+        "role": "financial-advisor-seller",
+        "name": "Truist Securities",
+        "note": "financial advisor target",
+        "sourceId": "pe-eqt-scale-microgrids-2025:src-1"
+      }
+    ],
+    "facts": [
+      {
+        "id": "pe-eqt-scale-microgrids-2025:fact-1",
+        "dealId": "pe-eqt-scale-microgrids-2025",
+        "factType": "target_company",
+        "factValue": "Scale Microgrids",
+        "normalizedValue": "scale-microgrids",
+        "sourceId": "pe-eqt-scale-microgrids-2025:src-1",
+        "evidenceChunkId": "pe-eqt-scale-microgrids-2025:evidence-1",
+        "evidenceText": "EQT announced the acquisition from Warburg Pincus and named the buyer lead, target CEO, seller dealmaker, and both sides' advisors.",
+        "confidence": 0.91,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-eqt-scale-microgrids-2025:fact-2",
+        "dealId": "pe-eqt-scale-microgrids-2025",
+        "factType": "buyer_or_investor",
+        "factValue": "EQT Infrastructure; Warburg Pincus",
+        "sourceId": "pe-eqt-scale-microgrids-2025:src-1",
+        "evidenceChunkId": "pe-eqt-scale-microgrids-2025:evidence-2",
+        "evidenceText": "EQT announced the acquisition from Warburg Pincus and named the buyer lead, target CEO, seller dealmaker, and both sides' advisors.",
+        "confidence": 0.89,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-eqt-scale-microgrids-2025:fact-3",
+        "dealId": "pe-eqt-scale-microgrids-2025",
+        "factType": "deal_type",
+        "factValue": "secondary buyout",
+        "sourceId": "pe-eqt-scale-microgrids-2025:src-1",
+        "evidenceChunkId": "pe-eqt-scale-microgrids-2025:evidence-3",
+        "evidenceText": "EQT announced the acquisition from Warburg Pincus and named the buyer lead, target CEO, seller dealmaker, and both sides' advisors.",
+        "confidence": 0.86,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-eqt-scale-microgrids-2025:fact-4",
+        "dealId": "pe-eqt-scale-microgrids-2025",
+        "factType": "announcement_date",
+        "factValue": "2025-01-09",
+        "sourceId": "pe-eqt-scale-microgrids-2025:src-1",
+        "evidenceChunkId": "pe-eqt-scale-microgrids-2025:evidence-4",
+        "evidenceText": "EQT announced the acquisition from Warburg Pincus and named the buyer lead, target CEO, seller dealmaker, and both sides' advisors.",
+        "confidence": 0.84,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-eqt-scale-microgrids-2025:fact-5",
+        "dealId": "pe-eqt-scale-microgrids-2025",
+        "factType": "theme",
+        "factValue": "grid infrastructure",
+        "sourceId": "pe-eqt-scale-microgrids-2025:src-1",
+        "evidenceChunkId": "pe-eqt-scale-microgrids-2025:evidence-5",
+        "evidenceText": "Vertically integrated microgrid and distributed-energy platform addressing grid constraints, resilience, data centers, and fleet electrification.",
+        "confidence": 0.84,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-eqt-scale-microgrids-2025:fact-6",
+        "dealId": "pe-eqt-scale-microgrids-2025",
+        "factType": "investment_relevance",
+        "factValue": "Vertically integrated microgrid and distributed-energy platform addressing grid constraints, resilience, data centers, and fleet electrification.",
+        "sourceId": "pe-eqt-scale-microgrids-2025:src-1",
+        "evidenceChunkId": "pe-eqt-scale-microgrids-2025:evidence-6",
+        "evidenceText": "Vertically integrated microgrid and distributed-energy platform addressing grid constraints, resilience, data centers, and fleet electrification.",
+        "confidence": 0.82,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-eqt-scale-microgrids-2025:fact-7",
+        "dealId": "pe-eqt-scale-microgrids-2025",
+        "factType": "advisors",
+        "factValue": "Weil Gotshal & Manges (legal counsel buyer); Guggenheim Securities (financial advisor buyer); Latham & Watkins (legal counsel target); Nomura Greentech (financial advisor target); Truist Securities (financial advisor target)",
+        "sourceId": "pe-eqt-scale-microgrids-2025:src-1",
+        "evidenceChunkId": "pe-eqt-scale-microgrids-2025:evidence-7",
+        "evidenceText": "EQT announced the acquisition from Warburg Pincus and named the buyer lead, target CEO, seller dealmaker, and both sides' advisors.",
+        "confidence": 0.84,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-eqt-scale-microgrids-2025:fact-8",
+        "dealId": "pe-eqt-scale-microgrids-2025",
+        "factType": "named_people",
+        "factValue": "Jan Vesely (buyer dealmaker); Ryan Goodman (target ceo); Ryan Dalton (seller dealmaker)",
+        "sourceId": "pe-eqt-scale-microgrids-2025:src-1",
+        "evidenceChunkId": "pe-eqt-scale-microgrids-2025:evidence-8",
+        "evidenceText": "EQT announced the acquisition from Warburg Pincus and named the buyer lead, target CEO, seller dealmaker, and both sides' advisors.",
+        "confidence": 0.82,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-eqt-scale-microgrids-2025:fact-10",
+        "dealId": "pe-eqt-scale-microgrids-2025",
+        "factType": "transaction_value",
+        "factValue": "not_disclosed",
+        "sourceId": "pe-eqt-scale-microgrids-2025:src-1",
+        "evidenceChunkId": "pe-eqt-scale-microgrids-2025:evidence-10",
+        "evidenceText": "No transaction value was disclosed in the public source set.",
+        "confidence": 0.72,
+        "extractionMethod": "curated",
+        "reviewStatus": "not_disclosed"
+      }
+    ],
+    "sourceIds": [
+      "pe-eqt-scale-microgrids-2025:src-1",
+      "pe-eqt-scale-microgrids-2025:src-2",
+      "pe-eqt-scale-microgrids-2025:src-3"
+    ],
+    "sources": [
+      {
+        "title": "EQT to acquire distributed energy company Scale Microgrids",
+        "publisher": "EQT",
+        "url": "https://eqtgroup.com/news/eqt-to-acquire-distributed-energy-company-scale-microgrids"
+      },
+      {
+        "title": "Weil Advises EQT Transition Infrastructure in Acquisition of Scale Microgrids",
+        "publisher": "Weil Gotshal & Manges",
+        "url": "https://www.weil.com/articles/weil-advises-eqt-transition-infrastructure-in-acquisition-of-scale-microgrids"
+      },
+      {
+        "title": "Scale Microgrids - EQT Portfolio",
+        "publisher": "EQT",
+        "url": "https://eqtgroup.com/about/current-portfolio/scale-microgrids"
+      }
+    ],
+    "investmentRelevance": "Vertically integrated microgrid and distributed-energy platform addressing grid constraints, resilience, data centers, and fleet electrification.",
+    "strategicRationale": "peer platform: transition infrastructure",
+    "companiesSurfaced": [
+      "scale-microgrids",
+      "eqt-infrastructure",
+      "latham-watkins",
+      "nomura-greentech"
+    ],
+    "expertsSurfaced": [],
+    "missingFacts": [
+      "transaction_value",
+      "completion_date",
+      "debt_financing",
+      "management_rollover",
+      "named_advisor_individuals"
+    ],
+    "followUpSearches": [
+      "\"Scale Microgrids\" \"EQT acquires Scale Microgrids from Warburg Pincus\" transaction value",
+      "\"Scale Microgrids\" \"EQT Infrastructure\" legal counsel financial advisor",
+      "\"Scale Microgrids\" management rollover debt financing",
+      "\"Weil Gotshal & Manges\" \"Scale Microgrids\" legal counsel buyer",
+      "\"Guggenheim Securities\" \"Scale Microgrids\" financial advisor buyer"
+    ],
+    "confidence": 0.87
+  },
+  {
+    "id": "pe-towerbrook-jsm-2024",
+    "name": "TowerBrook makes majority investment in JSM",
+    "theme": "grid-infrastructure",
+    "geography": "United Kingdom",
+    "status": "completed",
+    "dealType": "acquisition",
+    "announcementDate": "2024-07-29",
+    "targetCompanyId": "jsm-group",
+    "investorCompanyId": "towerbrook",
+    "parties": [
+      {
+        "role": "target",
+        "name": "JSM Group",
+        "companyId": "jsm-group",
+        "sourceId": "pe-towerbrook-jsm-2024:src-1"
+      },
+      {
+        "role": "investor",
+        "name": "TowerBrook",
+        "companyId": "towerbrook",
+        "sourceId": "pe-towerbrook-jsm-2024:src-1"
+      },
+      {
+        "role": "management",
+        "name": "JSM Group founders and management",
+        "sourceId": "pe-towerbrook-jsm-2024:src-1"
+      },
+      {
+        "role": "management",
+        "name": "Joseph Knoll",
+        "personId": "joseph-knoll",
+        "note": "towerbrook deal lead; public deal-source evidence only",
+        "sourceId": "pe-towerbrook-jsm-2024:src-1"
+      },
+      {
+        "role": "management",
+        "name": "Sumit Dheir",
+        "personId": "sumit-dheir",
+        "note": "towerbrook deal lead; public deal-source evidence only",
+        "sourceId": "pe-towerbrook-jsm-2024:src-1"
+      },
+      {
+        "role": "management",
+        "name": "Stuart Wiltshire",
+        "personId": "stuart-wiltshire",
+        "note": "target founder ceo; public deal-source evidence only",
+        "sourceId": "pe-towerbrook-jsm-2024:src-1"
+      },
+      {
+        "role": "management",
+        "name": "John Scanlon",
+        "personId": "john-scanlon",
+        "note": "target founder coo; public deal-source evidence only",
+        "sourceId": "pe-towerbrook-jsm-2024:src-1"
+      },
+      {
+        "role": "board",
+        "name": "John Leahy",
+        "personId": "john-leahy-jsm",
+        "note": "target chair; public deal-source evidence only",
+        "sourceId": "pe-towerbrook-jsm-2024:src-1"
+      }
+    ],
+    "advisors": [
+      {
+        "role": "financial-advisor-buyer",
+        "name": "Canaccord Genuity",
+        "companyId": "canaccord-genuity",
+        "note": "m and a advisor investor",
+        "sourceId": "pe-towerbrook-jsm-2024:src-1"
+      },
+      {
+        "role": "legal-counsel-buyer",
+        "name": "Fried Frank",
+        "companyId": "fried-frank",
+        "note": "legal counsel investor",
+        "sourceId": "pe-towerbrook-jsm-2024:src-1"
+      },
+      {
+        "role": "commercial-diligence",
+        "name": "Roland Berger",
+        "companyId": "roland-berger",
+        "note": "commercial advisor investor",
+        "sourceId": "pe-towerbrook-jsm-2024:src-1"
+      },
+      {
+        "role": "financial-advisor-buyer",
+        "name": "EY",
+        "companyId": "ey",
+        "note": "financial diligence investor",
+        "sourceId": "pe-towerbrook-jsm-2024:src-1"
+      },
+      {
+        "role": "technical-diligence",
+        "name": "Eight Advisory",
+        "companyId": "eight-advisory",
+        "note": "operational diligence investor",
+        "sourceId": "pe-towerbrook-jsm-2024:src-1"
+      },
+      {
+        "role": "legal-counsel-buyer",
+        "name": "PwC",
+        "companyId": "pwc",
+        "note": "tax and legal advisor investor",
+        "sourceId": "pe-towerbrook-jsm-2024:src-1"
+      },
+      {
+        "role": "technical-diligence",
+        "name": "Baringa",
+        "companyId": "baringa",
+        "note": "esg advisor investor",
+        "sourceId": "pe-towerbrook-jsm-2024:src-1"
+      },
+      {
+        "role": "technical-diligence",
+        "name": "Vista Insurance",
+        "note": "insurance advisor investor",
+        "sourceId": "pe-towerbrook-jsm-2024:src-1"
+      },
+      {
+        "role": "financial-advisor-buyer",
+        "name": "Bridgepoint Credit",
+        "note": "financing provider",
+        "sourceId": "pe-towerbrook-jsm-2024:src-1"
+      },
+      {
+        "role": "legal-counsel-buyer",
+        "name": "DLA Piper",
+        "note": "debt financing counsel lender",
+        "sourceId": "pe-towerbrook-jsm-2024:src-1"
+      }
+    ],
+    "facts": [
+      {
+        "id": "pe-towerbrook-jsm-2024:fact-1",
+        "dealId": "pe-towerbrook-jsm-2024",
+        "factType": "target_company",
+        "factValue": "JSM Group",
+        "normalizedValue": "jsm-group",
+        "sourceId": "pe-towerbrook-jsm-2024:src-1",
+        "evidenceChunkId": "pe-towerbrook-jsm-2024:evidence-1",
+        "evidenceText": "TowerBrook announced a majority investment and named the deal leads, founders, chair, and eight advisor firms.",
+        "confidence": 0.91,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-towerbrook-jsm-2024:fact-2",
+        "dealId": "pe-towerbrook-jsm-2024",
+        "factType": "buyer_or_investor",
+        "factValue": "TowerBrook",
+        "sourceId": "pe-towerbrook-jsm-2024:src-1",
+        "evidenceChunkId": "pe-towerbrook-jsm-2024:evidence-2",
+        "evidenceText": "TowerBrook announced a majority investment and named the deal leads, founders, chair, and eight advisor firms.",
+        "confidence": 0.89,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-towerbrook-jsm-2024:fact-3",
+        "dealId": "pe-towerbrook-jsm-2024",
+        "factType": "deal_type",
+        "factValue": "majority investment",
+        "sourceId": "pe-towerbrook-jsm-2024:src-1",
+        "evidenceChunkId": "pe-towerbrook-jsm-2024:evidence-3",
+        "evidenceText": "TowerBrook announced a majority investment and named the deal leads, founders, chair, and eight advisor firms.",
+        "confidence": 0.86,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-towerbrook-jsm-2024:fact-4",
+        "dealId": "pe-towerbrook-jsm-2024",
+        "factType": "announcement_date",
+        "factValue": "2024-07-29",
+        "sourceId": "pe-towerbrook-jsm-2024:src-1",
+        "evidenceChunkId": "pe-towerbrook-jsm-2024:evidence-4",
+        "evidenceText": "TowerBrook announced a majority investment and named the deal leads, founders, chair, and eight advisor firms.",
+        "confidence": 0.84,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-towerbrook-jsm-2024:fact-5",
+        "dealId": "pe-towerbrook-jsm-2024",
+        "factType": "theme",
+        "factValue": "grid infrastructure",
+        "sourceId": "pe-towerbrook-jsm-2024:src-1",
+        "evidenceChunkId": "pe-towerbrook-jsm-2024:evidence-5",
+        "evidenceText": "High-voltage independent connections provider serving data centers, battery storage, renewables, and communications infrastructure.",
+        "confidence": 0.84,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-towerbrook-jsm-2024:fact-6",
+        "dealId": "pe-towerbrook-jsm-2024",
+        "factType": "investment_relevance",
+        "factValue": "High-voltage independent connections provider serving data centers, battery storage, renewables, and communications infrastructure.",
+        "sourceId": "pe-towerbrook-jsm-2024:src-1",
+        "evidenceChunkId": "pe-towerbrook-jsm-2024:evidence-6",
+        "evidenceText": "High-voltage independent connections provider serving data centers, battery storage, renewables, and communications infrastructure.",
+        "confidence": 0.82,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-towerbrook-jsm-2024:fact-7",
+        "dealId": "pe-towerbrook-jsm-2024",
+        "factType": "advisors",
+        "factValue": "Canaccord Genuity (m and a advisor investor); Fried Frank (legal counsel investor); Roland Berger (commercial advisor investor); EY (financial diligence investor); Eight Advisory (operational diligence investor); PwC (tax and legal advisor investor); Baringa (esg advisor investor); Vista Insurance (insurance advisor investor); Bridgepoint Credit (financing provider); DLA Piper (debt financing counsel lender)",
+        "sourceId": "pe-towerbrook-jsm-2024:src-1",
+        "evidenceChunkId": "pe-towerbrook-jsm-2024:evidence-7",
+        "evidenceText": "TowerBrook announced a majority investment and named the deal leads, founders, chair, and eight advisor firms.",
+        "confidence": 0.84,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-towerbrook-jsm-2024:fact-8",
+        "dealId": "pe-towerbrook-jsm-2024",
+        "factType": "named_people",
+        "factValue": "Joseph Knoll (towerbrook deal lead); Sumit Dheir (towerbrook deal lead); Stuart Wiltshire (target founder ceo); John Scanlon (target founder coo); John Leahy (target chair); Neil Campbell (debt financing counsel lender); Francesco De Micheli (debt financing counsel lender); Radina Denkova (debt financing counsel lender); Kieran Teo (debt financing counsel lender); Christian Iwasko (legal counsel investor); Michelle Tong (legal counsel investor); Priya Rupal (legal counsel investor); Chris Barron (legal counsel investor); Alexander Goldsmith (legal counsel investor); Warren Wellington (legal counsel investor); Nick Neil-Boss (operational and technology diligence investor); Sam Chandrasekaran (operational and technology diligence investor); Hebah Bibi (operational and technology diligence investor); Himshikha Arya (operational and technology diligence investor); Mike Forrest (operational and technology diligence investor)",
+        "sourceId": "pe-towerbrook-jsm-2024:src-1",
+        "evidenceChunkId": "pe-towerbrook-jsm-2024:evidence-8",
+        "evidenceText": "TowerBrook announced a majority investment and named the deal leads, founders, chair, and eight advisor firms.",
+        "confidence": 0.82,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-towerbrook-jsm-2024:fact-10",
+        "dealId": "pe-towerbrook-jsm-2024",
+        "factType": "transaction_value",
+        "factValue": "not_disclosed",
+        "sourceId": "pe-towerbrook-jsm-2024:src-1",
+        "evidenceChunkId": "pe-towerbrook-jsm-2024:evidence-10",
+        "evidenceText": "No transaction value was disclosed in the public source set.",
+        "confidence": 0.72,
+        "extractionMethod": "curated",
+        "reviewStatus": "not_disclosed"
+      }
+    ],
+    "sourceIds": [
+      "pe-towerbrook-jsm-2024:src-1",
+      "pe-towerbrook-jsm-2024:src-2",
+      "pe-towerbrook-jsm-2024:src-3",
+      "pe-towerbrook-jsm-2024:src-4"
+    ],
+    "sources": [
+      {
+        "title": "TowerBrook Capital Partners Announces Investment in JSM",
+        "publisher": "TowerBrook",
+        "url": "https://www.towerbrook.com/towerbrook-capital-partners-announces-investment-in-jsm/"
+      },
+      {
+        "title": "DLA Piper advises Bridgepoint Credit and super senior lenders on financing for acquisition of JSM by TowerBrook",
+        "publisher": "DLA Piper",
+        "url": "https://www.dlapiper.com/en-za/news/2024/10/dla-piper-advises-bridgepoint-credit-on-acquisition-of-jsm-by-towerbrook"
+      },
+      {
+        "title": "Fried Frank congratulates TowerBrook on its majority investment in JSM",
+        "publisher": "Fried Frank",
+        "url": "https://www.linkedin.com/posts/friedfrank_congratulations-to-towerbrook-capital-partners-activity-7224797010380419072-hl7b"
+      },
+      {
+        "title": "Eight Advisory supported TowerBrook on its majority investment in JSM",
+        "publisher": "Eight Advisory",
+        "url": "https://www.8advisory.com/2024/07/31/eight-advisory-a-accompagne-towerbrook-capital-partners-dans-le-cadre-de-son-investissement-majoritaire-dans-jsm/"
+      }
+    ],
+    "investmentRelevance": "High-voltage independent connections provider serving data centers, battery storage, renewables, and communications infrastructure.",
+    "strategicRationale": "towerbrook: private equity",
+    "companiesSurfaced": [
+      "jsm-group",
+      "towerbrook",
+      "canaccord-genuity",
+      "fried-frank",
+      "roland-berger",
+      "ey",
+      "eight-advisory",
+      "pwc",
+      "baringa"
+    ],
+    "expertsSurfaced": [
+      "joseph-knoll",
+      "sumit-dheir",
+      "stuart-wiltshire",
+      "john-scanlon",
+      "john-leahy-jsm"
+    ],
+    "missingFacts": [
+      "transaction_value",
+      "seller_advisors",
+      "financing_terms",
+      "named_buy_side_advisor_individuals",
+      "post_deal_board"
+    ],
+    "followUpSearches": [
+      "\"JSM Group\" \"TowerBrook makes majority investment in JSM\" transaction value",
+      "\"JSM Group\" \"TowerBrook\" legal counsel financial advisor",
+      "\"JSM Group\" management rollover debt financing",
+      "\"Canaccord Genuity\" \"JSM Group\" m and a advisor investor",
+      "\"Fried Frank\" \"JSM Group\" legal counsel investor"
+    ],
+    "confidence": 0.94
+  },
+  {
+    "id": "pe-towerbrook-langan-2023",
+    "name": "TowerBrook makes minority investment in Langan",
+    "theme": "clean-energy-advisory",
+    "geography": "United States",
+    "status": "completed",
+    "dealType": "minority-investment",
+    "announcementDate": "2023-10-26",
+    "targetCompanyId": "langan",
+    "investorCompanyId": "towerbrook",
+    "parties": [
+      {
+        "role": "target",
+        "name": "Langan",
+        "companyId": "langan",
+        "sourceId": "pe-towerbrook-langan-2023:src-1"
+      },
+      {
+        "role": "investor",
+        "name": "TowerBrook",
+        "companyId": "towerbrook",
+        "sourceId": "pe-towerbrook-langan-2023:src-1"
+      },
+      {
+        "role": "management",
+        "name": "Langan management and employees",
+        "sourceId": "pe-towerbrook-langan-2023:src-1"
+      }
+    ],
+    "advisors": [
+      {
+        "role": "financial-advisor-seller",
+        "name": "Houlihan Lokey",
+        "companyId": "houlihan-lokey",
+        "note": "lead financial advisor target",
+        "sourceId": "pe-towerbrook-langan-2023:src-1"
+      },
+      {
+        "role": "financial-advisor-seller",
+        "name": "Baird",
+        "note": "financial advisor target",
+        "sourceId": "pe-towerbrook-langan-2023:src-1"
+      },
+      {
+        "role": "legal-counsel-seller",
+        "name": "Cleary Gottlieb",
+        "note": "legal counsel target",
+        "sourceId": "pe-towerbrook-langan-2023:src-1"
+      },
+      {
+        "role": "legal-counsel-buyer",
+        "name": "Kirkland & Ellis",
+        "companyId": "kirkland-ellis",
+        "note": "legal counsel investor",
+        "sourceId": "pe-towerbrook-langan-2023:src-1"
+      },
+      {
+        "role": "financial-advisor-buyer",
+        "name": "Blackstone Credit",
+        "note": "financing provider",
+        "sourceId": "pe-towerbrook-langan-2023:src-1"
+      },
+      {
+        "role": "financial-advisor-buyer",
+        "name": "CPP Investments",
+        "note": "financing provider",
+        "sourceId": "pe-towerbrook-langan-2023:src-1"
+      },
+      {
+        "role": "financial-advisor-buyer",
+        "name": "SMBC",
+        "note": "financing provider",
+        "sourceId": "pe-towerbrook-langan-2023:src-1"
+      }
+    ],
+    "facts": [
+      {
+        "id": "pe-towerbrook-langan-2023:fact-1",
+        "dealId": "pe-towerbrook-langan-2023",
+        "factType": "target_company",
+        "factValue": "Langan",
+        "normalizedValue": "langan",
+        "sourceId": "pe-towerbrook-langan-2023:src-1",
+        "evidenceChunkId": "pe-towerbrook-langan-2023:evidence-1",
+        "evidenceText": "TowerBrook announced the minority investment and named the deal lead, target CEO, financing providers, and advisor firms.",
+        "confidence": 0.91,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-towerbrook-langan-2023:fact-2",
+        "dealId": "pe-towerbrook-langan-2023",
+        "factType": "buyer_or_investor",
+        "factValue": "TowerBrook",
+        "sourceId": "pe-towerbrook-langan-2023:src-1",
+        "evidenceChunkId": "pe-towerbrook-langan-2023:evidence-2",
+        "evidenceText": "TowerBrook announced the minority investment and named the deal lead, target CEO, financing providers, and advisor firms.",
+        "confidence": 0.89,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-towerbrook-langan-2023:fact-3",
+        "dealId": "pe-towerbrook-langan-2023",
+        "factType": "deal_type",
+        "factValue": "minority investment",
+        "sourceId": "pe-towerbrook-langan-2023:src-1",
+        "evidenceChunkId": "pe-towerbrook-langan-2023:evidence-3",
+        "evidenceText": "TowerBrook announced the minority investment and named the deal lead, target CEO, financing providers, and advisor firms.",
+        "confidence": 0.86,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-towerbrook-langan-2023:fact-4",
+        "dealId": "pe-towerbrook-langan-2023",
+        "factType": "announcement_date",
+        "factValue": "2023-10-26",
+        "sourceId": "pe-towerbrook-langan-2023:src-1",
+        "evidenceChunkId": "pe-towerbrook-langan-2023:evidence-4",
+        "evidenceText": "TowerBrook announced the minority investment and named the deal lead, target CEO, financing providers, and advisor firms.",
+        "confidence": 0.84,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-towerbrook-langan-2023:fact-5",
+        "dealId": "pe-towerbrook-langan-2023",
+        "factType": "theme",
+        "factValue": "clean energy advisory",
+        "sourceId": "pe-towerbrook-langan-2023:src-1",
+        "evidenceChunkId": "pe-towerbrook-langan-2023:evidence-5",
+        "evidenceText": "Engineering and environmental-consulting platform serving land development, public agencies, corporate clients, and the energy industry.",
+        "confidence": 0.84,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-towerbrook-langan-2023:fact-6",
+        "dealId": "pe-towerbrook-langan-2023",
+        "factType": "investment_relevance",
+        "factValue": "Engineering and environmental-consulting platform serving land development, public agencies, corporate clients, and the energy industry.",
+        "sourceId": "pe-towerbrook-langan-2023:src-1",
+        "evidenceChunkId": "pe-towerbrook-langan-2023:evidence-6",
+        "evidenceText": "Engineering and environmental-consulting platform serving land development, public agencies, corporate clients, and the energy industry.",
+        "confidence": 0.82,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-towerbrook-langan-2023:fact-7",
+        "dealId": "pe-towerbrook-langan-2023",
+        "factType": "advisors",
+        "factValue": "Houlihan Lokey (lead financial advisor target); Baird (financial advisor target); Cleary Gottlieb (legal counsel target); Kirkland & Ellis (legal counsel investor); Blackstone Credit (financing provider); CPP Investments (financing provider); SMBC (financing provider)",
+        "sourceId": "pe-towerbrook-langan-2023:src-1",
+        "evidenceChunkId": "pe-towerbrook-langan-2023:evidence-7",
+        "evidenceText": "TowerBrook announced the minority investment and named the deal lead, target CEO, financing providers, and advisor firms.",
+        "confidence": 0.84,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-towerbrook-langan-2023:fact-8",
+        "dealId": "pe-towerbrook-langan-2023",
+        "factType": "named_people",
+        "factValue": "Walter Weil (towerbrook deal lead); David T. Gockel (target ceo)",
+        "sourceId": "pe-towerbrook-langan-2023:src-1",
+        "evidenceChunkId": "pe-towerbrook-langan-2023:evidence-8",
+        "evidenceText": "TowerBrook announced the minority investment and named the deal lead, target CEO, financing providers, and advisor firms.",
+        "confidence": 0.82,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-towerbrook-langan-2023:fact-10",
+        "dealId": "pe-towerbrook-langan-2023",
+        "factType": "transaction_value",
+        "factValue": "not_disclosed",
+        "sourceId": "pe-towerbrook-langan-2023:src-1",
+        "evidenceChunkId": "pe-towerbrook-langan-2023:evidence-10",
+        "evidenceText": "No transaction value was disclosed in the public source set.",
+        "confidence": 0.72,
+        "extractionMethod": "curated",
+        "reviewStatus": "not_disclosed"
+      }
+    ],
+    "sourceIds": [
+      "pe-towerbrook-langan-2023:src-1"
+    ],
+    "sources": [
+      {
+        "title": "Langan announces partnership with TowerBrook Capital Partners",
+        "publisher": "TowerBrook",
+        "url": "https://www.towerbrook.com/us/langan-announces-partnership-with-towerbrook-capital-partners/"
+      }
+    ],
+    "investmentRelevance": "Engineering and environmental-consulting platform serving land development, public agencies, corporate clients, and the energy industry.",
+    "strategicRationale": "towerbrook: structured opportunities",
+    "companiesSurfaced": [
+      "langan",
+      "towerbrook",
+      "houlihan-lokey",
+      "kirkland-ellis"
+    ],
+    "expertsSurfaced": [],
+    "missingFacts": [
+      "transaction_value",
+      "completion_date",
+      "towerbrook_stake",
+      "named_advisor_individuals",
+      "post_deal_board"
+    ],
+    "followUpSearches": [
+      "\"Langan\" \"TowerBrook makes minority investment in Langan\" transaction value",
+      "\"Langan\" \"TowerBrook\" legal counsel financial advisor",
+      "\"Langan\" management rollover debt financing",
+      "\"Houlihan Lokey\" \"Langan\" lead financial advisor target",
+      "\"Baird\" \"Langan\" financial advisor target"
+    ],
+    "confidence": 0.79
+  },
+  {
+    "id": "pe-towerbrook-envevo-2023",
+    "name": "TowerBrook invests in Envevo",
+    "theme": "grid-infrastructure",
+    "geography": "United Kingdom",
+    "status": "completed",
+    "dealType": "minority-investment",
+    "announcementDate": "2023-04-24",
+    "targetCompanyId": "envevo",
+    "investorCompanyId": "towerbrook",
+    "parties": [
+      {
+        "role": "target",
+        "name": "Envevo",
+        "companyId": "envevo",
+        "sourceId": "pe-towerbrook-envevo-2023:src-1"
+      },
+      {
+        "role": "investor",
+        "name": "TowerBrook",
+        "companyId": "towerbrook",
+        "sourceId": "pe-towerbrook-envevo-2023:src-1"
+      },
+      {
+        "role": "investor",
+        "name": "BW Ventures",
+        "sourceId": "pe-towerbrook-envevo-2023:src-1"
+      },
+      {
+        "role": "management",
+        "name": "Gordon Holmes",
+        "personId": "gordon-holmes",
+        "note": "towerbrook deal lead; public deal-source evidence only",
+        "sourceId": "pe-towerbrook-envevo-2023:src-1"
+      },
+      {
+        "role": "management",
+        "name": "Michael Kennedy",
+        "personId": "michael-kennedy-envevo",
+        "note": "target ceo; public deal-source evidence only",
+        "sourceId": "pe-towerbrook-envevo-2023:src-1"
+      }
+    ],
+    "advisors": [
+      {
+        "role": "legal-counsel-buyer",
+        "name": "Goodwin",
+        "note": "legal counsel investor",
+        "sourceId": "pe-towerbrook-envevo-2023:src-1"
+      }
+    ],
+    "facts": [
+      {
+        "id": "pe-towerbrook-envevo-2023:fact-1",
+        "dealId": "pe-towerbrook-envevo-2023",
+        "factType": "target_company",
+        "factValue": "Envevo",
+        "normalizedValue": "envevo",
+        "sourceId": "pe-towerbrook-envevo-2023:src-1",
+        "evidenceChunkId": "pe-towerbrook-envevo-2023:evidence-1",
+        "evidenceText": "TowerBrook announced the investment, named its CIO and Envevo CEO, and identified BW Ventures as the investor being replaced.",
+        "confidence": 0.91,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-towerbrook-envevo-2023:fact-2",
+        "dealId": "pe-towerbrook-envevo-2023",
+        "factType": "buyer_or_investor",
+        "factValue": "TowerBrook",
+        "sourceId": "pe-towerbrook-envevo-2023:src-1",
+        "evidenceChunkId": "pe-towerbrook-envevo-2023:evidence-2",
+        "evidenceText": "TowerBrook announced the investment, named its CIO and Envevo CEO, and identified BW Ventures as the investor being replaced.",
+        "confidence": 0.89,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-towerbrook-envevo-2023:fact-3",
+        "dealId": "pe-towerbrook-envevo-2023",
+        "factType": "deal_type",
+        "factValue": "strategic investment",
+        "sourceId": "pe-towerbrook-envevo-2023:src-1",
+        "evidenceChunkId": "pe-towerbrook-envevo-2023:evidence-3",
+        "evidenceText": "TowerBrook announced the investment, named its CIO and Envevo CEO, and identified BW Ventures as the investor being replaced.",
+        "confidence": 0.86,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-towerbrook-envevo-2023:fact-4",
+        "dealId": "pe-towerbrook-envevo-2023",
+        "factType": "announcement_date",
+        "factValue": "2023-04-24",
+        "sourceId": "pe-towerbrook-envevo-2023:src-1",
+        "evidenceChunkId": "pe-towerbrook-envevo-2023:evidence-4",
+        "evidenceText": "TowerBrook announced the investment, named its CIO and Envevo CEO, and identified BW Ventures as the investor being replaced.",
+        "confidence": 0.84,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-towerbrook-envevo-2023:fact-5",
+        "dealId": "pe-towerbrook-envevo-2023",
+        "factType": "theme",
+        "factValue": "grid infrastructure",
+        "sourceId": "pe-towerbrook-envevo-2023:src-1",
+        "evidenceChunkId": "pe-towerbrook-envevo-2023:evidence-5",
+        "evidenceText": "End-to-end EV-charging and renewable-energy engineering-services platform with an inorganic-growth strategy.",
+        "confidence": 0.84,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-towerbrook-envevo-2023:fact-6",
+        "dealId": "pe-towerbrook-envevo-2023",
+        "factType": "investment_relevance",
+        "factValue": "End-to-end EV-charging and renewable-energy engineering-services platform with an inorganic-growth strategy.",
+        "sourceId": "pe-towerbrook-envevo-2023:src-1",
+        "evidenceChunkId": "pe-towerbrook-envevo-2023:evidence-6",
+        "evidenceText": "End-to-end EV-charging and renewable-energy engineering-services platform with an inorganic-growth strategy.",
+        "confidence": 0.82,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-towerbrook-envevo-2023:fact-7",
+        "dealId": "pe-towerbrook-envevo-2023",
+        "factType": "advisors",
+        "factValue": "Goodwin (legal counsel investor)",
+        "sourceId": "pe-towerbrook-envevo-2023:src-1",
+        "evidenceChunkId": "pe-towerbrook-envevo-2023:evidence-7",
+        "evidenceText": "TowerBrook announced the investment, named its CIO and Envevo CEO, and identified BW Ventures as the investor being replaced.",
+        "confidence": 0.84,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-towerbrook-envevo-2023:fact-8",
+        "dealId": "pe-towerbrook-envevo-2023",
+        "factType": "named_people",
+        "factValue": "Gordon Holmes (towerbrook deal lead); Michael Kennedy (target ceo); Saya Sharma (legal counsel investor); George Fagan (legal counsel investor); Megan Gibson (legal counsel investor); Patrick Clarke (finance counsel investor)",
+        "sourceId": "pe-towerbrook-envevo-2023:src-1",
+        "evidenceChunkId": "pe-towerbrook-envevo-2023:evidence-8",
+        "evidenceText": "TowerBrook announced the investment, named its CIO and Envevo CEO, and identified BW Ventures as the investor being replaced.",
+        "confidence": 0.82,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "pe-towerbrook-envevo-2023:fact-10",
+        "dealId": "pe-towerbrook-envevo-2023",
+        "factType": "transaction_value",
+        "factValue": "not_disclosed",
+        "sourceId": "pe-towerbrook-envevo-2023:src-1",
+        "evidenceChunkId": "pe-towerbrook-envevo-2023:evidence-10",
+        "evidenceText": "No transaction value was disclosed in the public source set.",
+        "confidence": 0.72,
+        "extractionMethod": "curated",
+        "reviewStatus": "not_disclosed"
+      }
+    ],
+    "sourceIds": [
+      "pe-towerbrook-envevo-2023:src-1",
+      "pe-towerbrook-envevo-2023:src-2"
+    ],
+    "sources": [
+      {
+        "title": "Envevo welcomes TowerBrook as a strategic investor",
+        "publisher": "TowerBrook",
+        "url": "https://www.towerbrook.com/portfolio/envevo/"
+      },
+      {
+        "title": "Goodwin Advises TowerBrook on Acquisition of Stake in Envevo",
+        "publisher": "Goodwin",
+        "url": "https://www.goodwinlaw.com/en/news-and-events/news/2023/04/04_28-goodwin-advises-towerbrook-on-acquisition-of-stake-in-envevo"
+      }
+    ],
+    "investmentRelevance": "End-to-end EV-charging and renewable-energy engineering-services platform with an inorganic-growth strategy.",
+    "strategicRationale": "towerbrook: towerbrook delta",
+    "companiesSurfaced": [
+      "envevo",
+      "towerbrook"
+    ],
+    "expertsSurfaced": [
+      "gordon-holmes",
+      "michael-kennedy-envevo"
+    ],
+    "missingFacts": [
+      "transaction_value",
+      "towerbrook_stake",
+      "seller_advisors",
+      "debt_financing",
+      "add_on_acquisitions"
+    ],
+    "followUpSearches": [
+      "\"Envevo\" \"TowerBrook invests in Envevo\" transaction value",
+      "\"Envevo\" \"TowerBrook\" legal counsel financial advisor",
+      "\"Envevo\" management rollover debt financing",
+      "\"Goodwin\" \"Envevo\" legal counsel investor"
+    ],
+    "confidence": 0.8
+  },
+  {
+    "id": "bp-lightsource-bp-remaining-stake",
+    "name": "bp acquires remaining stake in Lightsource bp",
+    "theme": "clean-energy-advisory",
+    "geography": "UK / Europe",
+    "status": "completed",
+    "dealType": "acquisition",
+    "announcementDate": "2023",
+    "targetCompanyId": "lightsource-bp",
+    "buyerCompanyId": "bp",
+    "parties": [
+      {
+        "role": "target",
+        "name": "Lightsource bp",
+        "companyId": "lightsource-bp",
+        "sourceId": "bp-lsbp-1"
+      },
+      {
+        "role": "buyer",
+        "name": "bp",
+        "companyId": "bp",
+        "sourceId": "bp-lsbp-1"
+      }
+    ],
+    "advisors": [],
+    "facts": [
+      {
+        "id": "bp-lsbp-f1",
+        "dealId": "bp-lightsource-bp-remaining-stake",
+        "factType": "target_company",
+        "factValue": "Lightsource bp",
+        "normalizedValue": "lightsource-bp",
+        "sourceId": "bp-lsbp-1",
+        "evidenceChunkId": "bp-lsbp-e1",
+        "evidenceText": "bp acquired the remaining 50.03% of Lightsource bp.",
+        "confidence": 0.9,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "bp-lsbp-f2",
+        "dealId": "bp-lightsource-bp-remaining-stake",
+        "factType": "buyer",
+        "factValue": "bp",
+        "normalizedValue": "bp",
+        "sourceId": "bp-lsbp-1",
+        "evidenceChunkId": "bp-lsbp-e1",
+        "evidenceText": "bp took full ownership of Lightsource bp.",
+        "confidence": 0.88,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "bp-lsbp-f3",
+        "dealId": "bp-lightsource-bp-remaining-stake",
+        "factType": "stake_acquired",
+        "factValue": "Remaining 50.03%",
+        "normalizedValue": "50.03",
+        "sourceId": "bp-lsbp-1",
+        "evidenceChunkId": "bp-lsbp-e2",
+        "evidenceText": "The remaining stake was 50.03%.",
+        "confidence": 0.86,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "bp-lsbp-f4",
+        "dealId": "bp-lightsource-bp-remaining-stake",
+        "factType": "equity_value",
+        "factValue": "£254m",
+        "normalizedValue": "254000000 GBP",
+        "sourceId": "bp-lsbp-1",
+        "evidenceChunkId": "bp-lsbp-e2",
+        "evidenceText": "The reported consideration for the remaining stake was £254m.",
+        "confidence": 0.84,
+        "extractionMethod": "curated",
+        "reviewStatus": "verified"
+      },
+      {
+        "id": "bp-lsbp-f5",
+        "dealId": "bp-lightsource-bp-remaining-stake",
+        "factType": "financial_advisor",
+        "factValue": "not_disclosed",
+        "confidence": 0.7,
+        "extractionMethod": "curated",
+        "reviewStatus": "not_disclosed"
+      }
+    ],
+    "sourceIds": [
+      "bp-lsbp-1"
+    ],
+    "sources": [
+      {
+        "title": "bp takes full ownership of Lightsource bp",
+        "url": "https://taiyangnews.info/people/lightsource-bp-new-ceo-joaquin-oliveira",
+        "publisher": "TaiyangNews"
+      }
+    ],
+    "investmentRelevance": "Solar-development platform exit comparable showing how a strategic acquirer values scaled renewables origination, development and operating capability.",
+    "strategicRationale": "bp moved from joint ownership to full control of a solar development platform.",
+    "companiesSurfaced": [
+      "lightsource-bp",
+      "bp"
+    ],
+    "expertsSurfaced": [
+      "nick-boyle"
+    ],
+    "comparableDealIds": [
+      "mizuho-augusta-co-acquisition"
+    ],
+    "missingFacts": [
+      "completion_date",
+      "financial_advisor_to_buyer",
+      "financial_advisor_to_seller",
+      "legal_counsel_to_buyer",
+      "legal_counsel_to_seller",
+      "debt_financing"
+    ],
+    "followUpSearches": [
+      "\"Lightsource bp\" bp acquisition financial advisor",
+      "\"Lightsource bp\" bp legal counsel transaction",
+      "\"Lightsource bp\" bp completion date"
+    ],
+    "confidence": 0.84
+  }
+]

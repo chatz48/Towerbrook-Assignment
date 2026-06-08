@@ -1,0 +1,1432 @@
+{
+  "schema_version": "pipeline-clean.v1",
+  "generated_by": "scripts/data-pipeline.mjs fetch-clean",
+  "source_register": "data/source-register.json",
+  "mode": "offline_seed",
+  "documents": [
+    {
+      "source_id": "tb-gmc-release",
+      "url": "https://www.towerbrook.com/towerbrook-announces-strategic-investment-in-the-irish-infrastructure-services-provider-and-engineering-firm-gmc-group/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "TowerBrook deal announcement for an Irish infrastructure services provider active across water, gas, power, and renewables. Useful for warm-path source-backed company and investor edges. TowerBrook announces strategic investment in the Irish infrastructure services provider and engineering firm GMC Group.",
+      "cleaned_char_count": 306
+    },
+    {
+      "source_id": "swm-deals-2024",
+      "url": "https://smartwatermagazine.com/news/smart-water-magazine/major-acquisitions-water-sector-2024",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "High-density roundup for water M&A. It can surface acquirers, targets, and source-backed acquisition edges for the smart-water graph. Smart Water Magazine's 2024 water-sector acquisitions roundup names Xylem and Idrica among major deal activity.",
+      "cleaned_char_count": 245
+    },
+    {
+      "source_id": "neso-connection-reforms",
+      "url": "https://www.neso.energy/neso-implements-electricity-grid-connection-reforms-unlock-investment-great-britain",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Primary UK grid source that can justify a market-signal node and future company extraction from connection reform materials. NESO implements electricity grid connection reforms to unlock investment in Great Britain.",
+      "cleaned_char_count": 215
+    },
+    {
+      "source_id": "graph-alejandro-cremades",
+      "url": "https://alejandrocremades.com/nick-boyle/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Nick Boyle; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 122
+    },
+    {
+      "source_id": "graph-taiyangnews",
+      "url": "https://taiyangnews.info/people/lightsource-bp-new-ceo-joaquin-oliveira",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Nick Boyle; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 122
+    },
+    {
+      "source_id": "graph-green-giraffe",
+      "url": "https://green-giraffe.com/publication/news/financing-offshore-wind-is-about-finding-the-right-structure/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Jérôme Guillet; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 126
+    },
+    {
+      "source_id": "graph-windpower-monthly",
+      "url": "https://www.windpowermonthly.com/article/1320027/top-30-people-24-jerome-guillet-md-green-giraffe-bankers",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Jérôme Guillet; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 126
+    },
+    {
+      "source_id": "graph-cge-partners",
+      "url": "https://cge-partners.com/portfolio/aurora/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert John Feddersen; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 126
+    },
+    {
+      "source_id": "graph-cornwall-insight",
+      "url": "https://www.cornwall-insight.com/about-us/our-people/gareth-miller/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Gareth Miller; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 125
+    },
+    {
+      "source_id": "graph-downing",
+      "url": "https://institutional.downing.co.uk/insights-and-case-studies/downing-appoints-gareth-miller-as-chair-of-energy-markets-risk-committee",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Gareth Miller; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 125
+    },
+    {
+      "source_id": "graph-mizuho",
+      "url": "https://www.mizuhogroup.com/emea/news/2025/mizuho-completes-acquisition-of-augusta--co.html",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Mortimer Menzel; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 127
+    },
+    {
+      "source_id": "graph-augusta-co",
+      "url": "https://augustaco.com/advisory-team/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Mortimer Menzel; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 127
+    },
+    {
+      "source_id": "graph-esg-today",
+      "url": "https://www.esgtoday.com/mizuho-acquires-energy-transition-focused-investment-bank-augusta/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert James Knight; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 124
+    },
+    {
+      "source_id": "graph-octopus-energy",
+      "url": "https://octopus.energy/about-us/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Greg Jackson; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 124
+    },
+    {
+      "source_id": "graph-energy-central",
+      "url": "https://energycentral.com/c/cp/interview-james-johnston-ceo-and-co-founder-piclo",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert James Johnston; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 126
+    },
+    {
+      "source_id": "graph-smarter-grid-solutions",
+      "url": "https://www.smartergridsolutions.com/about/a-mitsubishi-electric-company",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Bob Currie; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 122
+    },
+    {
+      "source_id": "graph-the-scotsman",
+      "url": "https://www.scotsman.com/business/university-of-strathclyde-spinout-smarter-grid-solutions-acquired-by-industrial-giant-mitsubishi-3339221",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Bob Currie; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 122
+    },
+    {
+      "source_id": "graph-daily-business",
+      "url": "https://dailybusinessgroup.co.uk/2021/08/smarter-grid-solutions-acquired-by-mitsubishi/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Graham Ault; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 123
+    },
+    {
+      "source_id": "graph-frontlines-io",
+      "url": "https://www.frontlines.io/podcasts/quentin-scrimshire/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Quentin Scrimshire; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 130
+    },
+    {
+      "source_id": "graph-leaders-in-cleantech",
+      "url": "https://leadersincleantech.com/quentin-q-scrimshire-modo-energy",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Quentin Scrimshire; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 130
+    },
+    {
+      "source_id": "graph-energy-storage-news",
+      "url": "https://www.energy-storage.news/quinbrook-acquires-uk-battery-storage-optimisation-and-trading-specialist-habitat-energy/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Andrew Luers; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 124
+    },
+    {
+      "source_id": "graph-utility-week-live",
+      "url": "https://www.utilityweeklive.co.uk/innovation-advisory-board/dr-piers-clark-executive-chairman-isle-group",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Piers Clark; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 123
+    },
+    {
+      "source_id": "graph-isle-utilities",
+      "url": "https://isleutilities.com/team-member/piers-clark-phd/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Piers Clark; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 123
+    },
+    {
+      "source_id": "graph-united-utilities",
+      "url": "https://www.unitedutilities.com/corporate/newsroom/latest-news/meet-fido---the-ai-weapon-in-the-battle-to-beat-water-leaks/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Victoria Edwards; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 128
+    },
+    {
+      "source_id": "graph-microsoft-source",
+      "url": "https://news.microsoft.com/source/features/sustainability/ai-tool-uses-sound-to-pinpoint-leaky-pipes-saving-precious-drinking-water/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Victoria Edwards; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 128
+    },
+    {
+      "source_id": "graph-the-times-of-israel",
+      "url": "https://www.timesofisrael.com/outer-space-tech-used-by-israeli-startup-to-find-water-leaks-on-earth/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Lauren Guy; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 122
+    },
+    {
+      "source_id": "graph-ctech",
+      "url": "https://www.calcalistech.com/ctech/articles/0,7340,L-3901204,00.html",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Lauren Guy; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 122
+    },
+    {
+      "source_id": "graph-waterworld",
+      "url": "https://www.waterworld.com/water-utility-management/asset-management/press-release/14287941/badger-meter-acquires-syrinix-for-15m",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Paul Linford; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 124
+    },
+    {
+      "source_id": "graph-university-of-bristol",
+      "url": "https://www.bristol.ac.uk/news/2021/september/fathom-funding-.html",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Paul Bates; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 122
+    },
+    {
+      "source_id": "graph-insurance-daily-news",
+      "url": "https://insurancedailynews.com/reinsurance-news/post/swiss-re-acquires-flood-risk-modeller-fathom",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Paul Bates; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 122
+    },
+    {
+      "source_id": "graph-burnt-island-ventures",
+      "url": "https://www.burntislandventures.com/blog/burnt-island-ventures-raises-50-million-to-fund-the-development-of-critical-water-technologies-and-infrastructure",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Tom Ferguson; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 124
+    },
+    {
+      "source_id": "graph-aquatech",
+      "url": "https://www.aquatechtrade.com/masters-of-water/tom-ferguson",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Tom Ferguson; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 124
+    },
+    {
+      "source_id": "graph-recharge",
+      "url": "https://www.rechargenews.com/wind/black-to-green-trailblazer-poulsen-quits-as-ceo-of-offshore-wind-giant-orsted/2-1-826352",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Henrik Poulsen; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 126
+    },
+    {
+      "source_id": "graph-rsted",
+      "url": "https://orsted.co.uk/media/newsroom/news/2025/07/benj-sykes-uk-country-manager-thoughts-on-reform-of-the-uks-national-electricity-market",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Benj Sykes; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 122
+    },
+    {
+      "source_id": "graph-nextenergy-group",
+      "url": "https://nextenergygroup.com/people/michael-bonte-friedheim/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Michael Bonte-Friedheim; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 135
+    },
+    {
+      "source_id": "graph-low-carbon",
+      "url": "https://www.lowcarbon.com/people/founder-chief-executive-roy-bedlow",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Roy Bedlow; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 122
+    },
+    {
+      "source_id": "graph-wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Roy_Bedlow",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Roy Bedlow; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 122
+    },
+    {
+      "source_id": "graph-solar-power-portal",
+      "url": "https://www.solarpowerportal.co.uk/zenobee_confirms_c-600_million_investment_from_kkr/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Nicholas Beatty; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 127
+    },
+    {
+      "source_id": "graph-yahoo-finance",
+      "url": "https://uk.finance.yahoo.com/news/bulb-co-founder-says-latest-energy-venture-takes-very-different-approach-000100899.html",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Amit Gudka; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 122
+    },
+    {
+      "source_id": "graph-set-ventures",
+      "url": "https://setventures.com/set-ventures-portfolio-company-limejump-acquired-by-shell/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Erik Nygård; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 123
+    },
+    {
+      "source_id": "graph-wikipedia-2",
+      "url": "https://en.wikipedia.org/wiki/Gridserve",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Toddington Harper; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 129
+    },
+    {
+      "source_id": "graph-bluefield-research",
+      "url": "https://www.bluefieldresearch.com/team/reese-tisdale/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Reese Tisdale; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 125
+    },
+    {
+      "source_id": "graph-loughborough-university",
+      "url": "https://www.lboro.ac.uk/internal/research-innovation-support/commercialisation-research/case-studies/previsico/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Dapeng Yu; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 121
+    },
+    {
+      "source_id": "graph-foresight-group",
+      "url": "https://www.foresight.group/news/foresight-invests-175m-into-previsico-loughborough-based-developers-of-a-market-leading-flood-forecasting-and-warning-system",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Avi Baruch; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 122
+    },
+    {
+      "source_id": "graph-nomura-greentech",
+      "url": "https://www.nomuragreentech.com/who-we-are/jeff-mcdermott",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Jeff McDermott; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 126
+    },
+    {
+      "source_id": "graph-legal-500",
+      "url": "https://www.legal500.com/rankings/ranking/c-london/projects-energy-and-natural-resources/renewables/3483-watson-farley-williams-llp",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Martin Lucas; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 124
+    },
+    {
+      "source_id": "graph-pinsent-masons",
+      "url": "https://www.pinsentmasons.com/sectors/energy",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Ian McCarlie; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 124
+    },
+    {
+      "source_id": "graph-legal-500-2",
+      "url": "https://www.legal500.com/rankings/ranking/c-london/projects-energy-and-natural-resources/water/2251-pinsent-masons-llp",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Gordon McCreath; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 127
+    },
+    {
+      "source_id": "graph-lincoln-international",
+      "url": "https://www.lincolninternational.com/transactions/behrman-capital-has-sold-waterline-renewal-technologies-to-azuria-water-solutions-a-portfolio-company-of-new-mountain-capital/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Bobby Reifman; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 125
+    },
+    {
+      "source_id": "graph-gridbeyond",
+      "url": "https://gridbeyond.com/about-us/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Michael Phelan; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 126
+    },
+    {
+      "source_id": "graph-gridbeyond-2",
+      "url": "https://gridbeyond.com/about-us-2/investor-relations/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Michael Phelan; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 126
+    },
+    {
+      "source_id": "graph-electron",
+      "url": "https://electron.net/about/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Jo-Jo Hubbard; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 125
+    },
+    {
+      "source_id": "graph-electron-2",
+      "url": "https://electron.net/electron-resource/consumer-centric-energy-as-a-service-platform/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Jo-Jo Hubbard; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 125
+    },
+    {
+      "source_id": "graph-takadu",
+      "url": "https://www.takadu.com/leadership/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Amir Peleg; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 122
+    },
+    {
+      "source_id": "graph-takadu-2",
+      "url": "https://www.takadu.com/about-us/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Amir Peleg; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 122
+    },
+    {
+      "source_id": "graph-levelten-energy",
+      "url": "https://www.leveltenenergy.com/team/bryce-smith",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Bryce Smith; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 123
+    },
+    {
+      "source_id": "graph-levelten-energy-2",
+      "url": "https://www.leveltenenergy.com/post/levelten-launches-renewable-energy-marketplace",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Bryce Smith; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 123
+    },
+    {
+      "source_id": "graph-enverus",
+      "url": "https://www.enverus.com/newsroom/enverus-rises-to-meet-solar-planning-challenges-with-acquisition-of-ratedpower/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Andrea Barber; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 125
+    },
+    {
+      "source_id": "graph-ratedpower",
+      "url": "https://ratedpower.com/blog/smart-energy-flow/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Andrea Barber; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 125
+    },
+    {
+      "source_id": "graph-pexapark",
+      "url": "https://pexapark.com/wp-content/uploads/2024/03/Media-Resources.pdf",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Michael Waldner; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 127
+    },
+    {
+      "source_id": "graph-risk-net",
+      "url": "https://www.risk.net/commodities/7547256/innovation-of-the-year-pexapark",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Michael Waldner; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 127
+    },
+    {
+      "source_id": "graph-qatium",
+      "url": "https://qatium.com/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Dragan Savic; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 124
+    },
+    {
+      "source_id": "graph-badger-meter",
+      "url": "https://www.badgermeter.com/newsroom/smartcover/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Corey Williams; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 126
+    },
+    {
+      "source_id": "graph-xpv-water-partners",
+      "url": "https://xpvwaterpartners.com/insights/news/2025/01/31/xpv-water-partners-announces-sale-of-smartcover-to-badger-meter",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Sam Saintonge; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 125
+    },
+    {
+      "source_id": "graph-xylem",
+      "url": "https://xyleminc.gcs-web.com/news-releases/news-release-details/xylem-acquires-majority-stake-idrica-empower-water-utilities",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Matthew Pine; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 124
+    },
+    {
+      "source_id": "graph-idrica",
+      "url": "https://www.idrica.com/about-us/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Jaime Barba; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 123
+    },
+    {
+      "source_id": "graph-new-mountain-capital",
+      "url": "https://www.newmountaincapital.com/team/joe-delgado/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert A. Joe Delgado; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 126
+    },
+    {
+      "source_id": "graph-business-wire",
+      "url": "https://www.businesswire.com/news/home/20260423137649/en/New-Mountain-Capital-Completes-Combination-of-Azuria-Water-Solutions-and-Inframark",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert A. Joe Delgado; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 126
+    },
+    {
+      "source_id": "graph-ropes-gray",
+      "url": "https://www.ropesgray.com/en/news-and-events/news/2026/04/ropes-gray-represented-new-mountain-capital-in-combination-of-azuria-water-solutions-and-inframark",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Carl Marcellino; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 127
+    },
+    {
+      "source_id": "graph-enverus-2",
+      "url": "https://www.enverus.com/newsroom/undo-the-queue-enverus-acquires-pearl-street-technologies-to-solve-for-a-more-reliable-resilient-grid/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert David Bromberg; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 126
+    },
+    {
+      "source_id": "graph-pearl-street-technologies",
+      "url": "https://pearlstreettechnologies.com/about-us/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert David Bromberg; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 126
+    },
+    {
+      "source_id": "graph-enverus-3",
+      "url": "https://www.enverus.com/newsroom/enverus-to-acquire-sbs-to-power-ai-driven-utility-planning-and-engineering/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Dennis Beck; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 123
+    },
+    {
+      "source_id": "graph-spatial-business-systems",
+      "url": "https://www.spatialbiz.com/about-us/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Dennis Beck; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 123
+    },
+    {
+      "source_id": "graph-siemens-energy",
+      "url": "https://www.siemens-energy.com/global/en/home/press-releases/Siemens_Energy_expands_capabilities_with_Camlin_Group_acquisition.html",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Peter Cunningham; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 128
+    },
+    {
+      "source_id": "graph-camlin-group",
+      "url": "https://camlingroup.com/en-us/about",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Peter Cunningham; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 128
+    },
+    {
+      "source_id": "graph-business-wire-2",
+      "url": "https://www.businesswire.com/news/home/20220511005251/en/Climate-AI-Pioneer-AutoGrid-to-Be-Acquired-by-Schneider-Electric",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Amit Narayan; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 124
+    },
+    {
+      "source_id": "graph-schneider-electric",
+      "url": "https://www.se.com/us/en/about-us/newsroom/news/press-releases/schneider-electric-appoints-ruben-llanes-as-chief-executive-officer-of-autogrid-640039dec74788ce0f066e32",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Ruben Llanes; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 124
+    },
+    {
+      "source_id": "graph-octopus-energy-2",
+      "url": "https://octopus.energy/press/octopus-energy-groups-kraken-acquires-swiss-energy-tech-firm-depsys/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Devrim Celal; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 124
+    },
+    {
+      "source_id": "graph-scout-clean-energy",
+      "url": "https://www.scoutcleanenergy.com/news/scout-clean-energy-acquired-by-brookfields",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Michael Rucker; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 126
+    },
+    {
+      "source_id": "graph-quinbrook",
+      "url": "https://www.quinbrook.com/portfolio/scout-clean-energy/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Michael Rucker; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 126
+    },
+    {
+      "source_id": "graph-brookfield-renewable",
+      "url": "https://bep.brookfield.com/about-us/leadership",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Connor Teskey; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 125
+    },
+    {
+      "source_id": "graph-quinbrook-2",
+      "url": "https://www.quinbrook.com/team/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert David Scaysbrook; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 128
+    },
+    {
+      "source_id": "graph-recurrent-energy",
+      "url": "https://recurrentenergy.com/it/recurrent-energy-announces-initial-closing-investment-from-blackrock/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert David Giordano; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 126
+    },
+    {
+      "source_id": "graph-blackrock",
+      "url": "https://ir.blackrock.com/news-and-events/press-releases/press-releases-details/2024/BlackRock-Completes-Acquisition-of-Global-Infrastructure-Partners/default.aspx",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Adebayo Ogunlesi; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 128
+    },
+    {
+      "source_id": "graph-blackrock-2",
+      "url": "https://www.blackrock.com/corporate/newsroom/press-releases/article/corporate-one/press-releases/blackRock-agrees-to-acquire-global-infrastructure-partners",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Adebayo Ogunlesi; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 128
+    },
+    {
+      "source_id": "graph-zenobe",
+      "url": "https://www.zenobe.com/about-us/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert James Basden; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 124
+    },
+    {
+      "source_id": "graph-zenobe-2",
+      "url": "https://www.zenobe.com/news-and-events/zenobe-new-investment-kkr-infracapital/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert James Basden; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 124
+    },
+    {
+      "source_id": "graph-zenobe-pr-newswire",
+      "url": "https://www.prnewswire.com/news-releases/zenob-debuts-its-north-america-electric-fleet-and-network-infrastructure-leaders-302170225.html",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Steven Meersman; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 127
+    },
+    {
+      "source_id": "graph-a-o-shearman",
+      "url": "https://www.aoshearman.com/en-gb/global/news-and-insights/news/ao-advises-zenobe-energy-on-investment-from-kkr-and-infracapital",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Richard Evans; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 125
+    },
+    {
+      "source_id": "graph-hogan-lovells",
+      "url": "https://www.hoganlovells.com/en/news/hogan-lovells-advises-infracapital-partners-greenfield-fund-ii-on-its-investment-in-zenobe",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Philip Brown; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 124
+    },
+    {
+      "source_id": "graph-hogan-lovells-2",
+      "url": "https://www.hoganlovells.com/en/philip-brown",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Philip Brown; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 124
+    },
+    {
+      "source_id": "graph-debevoise-plimpton",
+      "url": "https://www.debevoise.com/news/2023/09/debevoise-advises-pantheon-in-investment-in",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Geoffrey Burgess; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 128
+    },
+    {
+      "source_id": "graph-uria-menendez",
+      "url": "https://www.uria.com/en/prensa/1367-uria-menendez-asesora-a-brookfield-asset-management-en-la-venta-de-saeta-yield-a-masdar",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Manuel Echenique Sanjurjo; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 137
+    },
+    {
+      "source_id": "graph-g-advisory",
+      "url": "https://www.g-advisory.com/en/news/masdar-expands-its-presence-in-renewables-in-spain-and-portugal-with-the-e1-2-billion-purchase-of-saeta-yield-from-brookfield",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Eduardo Pedregosa; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 129
+    },
+    {
+      "source_id": "graph-masdar-pr-newswire",
+      "url": "https://www.prnewswire.com/news-releases/masdar-to-acquire-saeta-from-brookfield-for-1-4-billion-302256978.html",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Alvaro Perez de Lema; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 132
+    },
+    {
+      "source_id": "graph-masdar",
+      "url": "https://masdar.ae/en/news/newsroom/masdar-closes-saeta-acquisition-to-strengthen-footprint-in-iberian-peninsula",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Alvaro Perez de Lema; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 132
+    },
+    {
+      "source_id": "graph-harris-williams",
+      "url": "https://www.harriswilliams.com/our-insights/harris-williams-advises-qualus-power-services-its-sale-new-mountain-capital-0",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Drew Spitzer; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 124
+    },
+    {
+      "source_id": "graph-harris-williams-2",
+      "url": "https://www.harriswilliams.com/transactions/epi-new-mountain-capital-continuation-vehicle-for-azuria-water-solutions-inframark",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Drew Spitzer; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 124
+    },
+    {
+      "source_id": "graph-qualus",
+      "url": "https://qualuscorp.com/qualus-ceo-succession/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Dr. Hisham Mahmoud; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 130
+    },
+    {
+      "source_id": "graph-qualus-2",
+      "url": "https://qualuscorp.com/news-insights/news/1421/clearlake-completes-acquisition-of-qualus",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Dr. Hisham Mahmoud; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 130
+    },
+    {
+      "source_id": "graph-qualus-3",
+      "url": "https://qualuscorp.com/qualus-acquires-gridbright-a-leading-power-industry-technology-solutions-firm-expanding-its-services-and-differentiated-market-position/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Dr. Hisham Mahmoud; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 130
+    },
+    {
+      "source_id": "graph-new-mountain-capital-2",
+      "url": "https://www.newmountaincapital.com/team/lars-johansson/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Lars Johansson; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 126
+    },
+    {
+      "source_id": "graph-inframark",
+      "url": "https://www.inframark.com/inframark-partners-with-new-mountain-capital-for-next-phase-of-growth/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Lars Johansson; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 126
+    },
+    {
+      "source_id": "graph-moonshot-missions",
+      "url": "https://www.moonshotmissions.org/about-us",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert George Hawkins; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 126
+    },
+    {
+      "source_id": "graph-xylem-2",
+      "url": "https://www.xylem.com/en-us/campaigns/act/infrastructure-event/bios/george-hawkins/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert George Hawkins; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 126
+    },
+    {
+      "source_id": "graph-american-water",
+      "url": "https://ir.amwater.com/governance/board-of-directors/person-details/default.aspx?ItemId=fd21316a-a4ed-4617-a9ca-c6b4029e5886",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Cheryl Norton; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 125
+    },
+    {
+      "source_id": "graph-american-water-2",
+      "url": "https://newsroom.amwater.com/2026-01-15-American-Water-Welcomes-in-the-New-Year-with-New-Ways-to-Save",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Cheryl Norton; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 125
+    },
+    {
+      "source_id": "graph-xylem-3",
+      "url": "https://www.xylem.com/en-us/about-xylem/newsroom/press-releases/xylem-completes-acquisition-of-evoqua/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Patrick Decker; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 126
+    },
+    {
+      "source_id": "graph-xylem-4",
+      "url": "https://xyleminc.gcs-web.com/news-releases/news-release-details/xylem-acquire-evoqua-75-billion-all-stock-transaction",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Patrick Decker; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 126
+    },
+    {
+      "source_id": "graph-bentley-systems",
+      "url": "https://investors.bentley.com/news-releases/news-release-details/digital-water-works-inc-receives-strategic-investment-bentley/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Paul F. Boulos; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 126
+    },
+    {
+      "source_id": "graph-trinnex",
+      "url": "https://www.trinnex.io/about-trinnex",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Amy Corriveau; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 125
+    },
+    {
+      "source_id": "graph-water-online",
+      "url": "https://www.wateronline.com/doc/trinnex-launches-ai-enabled-digital-water-platform-watercast-0001",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Amy Corriveau; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 125
+    },
+    {
+      "source_id": "graph-lazard",
+      "url": "https://www.lazard.com/our-people/george-bilicic/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert George Bilicic; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 126
+    },
+    {
+      "source_id": "graph-lazard-2",
+      "url": "https://www.lazard.com.au/news-announcements/lazard-bolsters-power-energy-infrastructure-team-as-energy-transition-shifts-industry-focus/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert George Bilicic; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 126
+    },
+    {
+      "source_id": "graph-kirkland-ellis",
+      "url": "https://www.kirkland.com/news/press-release/2026/03/kirkland-advises-consortium-led-by-gip-and-eqt-on-a-to-acquire-aes-for-33-4b-gip",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Melissa Kalka; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 125
+    },
+    {
+      "source_id": "graph-alarm-com",
+      "url": "https://investors.alarm.com/news-releases/news-release-details/alarmcom-acquires-energyhub",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Seth Frader-Thompson; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 132
+    },
+    {
+      "source_id": "graph-camus-energy",
+      "url": "https://www.camus.energy/team",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Astrid Atkinson; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 127
+    },
+    {
+      "source_id": "graph-linevision",
+      "url": "https://www.linevisioninc.com/about/leadership",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Hudson Gilmer; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 125
+    },
+    {
+      "source_id": "graph-business-wire-3",
+      "url": "https://www.businesswire.com/news/home/20211208005395/en/GE-Digital-Acquires-Opus-One-Solutions-to-Advance-the-Energy-Transition",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Joshua Wong; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 123
+    },
+    {
+      "source_id": "graph-utilidata",
+      "url": "https://utilidata.com/press-release/utilidata-names-nvidia-energy-executive-marc-spieler-to-advisory-board/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Josh Brumberger; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 127
+    },
+    {
+      "source_id": "graph-hitachi-energy",
+      "url": "https://www.hitachienergy.com/news-and-events/press-releases/2023/10/hitachi-energy-to-acquire-eks-energy",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Massimo Danieli; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 127
+    },
+    {
+      "source_id": "graph-aes",
+      "url": "https://www.aes.com/energy-insights/consortium-led-global-infrastructure-partners-and-eqt-agrees-acquire-aes",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Ian Connor; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 122
+    },
+    {
+      "source_id": "graph-brookfield-renewable-partners",
+      "url": "https://bep.brookfield.com/press-releases/brookfield-completes-acquisition-neoen",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Xavier Barbaro; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 126
+    },
+    {
+      "source_id": "graph-120water",
+      "url": "https://120water.com/company/leadership/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Megan Glover; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 124
+    },
+    {
+      "source_id": "graph-aquasight",
+      "url": "https://aquasight.io/about-us",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Mahesh Lunani; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 125
+    },
+    {
+      "source_id": "graph-ketos",
+      "url": "https://ketos.co/company/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Meena Sankaran; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 126
+    },
+    {
+      "source_id": "graph-insight-partners",
+      "url": "https://www.insightpartners.com/ideas/klir-raises-growth-funding-from-insight-partners-to-transform-water-regulatory-compliance/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert David Lynch; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 123
+    },
+    {
+      "source_id": "graph-sewerai",
+      "url": "https://www.sewerai.com/about",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Matthew Rosenthal; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 129
+    },
+    {
+      "source_id": "graph-pani-energy",
+      "url": "https://www.pani.global/company",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Devesh Bharadwaj; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 128
+    },
+    {
+      "source_id": "graph-kurita-water-industries",
+      "url": "https://www.kurita.co.jp/english/aboutus/press180522.html",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Takashi Kato; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 124
+    },
+    {
+      "source_id": "graph-constellation-energy",
+      "url": "https://investors.constellationenergy.com/news-releases/news-release-details/constellation-acquire-calpine-creates-americas-leading-producer",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Joe Dominguez; supports source-backed expert/company relationships in the curated graph. Constellation announced it would acquire Calpine to create a leading producer of clean and reliable energy and named Joe Dominguez and Andrew Novotny.",
+      "cleaned_char_count": 276
+    },
+    {
+      "source_id": "graph-energy-capital-partners",
+      "url": "https://www.ecpgp.com/about/news-and-insights/press-releases/2025/energy-capital-partners--ecp--completes-calpine-transaction--pow",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Joe Dominguez; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 125
+    },
+    {
+      "source_id": "graph-constellation-energy-2",
+      "url": "https://www.constellationenergy.com/news/2026/03/constellation-announces-agreement-to-sell-pjm-generation-assets-to-ls-power-as-part-of-ferc-us-doj-resolution-of-calpine-transaction.html",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Paul Segal; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 122
+    },
+    {
+      "source_id": "graph-kirkland-ellis-2",
+      "url": "https://www.kirkland.com/news/press-release/2025/01/kirkland-advises-constellation-energy-on-acquisition-of-calpine",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert David B. Feirstein; supports source-backed expert/company relationships in the curated graph. Kirkland advised Constellation Energy on the Calpine acquisition and named corporate and energy regulatory lawyers.",
+      "cleaned_char_count": 246
+    },
+    {
+      "source_id": "graph-white-case",
+      "url": "https://www.whitecase.com/news/press-release/white-case-advises-calpine-corp-acquisition-constellation",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Michael Shenberg; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 128
+    },
+    {
+      "source_id": "graph-latham-watkins",
+      "url": "https://www.lw.com/en/news/2026/01/latham-watkins-advises-energy-capital-partners-calpine-corporation-in-acquisition-by-constellation",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert David A. Kurzweil; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 129
+    },
+    {
+      "source_id": "graph-white-case-2",
+      "url": "https://www.whitecase.com/news/press-release/white-case-advises-ls-power-us5-billion-acquisition-pjm-generation-assets",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Joshua Teahen; supports source-backed expert/company relationships in the curated graph. White & Case advised LS Power on its $5 billion acquisition of PJM generation assets and named Joshua Teahen.",
+      "cleaned_char_count": 235
+    },
+    {
+      "source_id": "graph-cornwall-insight-2",
+      "url": "https://www.cornwall-insight.com/about-us/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for company Cornwall Insight; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 129
+    },
+    {
+      "source_id": "graph-watson-farley-williams",
+      "url": "https://www.wfw.com/sectors/energy/power-renewables/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for company Watson Farley & Williams; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 137
+    },
+    {
+      "source_id": "graph-piclo",
+      "url": "https://www.piclo.com/press-releases/piclo-scales-nationwide-in-six-months-unlocks-1gw-of-der-flexible-capacity-to-strengthen-u-s-grid",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for company Piclo; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 118
+    },
+    {
+      "source_id": "graph-habitat-energy",
+      "url": "https://habitat.energy/who-we-are/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for company Habitat Energy; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 127
+    },
+    {
+      "source_id": "graph-quinbrook-3",
+      "url": "https://www.quinbrook.com/portfolio/habitat-energy/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for company Quinbrook Infrastructure Partners; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 146
+    },
+    {
+      "source_id": "graph-edie",
+      "url": "https://www.edie.net/news/8/Shell-set-to-buy-Limejump--acquiring-large-UK-battery-storage-portfolio/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for company Shell; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 118
+    },
+    {
+      "source_id": "graph-autodesk",
+      "url": "https://adsknews.autodesk.com/en/news/autodesk-to-acquire-innovyze/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for company Innovyze; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 121
+    },
+    {
+      "source_id": "graph-water-magazine",
+      "url": "https://www.watermagazine.co.uk/2024/09/09/ffl-partners-announces-the-sale-of-ovarro-to-indicor-llc/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for company Ovarro; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 119
+    },
+    {
+      "source_id": "graph-bluefield-research-2",
+      "url": "https://www.bluefieldresearch.com/research/indicor-wades-further-into-digital-water-with-ovarro-acquisition/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for company XPV Water Partners; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 131
+    },
+    {
+      "source_id": "graph-new-mountain-capital-3",
+      "url": "https://www.newmountaincapital.com/portfolio/azuria/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for company New Mountain Capital; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 133
+    },
+    {
+      "source_id": "graph-qatium-2",
+      "url": "https://qatium.com/about/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for company Qatium; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 119
+    },
+    {
+      "source_id": "graph-haskoning",
+      "url": "https://www.haskoning.com/en/twinn/suites/aquasuite",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for company Haskoning Aquasuite; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 132
+    },
+    {
+      "source_id": "graph-houlihan-lokey",
+      "url": "https://hl.com/about-us/transactions/smartcover-xpv-water-partners-badger-meter/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for company Houlihan Lokey; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 127
+    },
+    {
+      "source_id": "graph-xylem-5",
+      "url": "https://www.xylem.com/siteassets/investors/2024-xylem-annual-report-and-10-k.pdf",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for company Xylem; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 118
+    },
+    {
+      "source_id": "graph-azuria",
+      "url": "https://www.azuria.com/news/2026/feb/azuria-announces-acquisition-of-waterline-renewal-technologies",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for company Waterline Renewal Technologies; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 143
+    },
+    {
+      "source_id": "graph-behrman-capital",
+      "url": "https://www.behrmancap.com/behrman-capital-sells-portfolio-company-waterline-renewal-technologies-to-azuria-water-solutions-a-new-mountain-capital-company/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for company Waterline Renewal Technologies; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 143
+    },
+    {
+      "source_id": "graph-siemens-energy-2",
+      "url": "https://assets.siemens-energy.com/dam/32b27e9a-af91-4915-8b51-b3af012d0d98/A-Siemens_Energy_Annual_Report_2025-pdf_Original%20file.pdf",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for company Siemens Energy; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 127
+    },
+    {
+      "source_id": "graph-brookfield",
+      "url": "https://www.brookfield.com/our-businesses/renewable-power",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for company Brookfield Renewable; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 133
+    },
+    {
+      "source_id": "graph-infracapital",
+      "url": "https://www.infracapital.co.uk/news/2023/infracapital-forms-strategic-partnership-with-kkr",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for company Infracapital; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 125
+    },
+    {
+      "source_id": "graph-new-mountain-capital-4",
+      "url": "https://www.newmountaincapital.com/portfolio/qualus-power-services/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for company Qualus; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 119
+    },
+    {
+      "source_id": "graph-dc-water",
+      "url": "https://www.dcwater.com/about-dc-water",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for company DC Water; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 121
+    },
+    {
+      "source_id": "graph-american-water-3",
+      "url": "https://www.amwater.com/corp/About-Us/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for company American Water; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 127
+    },
+    {
+      "source_id": "graph-the-water-research-foundation",
+      "url": "https://www.waterrf.org/sites/default/files/file/2024-02/Norton-Profile.pdf",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for company The Water Research Foundation; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 142
+    },
+    {
+      "source_id": "graph-bentley-systems-2",
+      "url": "https://investors.bentley.com/news-releases/news-release-details/bentley-systems-announces-acquisitions-sensemetrics-and-vista/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for company Bentley Systems; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 128
+    },
+    {
+      "source_id": "graph-eqt",
+      "url": "https://eqtgroup.com/news/consortium-led-by-global-infrastructure-partners-and-eqt-agrees-to-acquire-aes-2026-03-02",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for company EQT Infrastructure; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 131
+    },
+    {
+      "source_id": "graph-powin",
+      "url": "https://www.powin.com/news/powin-completes-sale-of-eks-energy-to-hitachi-energy",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for company eks Energy; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 123
+    },
+    {
+      "source_id": "graph-baker-mckenzie",
+      "url": "https://www.bakermckenzie.com/en/newsroom/2025/07/h2o-america-usd-540-million-acquisition-of-quadvest",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Leif King; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 121
+    },
+    {
+      "source_id": "graph-freshfields",
+      "url": "https://www.freshfields.com/en-gb/news/2026/01/freshfields-advises-aurelius-on-acquisition-of-xylems-smart-metering-business/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Elizabeth Oberholzer; supports source-backed expert/company relationships in the curated graph. Freshfields advised AURELIUS on the acquisition of Xylem's Smart Metering Business and named its legal team.",
+      "cleaned_char_count": 241
+    },
+    {
+      "source_id": "graph-white-case-3",
+      "url": "https://www.whitecase.com/news/press-release/white-case-advises-inflection-point-acquisition-corp-iii-business-combination-a1r",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Joel L. Rubinstein; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 130
+    },
+    {
+      "source_id": "graph-gibson-dunn",
+      "url": "https://www.gibsondunn.com/gibson-dunn-advises-platinum-equity-and-its-portfolio-company-solenis-on-the-acquisition-of-nch-corporation/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Ari Lanin; supports source-backed expert/company relationships in the curated graph. Gibson Dunn advised Platinum Equity and Solenis on the acquisition of NCH Corporation and named Ari Lanin, Evan D'Amico and Daniela Stolman.",
+      "cleaned_char_count": 262
+    },
+    {
+      "source_id": "graph-solenis",
+      "url": "https://www.solenis.com/en/resources/news-releases/2025/solenis-to-acquire-nch-corporation/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert John Panichella; supports source-backed expert/company relationships in the curated graph. Solenis announced it would acquire NCH Corporation and named John Panichella and Jacob Kotzubei in the release.",
+      "cleaned_char_count": 239
+    },
+    {
+      "source_id": "graph-gradiant",
+      "url": "https://www.gradiant.com/about/leadership/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Prakash Govindan; supports source-backed expert/company relationships in the curated graph. Gradiant leadership materials identify Anurag Bajpayee and Prakash Govindan as company co-founders and senior operators.",
+      "cleaned_char_count": 249
+    },
+    {
+      "source_id": "graph-gradiant-2",
+      "url": "https://www.gradiant.com/news/gradiant-acquires-he-group/",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Prakash Govindan; supports source-backed expert/company relationships in the curated graph. Gradiant announced the acquisition of H+E Group, expanding industrial water and wastewater treatment engineering capabilities.",
+      "cleaned_char_count": 255
+    },
+    {
+      "source_id": "graph-h2o-america",
+      "url": "https://www.h2o-america.com/news-releases/news-release-details/h2o-america-significantly-expands-texas-footprint-texas",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Andrew F. Walters; supports source-backed expert/company relationships in the curated graph. H2O America announced that its Texas subsidiary agreed to acquire Quadvest and named Andrew Walters, Aundrea Williams and Simon Sequeira in the transaction release.",
+      "cleaned_char_count": 294
+    },
+    {
+      "source_id": "graph-h2o-america-2",
+      "url": "https://www.h2o-america.com/news-releases/news-release-details/h2o-america-announces-2025-financial-results-and-updated-five",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Andrew F. Walters; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 129
+    },
+    {
+      "source_id": "graph-american-water-4",
+      "url": "https://newsroom.amwater.com/2024-12-12-American-Water-Announces-State-Leadership-Changes-and-New-Customer-Strategy-Role",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Lynnae Wilson; supports source-backed expert/company relationships in the curated graph. American Water announced a new customer strategy role and referenced customer service and technology coordination across the enterprise.",
+      "cleaned_char_count": 262
+    },
+    {
+      "source_id": "graph-american-water-5",
+      "url": "https://newsroom.amwater.com/2025-06-09-From-PFAS-Treatment-to-Public-Trust-How-American-Water-is-Shaping-the-Future-at-ACE25?asPDF=1",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Deb Degillio; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 124
+    },
+    {
+      "source_id": "graph-american-water-6",
+      "url": "https://authoring-amwater-prod.awapps.com/press-room/press-releases/corporate/american-water-highlights-digital-options-to-manage-your-customer-account-and-stay-informed",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Matthew Prine; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 125
+    },
+    {
+      "source_id": "graph-j-p-morgan",
+      "url": "https://www.jpmorgan.com/insights/banking/investment-banking/water-resilience",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Vamsi Alla; supports source-backed expert/company relationships in the curated graph. J.P. Morgan published water resilience work with ERM and named Vamsi Alla, Pradipta Parhi and Mark Lee as authors/contributors.",
+      "cleaned_char_count": 250
+    },
+    {
+      "source_id": "graph-porter-hedges",
+      "url": "https://www.porterhedges.com/newsroom-news-porter-hedges-represents-quadvest-in-its-540-million-sale-to-h2o-america",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Joseph L. Morrel; supports source-backed expert/company relationships in the curated graph. Porter Hedges announced it represented Quadvest in its $540 million sale to H2O America and named transaction lawyers.",
+      "cleaned_char_count": 247
+    },
+    {
+      "source_id": "graph-sullivan-cromwell",
+      "url": "https://www.sullcrom.com/About/News-and-Events/Highlights/2026/March/SC-Advises-H2O-America-700-Million-Common-Stock-Offering",
+      "fetched": false,
+      "fetch_status": "offline_seed",
+      "cleaned_text": "Production graph evidence for expert Robert W. Downes; supports source-backed expert/company relationships in the curated graph.",
+      "cleaned_char_count": 128
+    }
+  ]
+}

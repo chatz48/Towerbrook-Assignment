@@ -1,0 +1,1950 @@
+{
+  "schema_version": "investment-census-candidates.v1",
+  "generated_at": "2026-06-04",
+  "generated_by": "scripts/build-investment-census.mjs",
+  "review_policy": "This file contains public-source research candidates. It must not write directly to canonical deals, experts, companies or graph relationships.",
+  "scope": {
+    "objective": "Begin a deal-led census of major and recent investments across the three TowerBrook themes.",
+    "recent_window_start": "2024-06-04",
+    "methodology": "Tier 1 landmark investments plus material recent investments, prioritized by structural materiality, current activity and missing-information value."
+  },
+  "score_method": {
+    "research_priority": "45% structural materiality + 40% current activity + 15% missing-information value",
+    "structural_materiality": "Value band + theme relevance + control/platform significance + strategic significance + actor importance + follow-on impact",
+    "current_activity": "Recency + pending/recent status + follow-on impact + actor momentum + fresh source signals"
+  },
+  "coverage": {
+    "total_candidates": 17,
+    "tier_1": 9,
+    "tier_2": 8,
+    "by_theme": {
+      "clean-energy-advisory": {
+        "candidates": 5,
+        "tier_1": 4,
+        "tier_2": 1,
+        "disclosed_value_candidates": 4,
+        "unresolved_people": 9,
+        "unresolved_organizations": 24
+      },
+      "grid-infrastructure": {
+        "candidates": 5,
+        "tier_1": 2,
+        "tier_2": 3,
+        "disclosed_value_candidates": 3,
+        "unresolved_people": 5,
+        "unresolved_organizations": 12
+      },
+      "smart-water": {
+        "candidates": 7,
+        "tier_1": 3,
+        "tier_2": 4,
+        "disclosed_value_candidates": 7,
+        "unresolved_people": 7,
+        "unresolved_organizations": 13
+      }
+    }
+  },
+  "candidates": [
+    {
+      "id": "census-aes-gip-eqt-2026",
+      "theme": "clean-energy-advisory",
+      "tier": 1,
+      "name": "GIP- and EQT-led consortium agrees to acquire AES",
+      "announcementDate": "2026-03-02",
+      "status": "pending",
+      "geography": "Americas",
+      "transactionType": "take-private",
+      "value": {
+        "amountMillions": 33400,
+        "currency": "USD",
+        "basis": "enterprise_value",
+        "disclosed": true
+      },
+      "target": {
+        "name": "AES",
+        "canonical_id": "aes",
+        "canonical_match_status": "exact_name_match"
+      },
+      "parties": [
+        {
+          "role": "investor",
+          "name": "Global Infrastructure Partners",
+          "canonical_id": "global-infrastructure-partners",
+          "canonical_match_status": "exact_name_match"
+        },
+        {
+          "role": "investor",
+          "name": "EQT Infrastructure",
+          "canonical_id": "eqt-infrastructure",
+          "canonical_match_status": "exact_name_match"
+        },
+        {
+          "role": "co-investor",
+          "name": "CalPERS",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved"
+        },
+        {
+          "role": "co-investor",
+          "name": "Qatar Investment Authority",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved"
+        }
+      ],
+      "people": [
+        {
+          "role": "target-ceo",
+          "name": "Andrés Gluski",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved",
+          "organization": "AES",
+          "organization_canonical_id": "aes"
+        },
+        {
+          "role": "investor-lead",
+          "name": "Adebayo Ogunlesi",
+          "canonical_id": "adebayo-ogunlesi",
+          "canonical_match_status": "exact_name_match",
+          "organization": "Global Infrastructure Partners",
+          "organization_canonical_id": "global-infrastructure-partners"
+        },
+        {
+          "role": "investor-lead",
+          "name": "Masoud Homayoun",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved",
+          "organization": "EQT Infrastructure",
+          "organization_canonical_id": "eqt-infrastructure"
+        },
+        {
+          "role": "target-chair",
+          "name": "Jay Morse",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved",
+          "organization": "AES",
+          "organization_canonical_id": "aes"
+        }
+      ],
+      "advisors": [
+        {
+          "role": "financial-advisor-target",
+          "name": "J.P. Morgan",
+          "canonical_id": "jp-morgan",
+          "canonical_match_status": "exact_name_match"
+        },
+        {
+          "role": "financial-advisor-target",
+          "name": "Wells Fargo Securities",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved"
+        },
+        {
+          "role": "legal-counsel-target",
+          "name": "Skadden",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved"
+        },
+        {
+          "role": "debt-legal-advisor-target",
+          "name": "Davis Polk",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved"
+        },
+        {
+          "role": "financial-advisor-investor",
+          "name": "Goldman Sachs",
+          "canonical_id": "goldman-sachs",
+          "canonical_match_status": "exact_name_match"
+        },
+        {
+          "role": "financial-advisor-investor",
+          "name": "Citi",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved"
+        },
+        {
+          "role": "legal-counsel-investor",
+          "name": "Kirkland & Ellis",
+          "canonical_id": "kirkland-ellis",
+          "canonical_match_status": "exact_name_match"
+        },
+        {
+          "role": "legal-counsel-investor",
+          "name": "Simpson Thacher",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved"
+        }
+      ],
+      "relevance": {
+        "theme": 20,
+        "controlPlatform": 15,
+        "strategic": 15,
+        "actors": 10,
+        "followOn": 10
+      },
+      "sources": [
+        {
+          "title": "Consortium Led by Global Infrastructure Partners and EQT Agrees to Acquire AES",
+          "publisher": "AES",
+          "url": "https://www.aes.com/energy-insights/consortium-led-global-infrastructure-partners-and-eqt-agrees-acquire-aes",
+          "evidence": "The consortium agreed to acquire AES for an enterprise value of approximately $33.4 billion and named the principal investors, executives and advisors."
+        }
+      ],
+      "missingFacts": [
+        "individual_financial_advisors",
+        "full_named_legal_team",
+        "financing_terms",
+        "regulatory_approval_status"
+      ],
+      "scores": {
+        "structural_materiality": 100,
+        "current_activity": 97,
+        "missing_information_value": 64,
+        "research_priority": 93
+      },
+      "review": {
+        "status": "needs_review",
+        "reviewer": null,
+        "notes": "Initial deal-led public-source census candidate. Verify before promotion to canonical deals."
+      },
+      "followUpSearches": [
+        "\"AES\" individual financial advisors",
+        "\"AES\" full named legal team",
+        "\"AES\" financing terms",
+        "\"AES\" regulatory approval status",
+        "\"AES\" acquisition named team",
+        "\"AES\" transaction advisors"
+      ]
+    },
+    {
+      "id": "census-alphabet-intersect-2025",
+      "theme": "clean-energy-advisory",
+      "tier": 1,
+      "name": "Alphabet agrees to acquire Intersect",
+      "announcementDate": "2025-12-22",
+      "status": "pending",
+      "geography": "United States",
+      "transactionType": "acquisition",
+      "value": {
+        "amountMillions": 4750,
+        "currency": "USD",
+        "basis": "cash_plus_debt",
+        "disclosed": true
+      },
+      "target": {
+        "name": "Intersect",
+        "canonical_id": null,
+        "canonical_match_status": "unresolved"
+      },
+      "parties": [
+        {
+          "role": "buyer",
+          "name": "Alphabet",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved"
+        },
+        {
+          "role": "seller",
+          "name": "TPG Rise Climate",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved"
+        },
+        {
+          "role": "seller",
+          "name": "Climate Adaptive Infrastructure",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved"
+        },
+        {
+          "role": "seller",
+          "name": "Greenbelt Capital Partners",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved"
+        }
+      ],
+      "people": [
+        {
+          "role": "target-ceo",
+          "name": "Sheldon Kimber",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved",
+          "organization": "Intersect",
+          "organization_canonical_id": null
+        },
+        {
+          "role": "seller-legal-counsel",
+          "name": "Kristin Mendoza",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved",
+          "organization": "Kirkland & Ellis",
+          "organization_canonical_id": "kirkland-ellis"
+        },
+        {
+          "role": "seller-legal-counsel",
+          "name": "Ahmed Sidik",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved",
+          "organization": "Kirkland & Ellis",
+          "organization_canonical_id": "kirkland-ellis"
+        },
+        {
+          "role": "seller-legal-counsel",
+          "name": "Qasim Rasool",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved",
+          "organization": "Kirkland & Ellis",
+          "organization_canonical_id": "kirkland-ellis"
+        },
+        {
+          "role": "seller-legal-counsel",
+          "name": "Drew Stuyvenberg",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved",
+          "organization": "Kirkland & Ellis",
+          "organization_canonical_id": "kirkland-ellis"
+        },
+        {
+          "role": "seller-legal-counsel",
+          "name": "Erin Bartlett",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved",
+          "organization": "Kirkland & Ellis",
+          "organization_canonical_id": "kirkland-ellis"
+        }
+      ],
+      "advisors": [
+        {
+          "role": "legal-counsel-seller",
+          "name": "Kirkland & Ellis",
+          "canonical_id": "kirkland-ellis",
+          "canonical_match_status": "exact_name_match"
+        }
+      ],
+      "relevance": {
+        "theme": 18,
+        "controlPlatform": 15,
+        "strategic": 15,
+        "actors": 10,
+        "followOn": 10
+      },
+      "sources": [
+        {
+          "title": "Alphabet Announces Agreement to Acquire Intersect",
+          "publisher": "Intersect",
+          "url": "https://www.intersect.com/news/alphabet-announces-agreement-to-acquire-intersect-to-advance-u-s-energy-innovation",
+          "evidence": "Alphabet agreed to acquire Intersect for $4.75 billion in cash plus the assumption of debt."
+        },
+        {
+          "title": "Kirkland Advises Intersect Investors on Sale to Alphabet",
+          "publisher": "Kirkland & Ellis",
+          "url": "https://www.kirkland.com/news/press-release/2025/12/kirkland-advises-tpg-rise-climate-adaptive-infrastructure-on-sale-of-intersect",
+          "evidence": "Kirkland identified the selling investor group and named the legal team advising the sellers."
+        }
+      ],
+      "missingFacts": [
+        "buyer_financial_advisor",
+        "buyer_legal_counsel",
+        "seller_financial_advisor",
+        "closing_status"
+      ],
+      "scores": {
+        "structural_materiality": 91,
+        "current_activity": 100,
+        "missing_information_value": 64,
+        "research_priority": 91
+      },
+      "review": {
+        "status": "needs_review",
+        "reviewer": null,
+        "notes": "Initial deal-led public-source census candidate. Verify before promotion to canonical deals."
+      },
+      "followUpSearches": [
+        "\"Intersect\" buyer financial advisor",
+        "\"Intersect\" buyer legal counsel",
+        "\"Intersect\" seller financial advisor",
+        "\"Intersect\" closing status",
+        "\"Intersect\" acquisition named team",
+        "\"Intersect\" transaction advisors"
+      ]
+    },
+    {
+      "id": "census-constellation-calpine-2025",
+      "theme": "clean-energy-advisory",
+      "tier": 1,
+      "name": "Constellation acquires Calpine",
+      "announcementDate": "2025-01-10",
+      "completionDate": "2026-01-07",
+      "status": "completed",
+      "geography": "United States",
+      "transactionType": "acquisition",
+      "value": {
+        "amountMillions": 26600,
+        "currency": "USD",
+        "basis": "net_purchase_price",
+        "disclosed": true
+      },
+      "target": {
+        "name": "Calpine",
+        "canonical_id": "calpine",
+        "canonical_match_status": "exact_name_match"
+      },
+      "parties": [
+        {
+          "role": "buyer",
+          "name": "Constellation Energy",
+          "canonical_id": "constellation-energy",
+          "canonical_match_status": "exact_name_match"
+        },
+        {
+          "role": "seller",
+          "name": "Energy Capital Partners",
+          "canonical_id": "energy-capital-partners",
+          "canonical_match_status": "exact_name_match"
+        },
+        {
+          "role": "seller",
+          "name": "CPP Investments",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved"
+        },
+        {
+          "role": "seller",
+          "name": "Access Industries",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved"
+        }
+      ],
+      "people": [
+        {
+          "role": "buyer-ceo",
+          "name": "Joe Dominguez",
+          "canonical_id": "joe-dominguez",
+          "canonical_match_status": "exact_name_match",
+          "organization": "Constellation Energy",
+          "organization_canonical_id": "constellation-energy"
+        },
+        {
+          "role": "target-ceo",
+          "name": "Andrew Novotny",
+          "canonical_id": "andrew-novotny",
+          "canonical_match_status": "exact_name_match",
+          "organization": "Calpine",
+          "organization_canonical_id": "calpine"
+        },
+        {
+          "role": "seller-dealmaker",
+          "name": "Tyler Reeder",
+          "canonical_id": "tyler-reeder",
+          "canonical_match_status": "exact_name_match",
+          "organization": "Energy Capital Partners",
+          "organization_canonical_id": "energy-capital-partners"
+        }
+      ],
+      "advisors": [
+        {
+          "role": "financial-advisor-buyer",
+          "name": "Lazard",
+          "canonical_id": "lazard",
+          "canonical_match_status": "exact_name_match"
+        },
+        {
+          "role": "financial-advisor-buyer",
+          "name": "J.P. Morgan",
+          "canonical_id": "jp-morgan",
+          "canonical_match_status": "exact_name_match"
+        },
+        {
+          "role": "legal-counsel-buyer",
+          "name": "Kirkland & Ellis",
+          "canonical_id": "kirkland-ellis",
+          "canonical_match_status": "exact_name_match"
+        },
+        {
+          "role": "financial-advisor-seller",
+          "name": "Evercore",
+          "canonical_id": "evercore",
+          "canonical_match_status": "exact_name_match"
+        },
+        {
+          "role": "financial-advisor-seller",
+          "name": "Morgan Stanley",
+          "canonical_id": "morgan-stanley",
+          "canonical_match_status": "exact_name_match"
+        },
+        {
+          "role": "financial-advisor-seller",
+          "name": "Goldman Sachs",
+          "canonical_id": "goldman-sachs",
+          "canonical_match_status": "exact_name_match"
+        },
+        {
+          "role": "financial-advisor-seller",
+          "name": "Barclays",
+          "canonical_id": "barclays",
+          "canonical_match_status": "exact_name_match"
+        },
+        {
+          "role": "legal-counsel-seller",
+          "name": "Latham & Watkins",
+          "canonical_id": "latham-watkins",
+          "canonical_match_status": "exact_name_match"
+        },
+        {
+          "role": "legal-counsel-seller",
+          "name": "White & Case",
+          "canonical_id": "white-case",
+          "canonical_match_status": "exact_name_match"
+        }
+      ],
+      "relevance": {
+        "theme": 17,
+        "controlPlatform": 15,
+        "strategic": 15,
+        "actors": 10,
+        "followOn": 10
+      },
+      "sources": [
+        {
+          "title": "Constellation To Acquire Calpine",
+          "publisher": "Constellation Energy",
+          "url": "https://investors.constellationenergy.com/news-releases/news-release-details/constellation-acquire-calpine-creates-americas-leading-producer",
+          "evidence": "Constellation announced the $26.6 billion net purchase price and identified the principal parties, executives and advisor firms."
+        },
+        {
+          "title": "Constellation Completes Calpine Transaction",
+          "publisher": "Calpine",
+          "url": "https://www.calpine.com/constellation-completes-calpine-transaction-powering-americas-clean-energy-future/",
+          "evidence": "Calpine reported that the transaction completed on January 7, 2026."
+        }
+      ],
+      "missingFacts": [
+        "named_bankers",
+        "full_named_legal_team",
+        "integration_leadership"
+      ],
+      "scores": {
+        "structural_materiality": 97,
+        "current_activity": 95,
+        "missing_information_value": 48,
+        "research_priority": 89
+      },
+      "review": {
+        "status": "needs_review",
+        "reviewer": null,
+        "notes": "Initial deal-led public-source census candidate. Verify before promotion to canonical deals."
+      },
+      "followUpSearches": [
+        "\"Calpine\" named bankers",
+        "\"Calpine\" full named legal team",
+        "\"Calpine\" integration leadership",
+        "\"Calpine\" acquisition named team",
+        "\"Calpine\" transaction advisors"
+      ]
+    },
+    {
+      "id": "census-american-water-essential-2025",
+      "theme": "smart-water",
+      "tier": 1,
+      "name": "American Water and Essential Utilities agree to merge",
+      "announcementDate": "2025-10-27",
+      "status": "pending",
+      "geography": "United States",
+      "transactionType": "merger",
+      "value": {
+        "amountMillions": 63000,
+        "currency": "USD",
+        "basis": "combined_enterprise_value",
+        "disclosed": true
+      },
+      "target": {
+        "name": "Essential Utilities",
+        "canonical_id": null,
+        "canonical_match_status": "unresolved"
+      },
+      "parties": [
+        {
+          "role": "buyer",
+          "name": "American Water",
+          "canonical_id": "american-water",
+          "canonical_match_status": "exact_name_match"
+        }
+      ],
+      "people": [
+        {
+          "role": "buyer-ceo",
+          "name": "John C. Griffith",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved",
+          "organization": "American Water",
+          "organization_canonical_id": "american-water"
+        },
+        {
+          "role": "target-ceo",
+          "name": "Christopher H. Franklin",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved",
+          "organization": "Essential Utilities",
+          "organization_canonical_id": null
+        },
+        {
+          "role": "combined-chair",
+          "name": "Karl Kurz",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved",
+          "organization": "American Water",
+          "organization_canonical_id": "american-water"
+        }
+      ],
+      "advisors": [
+        {
+          "role": "financial-advisor-buyer",
+          "name": "BofA Securities",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved"
+        },
+        {
+          "role": "legal-counsel-buyer",
+          "name": "Skadden",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved"
+        },
+        {
+          "role": "financial-advisor-target",
+          "name": "Moelis",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved"
+        },
+        {
+          "role": "legal-counsel-target",
+          "name": "Gibson Dunn",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved"
+        },
+        {
+          "role": "communications-advisor",
+          "name": "Joele Frank",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved"
+        }
+      ],
+      "relevance": {
+        "theme": 16,
+        "controlPlatform": 15,
+        "strategic": 15,
+        "actors": 10,
+        "followOn": 10
+      },
+      "sources": [
+        {
+          "title": "American Water and Essential Utilities to Merge",
+          "publisher": "American Water",
+          "url": "https://newsroom.amwater.com/2025-10-27-American-Water-and-Essential-Utilities-to-Merge-as-a-Leading-Regulated-U-S-Water-and-Wastewater-Utility",
+          "evidence": "The companies announced a merger with an approximately $63 billion combined enterprise value and identified principal executives and advisors."
+        }
+      ],
+      "missingFacts": [
+        "named_bankers",
+        "named_lawyers",
+        "regulatory_approval_status",
+        "technology_integration_leads"
+      ],
+      "scores": {
+        "structural_materiality": 96,
+        "current_activity": 89,
+        "missing_information_value": 64,
+        "research_priority": 88
+      },
+      "review": {
+        "status": "needs_review",
+        "reviewer": null,
+        "notes": "Initial deal-led public-source census candidate. Verify before promotion to canonical deals."
+      },
+      "followUpSearches": [
+        "\"Essential Utilities\" named bankers",
+        "\"Essential Utilities\" named lawyers",
+        "\"Essential Utilities\" regulatory approval status",
+        "\"Essential Utilities\" technology integration leads",
+        "\"Essential Utilities\" acquisition named team",
+        "\"Essential Utilities\" transaction advisors"
+      ]
+    },
+    {
+      "id": "census-clearlake-qualus-2026",
+      "theme": "grid-infrastructure",
+      "tier": 2,
+      "name": "Clearlake agrees to acquire Qualus",
+      "announcementDate": "2026-03-25",
+      "status": "pending",
+      "geography": "United States",
+      "transactionType": "acquisition",
+      "value": {
+        "amountMillions": null,
+        "currency": null,
+        "basis": "not_disclosed",
+        "disclosed": false
+      },
+      "target": {
+        "name": "Qualus",
+        "canonical_id": "qualus",
+        "canonical_match_status": "exact_name_match"
+      },
+      "parties": [
+        {
+          "role": "buyer",
+          "name": "Clearlake Capital",
+          "canonical_id": "clearlake-capital",
+          "canonical_match_status": "exact_name_match"
+        },
+        {
+          "role": "seller",
+          "name": "New Mountain Capital",
+          "canonical_id": "new-mountain-capital",
+          "canonical_match_status": "exact_name_match"
+        }
+      ],
+      "people": [],
+      "advisors": [],
+      "relevance": {
+        "theme": 20,
+        "controlPlatform": 15,
+        "strategic": 14,
+        "actors": 9,
+        "followOn": 10
+      },
+      "sources": [
+        {
+          "title": "Clearlake to Acquire Qualus",
+          "publisher": "Clearlake Capital",
+          "url": "https://clearlake.com/news/clearlake-to-acquire-qualus-a-pure-play-power-electric-grid-services-platform-from-new-mountain-capital/",
+          "evidence": "Clearlake agreed to acquire pure-play power and electric-grid-services platform Qualus from New Mountain Capital."
+        }
+      ],
+      "missingFacts": [
+        "transaction_value",
+        "named_dealmakers",
+        "financial_advisors",
+        "legal_counsel",
+        "closing_status"
+      ],
+      "scores": {
+        "structural_materiality": 74,
+        "current_activity": 96,
+        "missing_information_value": 80,
+        "research_priority": 84
+      },
+      "review": {
+        "status": "needs_review",
+        "reviewer": null,
+        "notes": "Initial deal-led public-source census candidate. Verify before promotion to canonical deals."
+      },
+      "followUpSearches": [
+        "\"Qualus\" transaction value",
+        "\"Qualus\" named dealmakers",
+        "\"Qualus\" financial advisors",
+        "\"Qualus\" legal counsel",
+        "\"Qualus\" closing status",
+        "\"Qualus\" acquisition named team",
+        "\"Qualus\" transaction advisors"
+      ]
+    },
+    {
+      "id": "census-brookfield-neoen-2024",
+      "theme": "clean-energy-advisory",
+      "tier": 1,
+      "name": "Brookfield-led consortium takes Neoen private",
+      "announcementDate": "2024-05-30",
+      "completionDate": "2025-04-04",
+      "status": "completed",
+      "geography": "Global / France",
+      "transactionType": "take-private",
+      "value": {
+        "amountMillions": 6100,
+        "currency": "EUR",
+        "basis": "equity_value",
+        "disclosed": true
+      },
+      "target": {
+        "name": "Neoen",
+        "canonical_id": "neoen",
+        "canonical_match_status": "exact_name_match"
+      },
+      "parties": [
+        {
+          "role": "buyer",
+          "name": "Brookfield Renewable",
+          "canonical_id": "brookfield-renewable",
+          "canonical_match_status": "exact_name_match"
+        },
+        {
+          "role": "co-investor",
+          "name": "Temasek",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved"
+        },
+        {
+          "role": "seller",
+          "name": "Impala",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved"
+        },
+        {
+          "role": "seller",
+          "name": "Fonds Stratégique de Participations",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved"
+        },
+        {
+          "role": "seller",
+          "name": "Cartusia",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved"
+        }
+      ],
+      "people": [
+        {
+          "role": "founder-seller",
+          "name": "Xavier Barbaro",
+          "canonical_id": "xavier-barbaro",
+          "canonical_match_status": "exact_name_match",
+          "organization": "Neoen",
+          "organization_canonical_id": "neoen"
+        }
+      ],
+      "advisors": [
+        {
+          "role": "lender-legal-advisor",
+          "name": "Ashurst",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved"
+        },
+        {
+          "role": "management-legal-advisor",
+          "name": "CMS",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved"
+        },
+        {
+          "role": "co-investor-legal-advisor",
+          "name": "Cleary Gottlieb",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved"
+        }
+      ],
+      "relevance": {
+        "theme": 20,
+        "controlPlatform": 15,
+        "strategic": 15,
+        "actors": 10,
+        "followOn": 10
+      },
+      "sources": [
+        {
+          "title": "Brookfield enters into exclusive negotiations to acquire Neoen",
+          "publisher": "Brookfield Renewable",
+          "url": "https://bep.brookfield.com/brookfield-enters-exclusive-negotiations-impala-and-other-shareholders-acquire-majority-stake-neoen",
+          "evidence": "Brookfield's offer implied an equity value of €6.1 billion for Neoen and identified the principal consortium and sellers."
+        },
+        {
+          "title": "Brookfield announces successful completion of the tender offer for Neoen",
+          "publisher": "Brookfield Renewable Holdings",
+          "url": "https://www.globenewswire.com/news-release/2025/03/19/3045277/0/en/brookfield-announces-successful-completion-of-the-tender-offer-for-neoen-with-mandatory-squeeze-out-to-follow.html",
+          "evidence": "Brookfield announced completion of the tender offer and the mandatory squeeze-out process."
+        }
+      ],
+      "missingFacts": [
+        "lead_financial_advisors",
+        "brookfield_named_dealmakers",
+        "seller_named_dealmakers"
+      ],
+      "scores": {
+        "structural_materiality": 97,
+        "current_activity": 71,
+        "missing_information_value": 48,
+        "research_priority": 79
+      },
+      "review": {
+        "status": "needs_review",
+        "reviewer": null,
+        "notes": "Initial deal-led public-source census candidate. Verify before promotion to canonical deals."
+      },
+      "followUpSearches": [
+        "\"Neoen\" lead financial advisors",
+        "\"Neoen\" brookfield named dealmakers",
+        "\"Neoen\" seller named dealmakers",
+        "\"Neoen\" acquisition named team",
+        "\"Neoen\" transaction advisors"
+      ]
+    },
+    {
+      "id": "census-ardian-energia-2025",
+      "theme": "clean-energy-advisory",
+      "tier": 2,
+      "name": "Ardian agrees to acquire Energia Group",
+      "announcementDate": "2025-10-06",
+      "status": "pending",
+      "geography": "Ireland",
+      "transactionType": "acquisition",
+      "value": {
+        "amountMillions": null,
+        "currency": null,
+        "basis": "not_disclosed",
+        "disclosed": false
+      },
+      "target": {
+        "name": "Energia Group",
+        "canonical_id": null,
+        "canonical_match_status": "unresolved"
+      },
+      "parties": [
+        {
+          "role": "buyer",
+          "name": "Ardian",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved"
+        },
+        {
+          "role": "seller",
+          "name": "I Squared Capital",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved"
+        }
+      ],
+      "people": [],
+      "advisors": [
+        {
+          "role": "legal-counsel-buyer",
+          "name": "Kirkland & Ellis",
+          "canonical_id": "kirkland-ellis",
+          "canonical_match_status": "exact_name_match"
+        }
+      ],
+      "relevance": {
+        "theme": 20,
+        "controlPlatform": 15,
+        "strategic": 13,
+        "actors": 9,
+        "followOn": 8
+      },
+      "sources": [
+        {
+          "title": "Ardian signs agreement to acquire Energia Group",
+          "publisher": "Ardian",
+          "url": "https://www.ardian.com/news-insights/press-releases/ardian-signs-agreement-i-squared-capital-acquire-energia-group-leading",
+          "evidence": "Ardian agreed to acquire 100% of Energia Group from I Squared Capital."
+        },
+        {
+          "title": "Kirkland Advises Ardian on Acquisition of Energia Group",
+          "publisher": "Kirkland & Ellis",
+          "url": "https://www.kirkland.com/news/press-release/2025/10/kirkland-advises-ardian-on-acquisition-of-energia-group",
+          "evidence": "Kirkland identified itself as legal counsel to Ardian."
+        }
+      ],
+      "missingFacts": [
+        "transaction_value",
+        "closing_status",
+        "named_investment_team",
+        "seller_advisors",
+        "financing"
+      ],
+      "scores": {
+        "structural_materiality": 71,
+        "current_activity": 87,
+        "missing_information_value": 80,
+        "research_priority": 79
+      },
+      "review": {
+        "status": "needs_review",
+        "reviewer": null,
+        "notes": "Initial deal-led public-source census candidate. Verify before promotion to canonical deals."
+      },
+      "followUpSearches": [
+        "\"Energia Group\" transaction value",
+        "\"Energia Group\" closing status",
+        "\"Energia Group\" named investment team",
+        "\"Energia Group\" seller advisors",
+        "\"Energia Group\" financing",
+        "\"Energia Group\" acquisition named team",
+        "\"Energia Group\" transaction advisors"
+      ]
+    },
+    {
+      "id": "census-hubbell-dmc-power-2025",
+      "theme": "grid-infrastructure",
+      "tier": 2,
+      "name": "Hubbell acquires DMC Power",
+      "announcementDate": "2025-08-12",
+      "completionDate": "2025-10-01",
+      "status": "completed",
+      "geography": "United States",
+      "transactionType": "acquisition",
+      "value": {
+        "amountMillions": 825,
+        "currency": "USD",
+        "basis": "purchase_price",
+        "disclosed": true
+      },
+      "target": {
+        "name": "DMC Power",
+        "canonical_id": "dmc-power",
+        "canonical_match_status": "exact_name_match"
+      },
+      "parties": [
+        {
+          "role": "buyer",
+          "name": "Hubbell",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved"
+        },
+        {
+          "role": "seller",
+          "name": "Golden Gate Capital",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved"
+        }
+      ],
+      "people": [
+        {
+          "role": "buyer-ceo",
+          "name": "Gerben Bakker",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved",
+          "organization": "Hubbell",
+          "organization_canonical_id": null
+        },
+        {
+          "role": "buyer-operator",
+          "name": "Greg Gumbs",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved",
+          "organization": "Hubbell",
+          "organization_canonical_id": null
+        },
+        {
+          "role": "seller-dealmaker",
+          "name": "Javier Puig",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved",
+          "organization": "Golden Gate Capital",
+          "organization_canonical_id": null
+        },
+        {
+          "role": "target-ceo",
+          "name": "Tony Ward",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved",
+          "organization": "DMC Power",
+          "organization_canonical_id": "dmc-power"
+        }
+      ],
+      "advisors": [
+        {
+          "role": "financial-advisor-buyer",
+          "name": "Stephens",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved"
+        },
+        {
+          "role": "legal-counsel-buyer",
+          "name": "Holland & Knight",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved"
+        },
+        {
+          "role": "financial-advisor-seller",
+          "name": "Harris Williams",
+          "canonical_id": "harris-williams",
+          "canonical_match_status": "exact_name_match"
+        },
+        {
+          "role": "financial-advisor-seller",
+          "name": "Lincoln International",
+          "canonical_id": "lincoln-international",
+          "canonical_match_status": "exact_name_match"
+        },
+        {
+          "role": "legal-counsel-seller",
+          "name": "Paul Weiss",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved"
+        }
+      ],
+      "relevance": {
+        "theme": 20,
+        "controlPlatform": 15,
+        "strategic": 14,
+        "actors": 9,
+        "followOn": 9
+      },
+      "sources": [
+        {
+          "title": "Hubbell to Acquire DMC Power",
+          "publisher": "Hubbell",
+          "url": "https://hubbell.gcs-web.com/news-releases/news-release-details/hubbell-acquire-dmc-power",
+          "evidence": "Hubbell agreed to acquire DMC Power for $825 million and identified executives, the seller and advisor firms."
+        }
+      ],
+      "missingFacts": [
+        "named_bankers",
+        "named_lawyers",
+        "seller_entry_investment",
+        "post_close_management"
+      ],
+      "scores": {
+        "structural_materiality": 83,
+        "current_activity": 81,
+        "missing_information_value": 64,
+        "research_priority": 79
+      },
+      "review": {
+        "status": "needs_review",
+        "reviewer": null,
+        "notes": "Initial deal-led public-source census candidate. Verify before promotion to canonical deals."
+      },
+      "followUpSearches": [
+        "\"DMC Power\" named bankers",
+        "\"DMC Power\" named lawyers",
+        "\"DMC Power\" seller entry investment",
+        "\"DMC Power\" post close management",
+        "\"DMC Power\" acquisition named team",
+        "\"DMC Power\" transaction advisors"
+      ]
+    },
+    {
+      "id": "census-h2o-america-quadvest-2025",
+      "theme": "smart-water",
+      "tier": 2,
+      "name": "H2O America agrees to acquire Quadvest",
+      "announcementDate": "2025-07-08",
+      "status": "pending",
+      "geography": "United States",
+      "transactionType": "acquisition",
+      "value": {
+        "amountMillions": 540,
+        "currency": "USD",
+        "basis": "combined_transaction_value",
+        "disclosed": true
+      },
+      "target": {
+        "name": "Quadvest",
+        "canonical_id": "quadvest",
+        "canonical_match_status": "exact_name_match"
+      },
+      "parties": [
+        {
+          "role": "buyer",
+          "name": "H2O America",
+          "canonical_id": "h2o-america",
+          "canonical_match_status": "exact_name_match"
+        }
+      ],
+      "people": [
+        {
+          "role": "buyer-legal-counsel",
+          "name": "Leif King",
+          "canonical_id": "leif-king",
+          "canonical_match_status": "exact_name_match",
+          "organization": "Baker McKenzie",
+          "organization_canonical_id": "baker-mckenzie"
+        },
+        {
+          "role": "buyer-legal-counsel",
+          "name": "Justin Bryant",
+          "canonical_id": "justin-bryant",
+          "canonical_match_status": "exact_name_match",
+          "organization": "Baker McKenzie",
+          "organization_canonical_id": "baker-mckenzie"
+        },
+        {
+          "role": "buyer-legal-counsel",
+          "name": "Nick Woo",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved",
+          "organization": "Baker McKenzie",
+          "organization_canonical_id": "baker-mckenzie"
+        }
+      ],
+      "advisors": [
+        {
+          "role": "business-advisor-buyer",
+          "name": "Newport",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved"
+        },
+        {
+          "role": "business-advisor-seller",
+          "name": "WaterLogic Advisors",
+          "canonical_id": "waterlogic-advisors",
+          "canonical_match_status": "exact_name_match"
+        },
+        {
+          "role": "legal-counsel-buyer",
+          "name": "Baker McKenzie",
+          "canonical_id": "baker-mckenzie",
+          "canonical_match_status": "exact_name_match"
+        }
+      ],
+      "relevance": {
+        "theme": 17,
+        "controlPlatform": 14,
+        "strategic": 13,
+        "actors": 8,
+        "followOn": 9
+      },
+      "sources": [
+        {
+          "title": "H2O America Significantly Expands Texas Footprint with Quadvest Acquisition",
+          "publisher": "H2O America",
+          "url": "https://www.h2o-america.com/news-releases/news-release-details/h2o-america-significantly-expands-texas-footprint-texas",
+          "evidence": "H2O America announced agreements to acquire Quadvest assets for a combined transaction value of $540 million."
+        },
+        {
+          "title": "Baker McKenzie Advises H2O America in Acquisition of Quadvest",
+          "publisher": "Baker McKenzie",
+          "url": "https://www.bakermckenzie.com/en/newsroom/2025/07/h2o-america-usd-540-million-acquisition-of-quadvest",
+          "evidence": "Baker McKenzie identified named members of the legal team advising H2O America."
+        }
+      ],
+      "missingFacts": [
+        "seller_legal_counsel",
+        "named_business_advisors",
+        "current_regulatory_status",
+        "post_close_management"
+      ],
+      "scores": {
+        "structural_materiality": 77,
+        "current_activity": 87,
+        "missing_information_value": 64,
+        "research_priority": 79
+      },
+      "review": {
+        "status": "needs_review",
+        "reviewer": null,
+        "notes": "Initial deal-led public-source census candidate. Verify before promotion to canonical deals."
+      },
+      "followUpSearches": [
+        "\"Quadvest\" seller legal counsel",
+        "\"Quadvest\" named business advisors",
+        "\"Quadvest\" current regulatory status",
+        "\"Quadvest\" post close management",
+        "\"Quadvest\" acquisition named team",
+        "\"Quadvest\" transaction advisors"
+      ]
+    },
+    {
+      "id": "census-eversource-aquarion-2025",
+      "theme": "smart-water",
+      "tier": 1,
+      "name": "Eversource agrees to sell Aquarion Water Company",
+      "announcementDate": "2025-01-27",
+      "status": "pending",
+      "geography": "United States",
+      "transactionType": "acquisition",
+      "value": {
+        "amountMillions": 2400,
+        "currency": "USD",
+        "basis": "enterprise_value",
+        "disclosed": true
+      },
+      "target": {
+        "name": "Aquarion Water Company",
+        "canonical_id": null,
+        "canonical_match_status": "unresolved"
+      },
+      "parties": [
+        {
+          "role": "buyer",
+          "name": "South Central Connecticut Regional Water Authority",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved"
+        },
+        {
+          "role": "seller",
+          "name": "Eversource Energy",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved"
+        }
+      ],
+      "people": [
+        {
+          "role": "seller-executive",
+          "name": "John Moreira",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved",
+          "organization": "Eversource Energy",
+          "organization_canonical_id": null
+        }
+      ],
+      "advisors": [],
+      "relevance": {
+        "theme": 17,
+        "controlPlatform": 15,
+        "strategic": 14,
+        "actors": 8,
+        "followOn": 8
+      },
+      "sources": [
+        {
+          "title": "Eversource Statement on Proposed Final Decision to Approve Aquarion Sale",
+          "publisher": "Eversource Energy",
+          "url": "https://investors.eversource.com/news-releases/news-release-details/eversource-statement-proposed-final-decision-approve-aquarion",
+          "evidence": "Eversource reported progress toward approval of the proposed Aquarion sale."
+        },
+        {
+          "title": "Eversource 2025 filing on Aquarion sale",
+          "publisher": "Eversource Energy",
+          "url": "https://investors.eversource.com/static-files/458b82f8-1db9-4a46-bc90-4fe86e1ad433",
+          "evidence": "Eversource disclosed an aggregate enterprise value of approximately $2.4 billion."
+        }
+      ],
+      "missingFacts": [
+        "current_closing_status",
+        "financial_advisors",
+        "legal_counsel",
+        "named_buyer_team"
+      ],
+      "scores": {
+        "structural_materiality": 85,
+        "current_activity": 75,
+        "missing_information_value": 64,
+        "research_priority": 78
+      },
+      "review": {
+        "status": "needs_review",
+        "reviewer": null,
+        "notes": "Initial deal-led public-source census candidate. Verify before promotion to canonical deals."
+      },
+      "followUpSearches": [
+        "\"Aquarion Water Company\" current closing status",
+        "\"Aquarion Water Company\" financial advisors",
+        "\"Aquarion Water Company\" legal counsel",
+        "\"Aquarion Water Company\" named buyer team",
+        "\"Aquarion Water Company\" acquisition named team",
+        "\"Aquarion Water Company\" transaction advisors"
+      ]
+    },
+    {
+      "id": "census-xylem-idrica-2024",
+      "theme": "smart-water",
+      "tier": 2,
+      "name": "Xylem acquires majority stake in Idrica",
+      "announcementDate": "2024-12-10",
+      "completionDate": "2024-12-10",
+      "status": "completed",
+      "geography": "Global / Spain",
+      "transactionType": "majority-investment",
+      "value": {
+        "amountMillions": 637,
+        "currency": "USD",
+        "basis": "fair_value_consideration",
+        "disclosed": true
+      },
+      "target": {
+        "name": "Idrica",
+        "canonical_id": "idrica",
+        "canonical_match_status": "exact_name_match"
+      },
+      "parties": [
+        {
+          "role": "investor",
+          "name": "Xylem",
+          "canonical_id": "xylem",
+          "canonical_match_status": "exact_name_match"
+        }
+      ],
+      "people": [
+        {
+          "role": "buyer-ceo",
+          "name": "Matthew Pine",
+          "canonical_id": "matthew-pine",
+          "canonical_match_status": "exact_name_match",
+          "organization": "Xylem",
+          "organization_canonical_id": "xylem"
+        },
+        {
+          "role": "target-ceo",
+          "name": "Jaime Barba",
+          "canonical_id": "jaime-barba",
+          "canonical_match_status": "exact_name_match",
+          "organization": "Idrica",
+          "organization_canonical_id": "idrica"
+        }
+      ],
+      "advisors": [],
+      "relevance": {
+        "theme": 20,
+        "controlPlatform": 14,
+        "strategic": 15,
+        "actors": 9,
+        "followOn": 10
+      },
+      "sources": [
+        {
+          "title": "Xylem Acquires Majority Stake in Idrica",
+          "publisher": "Xylem",
+          "url": "https://www.xylem.com/en-us/about-xylem/newsroom/press-releases/xylem-acquires-majority-stake-in-idrica-to-empower-water-utilities-with-intelligent-solutions/",
+          "evidence": "Xylem acquired a majority stake in Idrica and identified Matthew Pine and Jaime Barba as principal executives."
+        },
+        {
+          "title": "Xylem 2025 Annual Report",
+          "publisher": "Xylem",
+          "url": "https://prod.xylem.com/siteassets/investors/2025-annual-report-on-form-10-k.pdf",
+          "evidence": "Xylem reported total fair value of purchase consideration of $637 million for Idrica."
+        }
+      ],
+      "missingFacts": [
+        "seller_shareholders",
+        "financial_advisors",
+        "legal_counsel",
+        "post_transaction_ownership_percentage"
+      ],
+      "scores": {
+        "structural_materiality": 84,
+        "current_activity": 70,
+        "missing_information_value": 64,
+        "research_priority": 75
+      },
+      "review": {
+        "status": "needs_review",
+        "reviewer": null,
+        "notes": "Initial deal-led public-source census candidate. Verify before promotion to canonical deals."
+      },
+      "followUpSearches": [
+        "\"Idrica\" seller shareholders",
+        "\"Idrica\" financial advisors",
+        "\"Idrica\" legal counsel",
+        "\"Idrica\" post transaction ownership percentage",
+        "\"Idrica\" acquisition named team",
+        "\"Idrica\" transaction advisors"
+      ]
+    },
+    {
+      "id": "census-ao-smith-leonard-valve-2026",
+      "theme": "smart-water",
+      "tier": 2,
+      "name": "A. O. Smith acquires Leonard Valve",
+      "announcementDate": "2026-01-06",
+      "completionDate": "2026-01-06",
+      "status": "completed",
+      "geography": "United States",
+      "transactionType": "acquisition",
+      "value": {
+        "amountMillions": 470,
+        "currency": "USD",
+        "basis": "purchase_price",
+        "disclosed": true
+      },
+      "target": {
+        "name": "Leonard Valve",
+        "canonical_id": null,
+        "canonical_match_status": "unresolved"
+      },
+      "parties": [
+        {
+          "role": "buyer",
+          "name": "A. O. Smith",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved"
+        }
+      ],
+      "people": [
+        {
+          "role": "buyer-ceo",
+          "name": "Steve Shafer",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved",
+          "organization": "A. O. Smith",
+          "organization_canonical_id": null
+        }
+      ],
+      "advisors": [],
+      "relevance": {
+        "theme": 16,
+        "controlPlatform": 14,
+        "strategic": 12,
+        "actors": 8,
+        "followOn": 8
+      },
+      "sources": [
+        {
+          "title": "A. O. Smith Completes Acquisition of Leonard Valve Company",
+          "publisher": "A. O. Smith",
+          "url": "https://investor.aosmith.com/news-releases/news-release-details/o-smith-completes-acquisition-leonard-valve-company",
+          "evidence": "A. O. Smith completed the $470 million acquisition of Leonard Valve to expand its water-management and digital capabilities."
+        }
+      ],
+      "missingFacts": [
+        "seller_identity",
+        "target_management",
+        "financial_advisors",
+        "legal_counsel"
+      ],
+      "scores": {
+        "structural_materiality": 70,
+        "current_activity": 85,
+        "missing_information_value": 64,
+        "research_priority": 75
+      },
+      "review": {
+        "status": "needs_review",
+        "reviewer": null,
+        "notes": "Initial deal-led public-source census candidate. Verify before promotion to canonical deals."
+      },
+      "followUpSearches": [
+        "\"Leonard Valve\" seller identity",
+        "\"Leonard Valve\" target management",
+        "\"Leonard Valve\" financial advisors",
+        "\"Leonard Valve\" legal counsel",
+        "\"Leonard Valve\" acquisition named team",
+        "\"Leonard Valve\" transaction advisors"
+      ]
+    },
+    {
+      "id": "census-taqa-transmission-investment-2025",
+      "theme": "grid-infrastructure",
+      "tier": 2,
+      "name": "TAQA acquires Transmission Investment",
+      "announcementDate": "2025-04-17",
+      "status": "completed",
+      "geography": "United Kingdom",
+      "transactionType": "acquisition",
+      "value": {
+        "amountMillions": null,
+        "currency": null,
+        "basis": "not_disclosed",
+        "disclosed": false
+      },
+      "target": {
+        "name": "Transmission Investment",
+        "canonical_id": null,
+        "canonical_match_status": "unresolved"
+      },
+      "parties": [
+        {
+          "role": "buyer",
+          "name": "TAQA",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved"
+        }
+      ],
+      "people": [],
+      "advisors": [],
+      "relevance": {
+        "theme": 20,
+        "controlPlatform": 15,
+        "strategic": 15,
+        "actors": 9,
+        "followOn": 10
+      },
+      "sources": [
+        {
+          "title": "TAQA Acquires Leading UK Electricity Transmission Development and Services Company",
+          "publisher": "TAQA Transmission",
+          "url": "https://taqatransmission.com/node/122",
+          "evidence": "TAQA acquired 100% of Transmission Investment, a UK electricity transmission development and services platform."
+        },
+        {
+          "title": "UK Final Order for TAQA Acquisition of Transmission Investment",
+          "publisher": "UK Government",
+          "url": "https://www.gov.uk/government/publications/acquisition-of-100-of-shareholding-in-transmission-investment-holdings-limited-by-taqa-transmission-holding-llc/acquisition-of-100-of-shareholding-in-transmission-investment-holdings-limited-by-taqa-transmission-holding-llc",
+          "evidence": "The UK government approved the acquisition subject to national-security conditions."
+        }
+      ],
+      "missingFacts": [
+        "transaction_value",
+        "seller_identity",
+        "named_investment_team",
+        "financial_advisors",
+        "legal_counsel"
+      ],
+      "scores": {
+        "structural_materiality": 75,
+        "current_activity": 70,
+        "missing_information_value": 80,
+        "research_priority": 74
+      },
+      "review": {
+        "status": "needs_review",
+        "reviewer": null,
+        "notes": "Initial deal-led public-source census candidate. Verify before promotion to canonical deals."
+      },
+      "followUpSearches": [
+        "\"Transmission Investment\" transaction value",
+        "\"Transmission Investment\" seller identity",
+        "\"Transmission Investment\" named investment team",
+        "\"Transmission Investment\" financial advisors",
+        "\"Transmission Investment\" legal counsel",
+        "\"Transmission Investment\" acquisition named team",
+        "\"Transmission Investment\" transaction advisors"
+      ]
+    },
+    {
+      "id": "census-eaton-fibrebond-2025",
+      "theme": "grid-infrastructure",
+      "tier": 1,
+      "name": "Eaton acquires Fibrebond",
+      "announcementDate": "2025-03-11",
+      "completionDate": "2025-04-01",
+      "status": "completed",
+      "geography": "United States",
+      "transactionType": "acquisition",
+      "value": {
+        "amountMillions": 1400,
+        "currency": "USD",
+        "basis": "purchase_price",
+        "disclosed": true
+      },
+      "target": {
+        "name": "Fibrebond",
+        "canonical_id": null,
+        "canonical_match_status": "unresolved"
+      },
+      "parties": [
+        {
+          "role": "buyer",
+          "name": "Eaton",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved"
+        }
+      ],
+      "people": [
+        {
+          "role": "buyer-operator",
+          "name": "Mike Yelton",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved",
+          "organization": "Eaton",
+          "organization_canonical_id": null
+        }
+      ],
+      "advisors": [
+        {
+          "role": "legal-counsel-seller",
+          "name": "Latham & Watkins",
+          "canonical_id": "latham-watkins",
+          "canonical_match_status": "exact_name_match"
+        }
+      ],
+      "relevance": {
+        "theme": 16,
+        "controlPlatform": 15,
+        "strategic": 13,
+        "actors": 9,
+        "followOn": 8
+      },
+      "sources": [
+        {
+          "title": "Eaton completes acquisition of Fibrebond",
+          "publisher": "Eaton",
+          "url": "https://www.eaton.com/us/en-us/company/news-insights/news-releases/2025/eaton-completes-acquisition-of-fibrebond.html",
+          "evidence": "Eaton paid $1.4 billion for Fibrebond, a provider of pre-integrated modular power enclosures for data center, industrial and utility customers."
+        },
+        {
+          "title": "Latham & Watkins Advises Fibrebond in Acquisition by Eaton",
+          "publisher": "Latham & Watkins",
+          "url": "https://www.lw.com/en/news/latham-watkins-advises-fibrebond-corporation-in-acquisition-by-eaton",
+          "evidence": "Latham & Watkins identified itself as counsel to Fibrebond."
+        }
+      ],
+      "missingFacts": [
+        "seller_identity",
+        "buyer_financial_advisor",
+        "named_latham_team",
+        "management_retention"
+      ],
+      "scores": {
+        "structural_materiality": 81,
+        "current_activity": 66,
+        "missing_information_value": 64,
+        "research_priority": 72
+      },
+      "review": {
+        "status": "needs_review",
+        "reviewer": null,
+        "notes": "Initial deal-led public-source census candidate. Verify before promotion to canonical deals."
+      },
+      "followUpSearches": [
+        "\"Fibrebond\" seller identity",
+        "\"Fibrebond\" buyer financial advisor",
+        "\"Fibrebond\" named latham team",
+        "\"Fibrebond\" management retention",
+        "\"Fibrebond\" acquisition named team",
+        "\"Fibrebond\" transaction advisors"
+      ]
+    },
+    {
+      "id": "census-xylem-evoqua-2023",
+      "theme": "smart-water",
+      "tier": 1,
+      "name": "Xylem acquires Evoqua",
+      "announcementDate": "2023-01-23",
+      "completionDate": "2023-05-24",
+      "status": "completed",
+      "geography": "Global",
+      "transactionType": "acquisition",
+      "value": {
+        "amountMillions": 7500,
+        "currency": "USD",
+        "basis": "all_stock_transaction_value",
+        "disclosed": true
+      },
+      "target": {
+        "name": "Evoqua",
+        "canonical_id": null,
+        "canonical_match_status": "unresolved"
+      },
+      "parties": [
+        {
+          "role": "buyer",
+          "name": "Xylem",
+          "canonical_id": "xylem",
+          "canonical_match_status": "exact_name_match"
+        }
+      ],
+      "people": [
+        {
+          "role": "buyer-ceo-at-transaction",
+          "name": "Patrick Decker",
+          "canonical_id": "patrick-decker",
+          "canonical_match_status": "exact_name_match",
+          "organization": "Xylem",
+          "organization_canonical_id": "xylem"
+        }
+      ],
+      "advisors": [],
+      "relevance": {
+        "theme": 20,
+        "controlPlatform": 15,
+        "strategic": 15,
+        "actors": 10,
+        "followOn": 10
+      },
+      "sources": [
+        {
+          "title": "Xylem Completes Acquisition of Evoqua",
+          "publisher": "Xylem",
+          "url": "https://www.xylem.com/en-us/about-xylem/newsroom/press-releases/xylem-completes-acquisition-of-evoqua/",
+          "evidence": "Xylem completed its approximately $7.5 billion all-stock acquisition of Evoqua."
+        }
+      ],
+      "missingFacts": [
+        "financial_advisors",
+        "legal_counsel",
+        "named_evoqua_leadership",
+        "integration_leadership"
+      ],
+      "scores": {
+        "structural_materiality": 97,
+        "current_activity": 46,
+        "missing_information_value": 64,
+        "research_priority": 72
+      },
+      "review": {
+        "status": "needs_review",
+        "reviewer": null,
+        "notes": "Initial deal-led public-source census candidate. Verify before promotion to canonical deals."
+      },
+      "followUpSearches": [
+        "\"Evoqua\" financial advisors",
+        "\"Evoqua\" legal counsel",
+        "\"Evoqua\" named evoqua leadership",
+        "\"Evoqua\" integration leadership",
+        "\"Evoqua\" acquisition named team",
+        "\"Evoqua\" transaction advisors"
+      ]
+    },
+    {
+      "id": "census-badger-smartcover-2025",
+      "theme": "smart-water",
+      "tier": 2,
+      "name": "Badger Meter acquires SmartCover Systems",
+      "announcementDate": "2025-01-31",
+      "completionDate": "2025-01-30",
+      "status": "completed",
+      "geography": "United States",
+      "transactionType": "acquisition",
+      "value": {
+        "amountMillions": 185,
+        "currency": "USD",
+        "basis": "purchase_price",
+        "disclosed": true
+      },
+      "target": {
+        "name": "SmartCover Systems",
+        "canonical_id": "smartcover",
+        "canonical_match_status": "exact_name_match"
+      },
+      "parties": [
+        {
+          "role": "buyer",
+          "name": "Badger Meter",
+          "canonical_id": "badger-meter",
+          "canonical_match_status": "exact_name_match"
+        },
+        {
+          "role": "seller",
+          "name": "XPV Water Partners",
+          "canonical_id": "xpv-water-partners",
+          "canonical_match_status": "exact_name_match"
+        }
+      ],
+      "people": [
+        {
+          "role": "buyer-ceo",
+          "name": "Kenneth C. Bockhorst",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved",
+          "organization": "Badger Meter",
+          "organization_canonical_id": "badger-meter"
+        },
+        {
+          "role": "target-founder",
+          "name": "Corey Williams",
+          "canonical_id": "corey-williams",
+          "canonical_match_status": "exact_name_match",
+          "organization": "SmartCover Systems",
+          "organization_canonical_id": "smartcover"
+        },
+        {
+          "role": "seller-dealmaker",
+          "name": "Sam Saintonge",
+          "canonical_id": "sam-saintonge",
+          "canonical_match_status": "exact_name_match",
+          "organization": "XPV Water Partners",
+          "organization_canonical_id": "xpv-water-partners"
+        }
+      ],
+      "advisors": [
+        {
+          "role": "financial-advisor-seller",
+          "name": "Houlihan Lokey",
+          "canonical_id": "houlihan-lokey",
+          "canonical_match_status": "exact_name_match"
+        }
+      ],
+      "relevance": {
+        "theme": 20,
+        "controlPlatform": 14,
+        "strategic": 14,
+        "actors": 8,
+        "followOn": 10
+      },
+      "sources": [
+        {
+          "title": "Badger Meter Extends BlueEdge with Acquisition of SmartCover",
+          "publisher": "Badger Meter",
+          "url": "https://investors.badgermeter.com/news-releases/press-release-details/2025/Badger-Meter-Extends-BlueEdge-Suite-of-Solutions-with-Acquisition-of-SmartCover/default.aspx",
+          "evidence": "Badger Meter acquired SmartCover from XPV Water Partners for $185 million."
+        },
+        {
+          "title": "Houlihan Lokey Advises SmartCover Systems",
+          "publisher": "Houlihan Lokey",
+          "url": "https://hl.com/about-us/transactions/smartcover-xpv-water-partners-badger-meter/",
+          "evidence": "Houlihan Lokey identified itself as sell-side advisor to SmartCover."
+        }
+      ],
+      "missingFacts": [
+        "named_houlihan_bankers",
+        "buyer_advisors",
+        "legal_counsel",
+        "founder_post_close_role"
+      ],
+      "scores": {
+        "structural_materiality": 78,
+        "current_activity": 68,
+        "missing_information_value": 64,
+        "research_priority": 72
+      },
+      "review": {
+        "status": "needs_review",
+        "reviewer": null,
+        "notes": "Initial deal-led public-source census candidate. Verify before promotion to canonical deals."
+      },
+      "followUpSearches": [
+        "\"SmartCover Systems\" named houlihan bankers",
+        "\"SmartCover Systems\" buyer advisors",
+        "\"SmartCover Systems\" legal counsel",
+        "\"SmartCover Systems\" founder post close role",
+        "\"SmartCover Systems\" acquisition named team",
+        "\"SmartCover Systems\" transaction advisors"
+      ]
+    },
+    {
+      "id": "census-firstenergy-transmission-brookfield-2024",
+      "theme": "grid-infrastructure",
+      "tier": 1,
+      "name": "Brookfield acquires additional 30% of FirstEnergy Transmission",
+      "announcementDate": "2024-03-25",
+      "completionDate": "2024-03-25",
+      "status": "completed",
+      "geography": "United States",
+      "transactionType": "minority-investment",
+      "value": {
+        "amountMillions": 3500,
+        "currency": "USD",
+        "basis": "stake_purchase_price",
+        "disclosed": true
+      },
+      "target": {
+        "name": "FirstEnergy Transmission",
+        "canonical_id": null,
+        "canonical_match_status": "unresolved"
+      },
+      "parties": [
+        {
+          "role": "investor",
+          "name": "Brookfield",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved"
+        },
+        {
+          "role": "seller",
+          "name": "FirstEnergy",
+          "canonical_id": null,
+          "canonical_match_status": "unresolved"
+        }
+      ],
+      "people": [],
+      "advisors": [],
+      "relevance": {
+        "theme": 20,
+        "controlPlatform": 10,
+        "strategic": 15,
+        "actors": 9,
+        "followOn": 10
+      },
+      "sources": [
+        {
+          "title": "FirstEnergy Closes on $3.5 Billion FirstEnergy Transmission 30% Interest Sale",
+          "publisher": "FirstEnergy",
+          "url": "https://investors.firstenergycorp.com/investor-materials/news-releases/news-details/2024/FirstEnergy-Closes-on-3.5-Billion-FirstEnergy-Transmission-LLC-30-Interest-Sale/default.aspx",
+          "evidence": "FirstEnergy completed the sale of an additional 30% interest in FirstEnergy Transmission to Brookfield for $3.5 billion."
+        }
+      ],
+      "missingFacts": [
+        "named_investment_team",
+        "financial_advisors",
+        "legal_counsel",
+        "stake_ownership_after_transaction"
+      ],
+      "scores": {
+        "structural_materiality": 87,
+        "current_activity": 55,
+        "missing_information_value": 64,
+        "research_priority": 71
+      },
+      "review": {
+        "status": "needs_review",
+        "reviewer": null,
+        "notes": "Initial deal-led public-source census candidate. Verify before promotion to canonical deals."
+      },
+      "followUpSearches": [
+        "\"FirstEnergy Transmission\" named investment team",
+        "\"FirstEnergy Transmission\" financial advisors",
+        "\"FirstEnergy Transmission\" legal counsel",
+        "\"FirstEnergy Transmission\" stake ownership after transaction",
+        "\"FirstEnergy Transmission\" acquisition named team",
+        "\"FirstEnergy Transmission\" transaction advisors"
+      ]
+    }
+  ]
+}

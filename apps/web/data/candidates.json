@@ -1,0 +1,1242 @@
+{
+  "schema_version": "candidates.v1",
+  "generated_by": "scripts/data-pipeline.mjs build-candidates",
+  "review_policy": "Candidates are proposals. Only review.status === 'approved' is eligible for graph-ready output.",
+  "review_status_enum": [
+    "needs_review",
+    "approved",
+    "rejected",
+    "merge",
+    "needs_more_evidence"
+  ],
+  "candidates": [
+    {
+      "candidate_id": "candidate-tb-gmc-investment",
+      "theme": "smart-water",
+      "source": {
+        "source_id": "tb-gmc-release",
+        "title": "TowerBrook strategic investment in GMC Group",
+        "url": "https://www.towerbrook.com/towerbrook-announces-strategic-investment-in-the-irish-infrastructure-services-provider-and-engineering-firm-gmc-group/",
+        "publisher": "TowerBrook",
+        "date": "2025",
+        "source_type": "transaction-announcement",
+        "source_origin": "public"
+      },
+      "terminal_ui": {
+        "route": "/discover",
+        "queue": "Discovery Review Queue",
+        "evidence_rail": true,
+        "source_register_route": "/sources",
+        "primary_row_label": "GMC Group"
+      },
+      "evidence": [
+        {
+          "evidence_id": "candidate-tb-gmc-investment:e1",
+          "source_url": "https://www.towerbrook.com/towerbrook-announces-strategic-investment-in-the-irish-infrastructure-services-provider-and-engineering-firm-gmc-group/",
+          "evidence_text": "TowerBrook announces strategic investment in the Irish infrastructure services provider and engineering firm GMC Group.",
+          "confidence": 0.9,
+          "found_in_clean_text": true
+        }
+      ],
+      "confidence": 0.88,
+      "review": {
+        "status": "approved",
+        "reviewer": "prototype-human-review",
+        "notes": "Approved sample candidate so the prototype can emit a non-empty graph-ready artifact without touching production data."
+      },
+      "duplicate_warning": "Check existing company aliases before merging: GMC Group may already appear as GMC Utilities Group or GMC.",
+      "proposed_entities": [
+        {
+          "entity_id": "company:towerbrook",
+          "entity_type": "Fund",
+          "name": "TowerBrook",
+          "theme": "smart-water",
+          "proposed_profile": "Private equity investor and source publisher for the transaction announcement."
+        },
+        {
+          "entity_id": "company:gmc-group",
+          "entity_type": "Company",
+          "name": "GMC Group",
+          "theme": "smart-water",
+          "proposed_profile": "Irish infrastructure services provider and engineering firm with water, gas, power, and renewables relevance."
+        }
+      ],
+      "proposed_relationships": [
+        {
+          "from_entity_id": "company:towerbrook",
+          "to_entity_id": "company:gmc-group",
+          "relationship_type": "invested_in",
+          "label": "TowerBrook invested in GMC Group",
+          "confidence": 0.88,
+          "evidence_text": "TowerBrook announces strategic investment in the Irish infrastructure services provider and engineering firm GMC Group."
+        }
+      ]
+    },
+    {
+      "candidate_id": "candidate-swm-xylem-idrica",
+      "theme": "smart-water",
+      "source": {
+        "source_id": "swm-deals-2024",
+        "title": "Major acquisitions in the water sector 2024",
+        "url": "https://smartwatermagazine.com/news/smart-water-magazine/major-acquisitions-water-sector-2024",
+        "publisher": "Smart Water Magazine",
+        "date": "2024",
+        "source_type": "trade-press-deal-roundup",
+        "source_origin": "public"
+      },
+      "terminal_ui": {
+        "route": "/discover",
+        "queue": "Discovery Review Queue",
+        "evidence_rail": true,
+        "source_register_route": "/sources",
+        "primary_row_label": "Xylem / Idrica"
+      },
+      "evidence": [
+        {
+          "evidence_id": "candidate-swm-xylem-idrica:e1",
+          "source_url": "https://smartwatermagazine.com/news/smart-water-magazine/major-acquisitions-water-sector-2024",
+          "evidence_text": "Smart Water Magazine's 2024 water-sector acquisitions roundup names Xylem and Idrica among major deal activity.",
+          "confidence": 0.78,
+          "found_in_clean_text": true
+        }
+      ],
+      "confidence": 0.78,
+      "review": {
+        "status": "needs_review",
+        "reviewer": "",
+        "notes": "Reviewer should confirm deal date and whether Idrica is relevant as target, partner, or vendor before approving."
+      },
+      "duplicate_warning": "Potential duplicates: Xylem may already exist as a strategic acquirer; Idrica may need alias review.",
+      "proposed_entities": [
+        {
+          "entity_id": "company:xylem",
+          "entity_type": "Company",
+          "name": "Xylem",
+          "theme": "smart-water",
+          "proposed_profile": "Strategic water technology acquirer."
+        },
+        {
+          "entity_id": "company:idrica",
+          "entity_type": "Company",
+          "name": "Idrica",
+          "theme": "smart-water",
+          "proposed_profile": "Smart-water software and analytics company surfaced by water-sector M&A coverage."
+        }
+      ],
+      "proposed_relationships": [
+        {
+          "from_entity_id": "company:xylem",
+          "to_entity_id": "company:idrica",
+          "relationship_type": "acquired",
+          "label": "Xylem acquired Idrica",
+          "confidence": 0.78,
+          "evidence_text": "Smart Water Magazine's 2024 water-sector acquisitions roundup names Xylem and Idrica among major deal activity."
+        }
+      ]
+    },
+    {
+      "candidate_id": "candidate-neso-grid-reforms-event",
+      "theme": "grid-infrastructure",
+      "source": {
+        "source_id": "neso-connection-reforms",
+        "title": "NESO electricity grid connection reforms",
+        "url": "https://www.neso.energy/neso-implements-electricity-grid-connection-reforms-unlock-investment-great-britain",
+        "publisher": "NESO",
+        "date": "2025",
+        "source_type": "regulatory-market-signal",
+        "source_origin": "public"
+      },
+      "terminal_ui": {
+        "route": "/discover",
+        "queue": "Discovery Review Queue",
+        "evidence_rail": true,
+        "source_register_route": "/sources",
+        "primary_row_label": "GB grid connection reform signal"
+      },
+      "evidence": [
+        {
+          "evidence_id": "candidate-neso-grid-reforms-event:e1",
+          "source_url": "https://www.neso.energy/neso-implements-electricity-grid-connection-reforms-unlock-investment-great-britain",
+          "evidence_text": "NESO implements electricity grid connection reforms to unlock investment in Great Britain.",
+          "confidence": 0.82,
+          "found_in_clean_text": true
+        }
+      ],
+      "confidence": 0.82,
+      "review": {
+        "status": "needs_more_evidence",
+        "reviewer": "",
+        "notes": "Needs a second source or extracted project list before app graph merge."
+      },
+      "duplicate_warning": "No production graph event model exists yet; keep as graph-ready prototype only.",
+      "proposed_entities": [
+        {
+          "entity_id": "org:neso",
+          "entity_type": "Regulator",
+          "name": "NESO",
+          "theme": "grid-infrastructure",
+          "proposed_profile": "National Energy System Operator source for Great Britain connection reform evidence."
+        },
+        {
+          "entity_id": "event:gb-grid-connection-reforms-2025",
+          "entity_type": "Event",
+          "name": "GB grid connection reforms",
+          "theme": "grid-infrastructure",
+          "proposed_profile": "Market signal for grid infrastructure prioritisation and investment unlock."
+        }
+      ],
+      "proposed_relationships": [
+        {
+          "from_entity_id": "org:neso",
+          "to_entity_id": "event:gb-grid-connection-reforms-2025",
+          "relationship_type": "published",
+          "label": "NESO published connection reform signal",
+          "confidence": 0.82,
+          "evidence_text": "NESO implements electricity grid connection reforms to unlock investment in Great Britain."
+        }
+      ]
+    },
+    {
+      "candidate_id": "candidate-constellation-calpine-platform",
+      "theme": "clean-energy-advisory",
+      "source": {
+        "source_id": "graph-constellation-energy",
+        "title": "Constellation to Acquire Calpine",
+        "url": "https://investors.constellationenergy.com/news-releases/news-release-details/constellation-acquire-calpine-creates-americas-leading-producer",
+        "publisher": "Constellation Energy",
+        "date": "n.d.",
+        "source_type": "transaction-announcement",
+        "source_origin": "public"
+      },
+      "terminal_ui": {
+        "route": "/discover",
+        "queue": "Discovery Review Queue",
+        "evidence_rail": true,
+        "source_register_route": "/sources",
+        "primary_row_label": "Constellation / Calpine"
+      },
+      "evidence": [
+        {
+          "evidence_id": "candidate-constellation-calpine-platform:e1",
+          "source_url": "https://investors.constellationenergy.com/news-releases/news-release-details/constellation-acquire-calpine-creates-americas-leading-producer",
+          "evidence_text": "Constellation announced it would acquire Calpine to create a leading producer of clean and reliable energy and named Joe Dominguez and Andrew Novotny.",
+          "confidence": 0.88,
+          "found_in_clean_text": true
+        }
+      ],
+      "confidence": 0.88,
+      "review": {
+        "status": "needs_review",
+        "reviewer": "",
+        "notes": "Confirm final completed transaction terms and whether to include all financial advisers as firm-level nodes."
+      },
+      "duplicate_warning": "Production graph already contains Constellation, Calpine and named operator/investor records.",
+      "proposed_entities": [
+        {
+          "entity_id": "company:constellation-energy",
+          "entity_type": "Company",
+          "name": "Constellation Energy",
+          "theme": "grid-infrastructure",
+          "proposed_profile": "Strategic acquirer and large power producer."
+        },
+        {
+          "entity_id": "company:calpine",
+          "entity_type": "Company",
+          "name": "Calpine",
+          "theme": "grid-infrastructure",
+          "proposed_profile": "Power generation and retail platform acquisition target."
+        },
+        {
+          "entity_id": "expert:joe-dominguez",
+          "entity_type": "Expert",
+          "name": "Joe Dominguez",
+          "theme": "grid-infrastructure",
+          "proposed_profile": "CEO of Constellation Energy."
+        },
+        {
+          "entity_id": "expert:andrew-novotny",
+          "entity_type": "Expert",
+          "name": "Andrew Novotny",
+          "theme": "grid-infrastructure",
+          "proposed_profile": "CEO of Calpine."
+        }
+      ],
+      "proposed_relationships": [
+        {
+          "from_entity_id": "company:constellation-energy",
+          "to_entity_id": "company:calpine",
+          "relationship_type": "acquired",
+          "label": "Constellation agreed to acquire Calpine",
+          "confidence": 0.88,
+          "evidence_text": "Constellation announced its acquisition of Calpine."
+        },
+        {
+          "from_entity_id": "expert:joe-dominguez",
+          "to_entity_id": "company:constellation-energy",
+          "relationship_type": "led",
+          "label": "Joe Dominguez leads Constellation",
+          "confidence": 0.88,
+          "evidence_text": "The release names Joe Dominguez as President and CEO of Constellation."
+        },
+        {
+          "from_entity_id": "expert:andrew-novotny",
+          "to_entity_id": "company:calpine",
+          "relationship_type": "led",
+          "label": "Andrew Novotny leads Calpine",
+          "confidence": 0.86,
+          "evidence_text": "The release names Andrew Novotny as President and CEO of Calpine."
+        }
+      ]
+    },
+    {
+      "candidate_id": "candidate-kirkland-constellation-calpine-counsel",
+      "theme": "clean-energy-advisory",
+      "source": {
+        "source_id": "graph-kirkland-ellis-2",
+        "title": "Kirkland Advises Constellation Energy on Acquisition of Calpine",
+        "url": "https://www.kirkland.com/news/press-release/2025/01/kirkland-advises-constellation-energy-on-acquisition-of-calpine",
+        "publisher": "Kirkland & Ellis",
+        "date": "n.d.",
+        "source_type": "transaction-announcement",
+        "source_origin": "public"
+      },
+      "terminal_ui": {
+        "route": "/discover",
+        "queue": "Discovery Review Queue",
+        "evidence_rail": true,
+        "source_register_route": "/sources",
+        "primary_row_label": "Kirkland / Constellation-Calpine counsel"
+      },
+      "evidence": [
+        {
+          "evidence_id": "candidate-kirkland-constellation-calpine-counsel:e1",
+          "source_url": "https://www.kirkland.com/news/press-release/2025/01/kirkland-advises-constellation-energy-on-acquisition-of-calpine",
+          "evidence_text": "Kirkland advised Constellation Energy on the Calpine acquisition and named corporate and energy regulatory lawyers.",
+          "confidence": 0.84,
+          "found_in_clean_text": true
+        }
+      ],
+      "confidence": 0.84,
+      "review": {
+        "status": "needs_review",
+        "reviewer": "",
+        "notes": "Confirm whether corporate and energy regulatory lawyers should both be surfaced for grid-infrastructure calls."
+      },
+      "duplicate_warning": "Production graph already includes Kirkland lawyers David Feirstein and Damien Lyster.",
+      "proposed_entities": [
+        {
+          "entity_id": "company:kirkland-ellis",
+          "entity_type": "Company",
+          "name": "Kirkland & Ellis",
+          "theme": "grid-infrastructure",
+          "proposed_profile": "Counsel to Constellation Energy."
+        },
+        {
+          "entity_id": "expert:david-feirstein",
+          "entity_type": "Expert",
+          "name": "David B. Feirstein",
+          "theme": "grid-infrastructure",
+          "proposed_profile": "Kirkland corporate lawyer on Constellation/Calpine."
+        },
+        {
+          "entity_id": "expert:damien-lyster",
+          "entity_type": "Expert",
+          "name": "Damien Lyster",
+          "theme": "grid-infrastructure",
+          "proposed_profile": "Kirkland energy regulatory lawyer on Constellation/Calpine."
+        }
+      ],
+      "proposed_relationships": [
+        {
+          "from_entity_id": "expert:david-feirstein",
+          "to_entity_id": "company:constellation-energy",
+          "relationship_type": "legal_counsel",
+          "label": "David B. Feirstein advised Constellation",
+          "confidence": 0.84,
+          "evidence_text": "Kirkland named David B. Feirstein on the Constellation/Calpine team."
+        },
+        {
+          "from_entity_id": "expert:damien-lyster",
+          "to_entity_id": "company:constellation-energy",
+          "relationship_type": "legal_counsel",
+          "label": "Damien Lyster advised Constellation",
+          "confidence": 0.82,
+          "evidence_text": "Kirkland named Damien Lyster on energy regulatory matters for the transaction."
+        }
+      ]
+    },
+    {
+      "candidate_id": "candidate-whitecase-lspower-pjm-assets",
+      "theme": "clean-energy-advisory",
+      "source": {
+        "source_id": "graph-white-case-2",
+        "title": "White & Case advises LS Power on PJM generation assets acquisition",
+        "url": "https://www.whitecase.com/news/press-release/white-case-advises-ls-power-us5-billion-acquisition-pjm-generation-assets",
+        "publisher": "White & Case",
+        "date": "n.d.",
+        "source_type": "transaction-announcement",
+        "source_origin": "public"
+      },
+      "terminal_ui": {
+        "route": "/discover",
+        "queue": "Discovery Review Queue",
+        "evidence_rail": true,
+        "source_register_route": "/sources",
+        "primary_row_label": "White & Case / LS Power PJM assets"
+      },
+      "evidence": [
+        {
+          "evidence_id": "candidate-whitecase-lspower-pjm-assets:e1",
+          "source_url": "https://www.whitecase.com/news/press-release/white-case-advises-ls-power-us5-billion-acquisition-pjm-generation-assets",
+          "evidence_text": "White & Case advised LS Power on its $5 billion acquisition of PJM generation assets and named Joshua Teahen.",
+          "confidence": 0.84,
+          "found_in_clean_text": true
+        }
+      ],
+      "confidence": 0.84,
+      "review": {
+        "status": "needs_review",
+        "reviewer": "",
+        "notes": "Confirm final closing and whether to add Willkie/Santander individual names if public sources identify them."
+      },
+      "duplicate_warning": "Production graph already includes LS Power, White & Case and Joshua Teahen.",
+      "proposed_entities": [
+        {
+          "entity_id": "company:ls-power",
+          "entity_type": "Fund",
+          "name": "LS Power",
+          "theme": "grid-infrastructure",
+          "proposed_profile": "Power infrastructure investor/operator buying PJM generation assets."
+        },
+        {
+          "entity_id": "company:white-case",
+          "entity_type": "Company",
+          "name": "White & Case",
+          "theme": "grid-infrastructure",
+          "proposed_profile": "Legal adviser to LS Power."
+        },
+        {
+          "entity_id": "expert:joshua-teahen",
+          "entity_type": "Expert",
+          "name": "Joshua Teahen",
+          "theme": "grid-infrastructure",
+          "proposed_profile": "White & Case partner on LS Power PJM asset deal."
+        }
+      ],
+      "proposed_relationships": [
+        {
+          "from_entity_id": "expert:joshua-teahen",
+          "to_entity_id": "company:ls-power",
+          "relationship_type": "legal_counsel",
+          "label": "Joshua Teahen advised LS Power",
+          "confidence": 0.84,
+          "evidence_text": "White & Case named Joshua Teahen on the LS Power transaction team."
+        }
+      ]
+    },
+    {
+      "candidate_id": "candidate-aurelius-xylem-smart-metering",
+      "theme": "smart-water",
+      "source": {
+        "source_id": "graph-freshfields",
+        "title": "Freshfields advises AURELIUS on acquisition of Xylem's Smart Metering Business",
+        "url": "https://www.freshfields.com/en-gb/news/2026/01/freshfields-advises-aurelius-on-acquisition-of-xylems-smart-metering-business/",
+        "publisher": "Freshfields",
+        "date": "n.d.",
+        "source_type": "transaction-announcement",
+        "source_origin": "public"
+      },
+      "terminal_ui": {
+        "route": "/discover",
+        "queue": "Discovery Review Queue",
+        "evidence_rail": true,
+        "source_register_route": "/sources",
+        "primary_row_label": "AURELIUS / Xylem smart metering"
+      },
+      "evidence": [
+        {
+          "evidence_id": "candidate-aurelius-xylem-smart-metering:e1",
+          "source_url": "https://www.freshfields.com/en-gb/news/2026/01/freshfields-advises-aurelius-on-acquisition-of-xylems-smart-metering-business/",
+          "evidence_text": "Freshfields advised AURELIUS on the acquisition of Xylem's Smart Metering Business and named its legal team.",
+          "confidence": 0.84,
+          "found_in_clean_text": true
+        }
+      ],
+      "confidence": 0.84,
+      "review": {
+        "status": "needs_review",
+        "reviewer": "",
+        "notes": "Confirm closing status and whether to tag as smart-water only or cross-theme with grid infrastructure."
+      },
+      "duplicate_warning": "Production graph already models the AURELIUS/Xylem smart metering carve-out and named Freshfields lawyers.",
+      "proposed_entities": [
+        {
+          "entity_id": "company:aurelius",
+          "entity_type": "Fund",
+          "name": "AURELIUS",
+          "theme": "smart-water",
+          "proposed_profile": "Private equity buyer of Xylem smart metering business."
+        },
+        {
+          "entity_id": "company:xylem-smart-metering-business",
+          "entity_type": "Company",
+          "name": "Xylem Smart Metering Business",
+          "theme": "smart-water",
+          "proposed_profile": "Water AMI carve-out target."
+        },
+        {
+          "entity_id": "expert:elizabeth-oberholzer",
+          "entity_type": "Expert",
+          "name": "Elizabeth Oberholzer",
+          "theme": "smart-water",
+          "proposed_profile": "Freshfields corporate partner on the transaction."
+        },
+        {
+          "entity_id": "expert:claire-james",
+          "entity_type": "Expert",
+          "name": "Claire James",
+          "theme": "smart-water",
+          "proposed_profile": "Freshfields lawyer on the transaction."
+        }
+      ],
+      "proposed_relationships": [
+        {
+          "from_entity_id": "company:aurelius",
+          "to_entity_id": "company:xylem-smart-metering-business",
+          "relationship_type": "acquired",
+          "label": "AURELIUS acquired Xylem smart metering business",
+          "confidence": 0.84,
+          "evidence_text": "Freshfields advised AURELIUS on acquiring Xylem's Smart Metering Business."
+        },
+        {
+          "from_entity_id": "expert:elizabeth-oberholzer",
+          "to_entity_id": "company:aurelius",
+          "relationship_type": "legal_counsel",
+          "label": "Elizabeth Oberholzer advised AURELIUS",
+          "confidence": 0.84,
+          "evidence_text": "Freshfields named Elizabeth Oberholzer on the transaction team."
+        },
+        {
+          "from_entity_id": "expert:claire-james",
+          "to_entity_id": "company:aurelius",
+          "relationship_type": "legal_counsel",
+          "label": "Claire James advised AURELIUS",
+          "confidence": 0.8,
+          "evidence_text": "Freshfields named Claire James on the transaction team."
+        }
+      ]
+    },
+    {
+      "candidate_id": "candidate-gibson-solenis-nch-counsel",
+      "theme": "smart-water",
+      "source": {
+        "source_id": "graph-gibson-dunn",
+        "title": "Gibson Dunn Advises Platinum Equity and Solenis on NCH Acquisition",
+        "url": "https://www.gibsondunn.com/gibson-dunn-advises-platinum-equity-and-its-portfolio-company-solenis-on-the-acquisition-of-nch-corporation/",
+        "publisher": "Gibson Dunn",
+        "date": "n.d.",
+        "source_type": "transaction-announcement",
+        "source_origin": "public"
+      },
+      "terminal_ui": {
+        "route": "/discover",
+        "queue": "Discovery Review Queue",
+        "evidence_rail": true,
+        "source_register_route": "/sources",
+        "primary_row_label": "Gibson Dunn / Solenis-NCH counsel"
+      },
+      "evidence": [
+        {
+          "evidence_id": "candidate-gibson-solenis-nch-counsel:e1",
+          "source_url": "https://www.gibsondunn.com/gibson-dunn-advises-platinum-equity-and-its-portfolio-company-solenis-on-the-acquisition-of-nch-corporation/",
+          "evidence_text": "Gibson Dunn advised Platinum Equity and Solenis on the acquisition of NCH Corporation and named Ari Lanin, Evan D'Amico and Daniela Stolman.",
+          "confidence": 0.84,
+          "found_in_clean_text": true
+        }
+      ],
+      "confidence": 0.84,
+      "review": {
+        "status": "needs_review",
+        "reviewer": "",
+        "notes": "Confirm whether each named lawyer should be retained separately in the call list."
+      },
+      "duplicate_warning": "Production graph already includes Gibson Dunn, Platinum Equity, Solenis and named counsel records.",
+      "proposed_entities": [
+        {
+          "entity_id": "company:gibson-dunn",
+          "entity_type": "Company",
+          "name": "Gibson Dunn",
+          "theme": "smart-water",
+          "proposed_profile": "Legal adviser on Solenis/NCH acquisition."
+        },
+        {
+          "entity_id": "expert:ari-lanin",
+          "entity_type": "Expert",
+          "name": "Ari Lanin",
+          "theme": "smart-water",
+          "proposed_profile": "Gibson Dunn partner on Solenis/NCH."
+        },
+        {
+          "entity_id": "expert:evan-damico",
+          "entity_type": "Expert",
+          "name": "Evan D'Amico",
+          "theme": "smart-water",
+          "proposed_profile": "Gibson Dunn M&A lawyer on Solenis/NCH."
+        },
+        {
+          "entity_id": "expert:daniela-stolman",
+          "entity_type": "Expert",
+          "name": "Daniela Stolman",
+          "theme": "smart-water",
+          "proposed_profile": "Gibson Dunn M&A lawyer on Solenis/NCH."
+        }
+      ],
+      "proposed_relationships": [
+        {
+          "from_entity_id": "expert:ari-lanin",
+          "to_entity_id": "company:solenis",
+          "relationship_type": "legal_counsel",
+          "label": "Ari Lanin advised Solenis/Platinum Equity",
+          "confidence": 0.84,
+          "evidence_text": "Gibson Dunn named Ari Lanin on the Solenis/NCH transaction team."
+        },
+        {
+          "from_entity_id": "expert:evan-damico",
+          "to_entity_id": "company:solenis",
+          "relationship_type": "legal_counsel",
+          "label": "Evan D'Amico advised Solenis",
+          "confidence": 0.8,
+          "evidence_text": "Gibson Dunn named Evan D'Amico on the Solenis/NCH transaction team."
+        },
+        {
+          "from_entity_id": "expert:daniela-stolman",
+          "to_entity_id": "company:platinum-equity",
+          "relationship_type": "legal_counsel",
+          "label": "Daniela Stolman advised Platinum Equity",
+          "confidence": 0.78,
+          "evidence_text": "Gibson Dunn named Daniela Stolman on the Solenis/NCH transaction team."
+        }
+      ]
+    },
+    {
+      "candidate_id": "candidate-solenis-nch-platform",
+      "theme": "smart-water",
+      "source": {
+        "source_id": "graph-solenis",
+        "title": "Solenis to Acquire NCH Corporation",
+        "url": "https://www.solenis.com/en/resources/news-releases/2025/solenis-to-acquire-nch-corporation/",
+        "publisher": "Solenis",
+        "date": "n.d.",
+        "source_type": "transaction-announcement",
+        "source_origin": "public"
+      },
+      "terminal_ui": {
+        "route": "/discover",
+        "queue": "Discovery Review Queue",
+        "evidence_rail": true,
+        "source_register_route": "/sources",
+        "primary_row_label": "Solenis / NCH Corporation"
+      },
+      "evidence": [
+        {
+          "evidence_id": "candidate-solenis-nch-platform:e1",
+          "source_url": "https://www.solenis.com/en/resources/news-releases/2025/solenis-to-acquire-nch-corporation/",
+          "evidence_text": "Solenis announced it would acquire NCH Corporation and named John Panichella and Jacob Kotzubei in the release.",
+          "confidence": 0.84,
+          "found_in_clean_text": true
+        }
+      ],
+      "confidence": 0.84,
+      "review": {
+        "status": "needs_review",
+        "reviewer": "",
+        "notes": "Confirm close status and whether NCH should be categorized as target or incumbent after close."
+      },
+      "duplicate_warning": "Production graph already contains Solenis, NCH and Platinum Equity records.",
+      "proposed_entities": [
+        {
+          "entity_id": "company:solenis",
+          "entity_type": "Company",
+          "name": "Solenis",
+          "theme": "smart-water",
+          "proposed_profile": "Platinum-backed water treatment platform."
+        },
+        {
+          "entity_id": "company:nch-corporation",
+          "entity_type": "Company",
+          "name": "NCH Corporation",
+          "theme": "smart-water",
+          "proposed_profile": "Water treatment solutions provider acquisition target."
+        },
+        {
+          "entity_id": "expert:john-panichella",
+          "entity_type": "Expert",
+          "name": "John Panichella",
+          "theme": "smart-water",
+          "proposed_profile": "CEO of Solenis."
+        },
+        {
+          "entity_id": "expert:jacob-kotzubei",
+          "entity_type": "Expert",
+          "name": "Jacob Kotzubei",
+          "theme": "smart-water",
+          "proposed_profile": "Co-president of Platinum Equity."
+        }
+      ],
+      "proposed_relationships": [
+        {
+          "from_entity_id": "company:solenis",
+          "to_entity_id": "company:nch-corporation",
+          "relationship_type": "acquired",
+          "label": "Solenis agreed to acquire NCH Corporation",
+          "confidence": 0.84,
+          "evidence_text": "Solenis announced its agreement to acquire NCH Corporation."
+        },
+        {
+          "from_entity_id": "expert:john-panichella",
+          "to_entity_id": "company:solenis",
+          "relationship_type": "led",
+          "label": "John Panichella leads Solenis",
+          "confidence": 0.84,
+          "evidence_text": "The release names John Panichella as CEO of Solenis."
+        },
+        {
+          "from_entity_id": "expert:jacob-kotzubei",
+          "to_entity_id": "company:platinum-equity",
+          "relationship_type": "partner",
+          "label": "Jacob Kotzubei is a Platinum Equity dealmaker",
+          "confidence": 0.82,
+          "evidence_text": "The release names Jacob Kotzubei as co-president of Platinum Equity."
+        }
+      ]
+    },
+    {
+      "candidate_id": "candidate-gradiant-founders",
+      "theme": "smart-water",
+      "source": {
+        "source_id": "graph-gradiant",
+        "title": "Gradiant Leadership",
+        "url": "https://www.gradiant.com/about/leadership/",
+        "publisher": "Gradiant",
+        "date": "n.d.",
+        "source_type": "expert-company-profile",
+        "source_origin": "public"
+      },
+      "terminal_ui": {
+        "route": "/discover",
+        "queue": "Discovery Review Queue",
+        "evidence_rail": true,
+        "source_register_route": "/sources",
+        "primary_row_label": "Gradiant founders"
+      },
+      "evidence": [
+        {
+          "evidence_id": "candidate-gradiant-founders:e1",
+          "source_url": "https://www.gradiant.com/about/leadership/",
+          "evidence_text": "Gradiant leadership materials identify Anurag Bajpayee and Prakash Govindan as company co-founders and senior operators.",
+          "confidence": 0.84,
+          "found_in_clean_text": true
+        }
+      ],
+      "confidence": 0.84,
+      "review": {
+        "status": "needs_review",
+        "reviewer": "",
+        "notes": "Confirm founder titles and whether both CEO and COO should remain ex-founder archetypes."
+      },
+      "duplicate_warning": "Production graph already includes Gradiant founder records.",
+      "proposed_entities": [
+        {
+          "entity_id": "company:gradiant",
+          "entity_type": "Company",
+          "name": "Gradiant",
+          "theme": "smart-water",
+          "proposed_profile": "Advanced water and wastewater treatment platform."
+        },
+        {
+          "entity_id": "expert:anurag-bajpayee",
+          "entity_type": "Expert",
+          "name": "Anurag Bajpayee",
+          "theme": "smart-water",
+          "proposed_profile": "Co-founder and CEO of Gradiant."
+        },
+        {
+          "entity_id": "expert:prakash-govindan",
+          "entity_type": "Expert",
+          "name": "Prakash Govindan",
+          "theme": "smart-water",
+          "proposed_profile": "Co-founder and COO of Gradiant."
+        }
+      ],
+      "proposed_relationships": [
+        {
+          "from_entity_id": "expert:anurag-bajpayee",
+          "to_entity_id": "company:gradiant",
+          "relationship_type": "co_founded",
+          "label": "Anurag Bajpayee co-founded Gradiant",
+          "confidence": 0.84,
+          "evidence_text": "Gradiant leadership materials identify Anurag Bajpayee as a co-founder."
+        },
+        {
+          "from_entity_id": "expert:prakash-govindan",
+          "to_entity_id": "company:gradiant",
+          "relationship_type": "co_founded",
+          "label": "Prakash Govindan co-founded Gradiant",
+          "confidence": 0.84,
+          "evidence_text": "Gradiant leadership materials identify Prakash Govindan as a co-founder."
+        }
+      ]
+    },
+    {
+      "candidate_id": "candidate-gradiant-he-acquisition",
+      "theme": "smart-water",
+      "source": {
+        "source_id": "graph-gradiant-2",
+        "title": "Gradiant Acquires H+E Group",
+        "url": "https://www.gradiant.com/news/gradiant-acquires-he-group/",
+        "publisher": "Gradiant",
+        "date": "n.d.",
+        "source_type": "transaction-announcement",
+        "source_origin": "public"
+      },
+      "terminal_ui": {
+        "route": "/discover",
+        "queue": "Discovery Review Queue",
+        "evidence_rail": true,
+        "source_register_route": "/sources",
+        "primary_row_label": "Gradiant / H+E Group"
+      },
+      "evidence": [
+        {
+          "evidence_id": "candidate-gradiant-he-acquisition:e1",
+          "source_url": "https://www.gradiant.com/news/gradiant-acquires-he-group/",
+          "evidence_text": "Gradiant announced the acquisition of H+E Group, expanding industrial water and wastewater treatment engineering capabilities.",
+          "confidence": 0.8,
+          "found_in_clean_text": true
+        }
+      ],
+      "confidence": 0.8,
+      "review": {
+        "status": "needs_review",
+        "reviewer": "",
+        "notes": "Confirm transaction date and H+E Group company aliases."
+      },
+      "duplicate_warning": "Production graph already contains Gradiant and H+E Group records.",
+      "proposed_entities": [
+        {
+          "entity_id": "company:gradiant",
+          "entity_type": "Company",
+          "name": "Gradiant",
+          "theme": "smart-water",
+          "proposed_profile": "Advanced water technology acquirer."
+        },
+        {
+          "entity_id": "company:h-e-group",
+          "entity_type": "Company",
+          "name": "H+E Group",
+          "theme": "smart-water",
+          "proposed_profile": "Industrial water and wastewater treatment engineering company."
+        }
+      ],
+      "proposed_relationships": [
+        {
+          "from_entity_id": "company:gradiant",
+          "to_entity_id": "company:h-e-group",
+          "relationship_type": "acquired",
+          "label": "Gradiant acquired H+E Group",
+          "confidence": 0.8,
+          "evidence_text": "Gradiant announced its acquisition of H+E Group."
+        }
+      ]
+    },
+    {
+      "candidate_id": "candidate-h2o-quadvest-operators",
+      "theme": "smart-water",
+      "source": {
+        "source_id": "graph-h2o-america",
+        "title": "H2O America Significantly Expands Texas Footprint with Texas Subsidiary's Acquisition of Quadvest",
+        "url": "https://www.h2o-america.com/news-releases/news-release-details/h2o-america-significantly-expands-texas-footprint-texas",
+        "publisher": "H2O America",
+        "date": "n.d.",
+        "source_type": "public-evidence-page",
+        "source_origin": "public"
+      },
+      "terminal_ui": {
+        "route": "/discover",
+        "queue": "Discovery Review Queue",
+        "evidence_rail": true,
+        "source_register_route": "/sources",
+        "primary_row_label": "H2O America / Quadvest"
+      },
+      "evidence": [
+        {
+          "evidence_id": "candidate-h2o-quadvest-operators:e1",
+          "source_url": "https://www.h2o-america.com/news-releases/news-release-details/h2o-america-significantly-expands-texas-footprint-texas",
+          "evidence_text": "H2O America announced that its Texas subsidiary agreed to acquire Quadvest and named Andrew Walters, Aundrea Williams and Simon Sequeira in the transaction release.",
+          "confidence": 0.86,
+          "found_in_clean_text": true
+        }
+      ],
+      "confidence": 0.86,
+      "review": {
+        "status": "needs_review",
+        "reviewer": "",
+        "notes": "Confirm final close timing, PUCT approval context, and whether Quadvest should be modeled as company, asset package, or platform."
+      },
+      "duplicate_warning": "Entities already exist in production graph; review candidate is for audit traceability, not automatic duplicate insertion.",
+      "proposed_entities": [
+        {
+          "entity_id": "company:h2o-america",
+          "entity_type": "Company",
+          "name": "H2O America",
+          "theme": "smart-water",
+          "proposed_profile": "Public water and wastewater utility consolidator."
+        },
+        {
+          "entity_id": "company:texas-water-company",
+          "entity_type": "Company",
+          "name": "The Texas Water Company",
+          "theme": "smart-water",
+          "proposed_profile": "H2O America Texas operating subsidiary acquiring Quadvest assets."
+        },
+        {
+          "entity_id": "company:quadvest",
+          "entity_type": "Company",
+          "name": "Quadvest",
+          "theme": "smart-water",
+          "proposed_profile": "Texas water/wastewater utility platform acquisition target."
+        },
+        {
+          "entity_id": "expert:andrew-walters",
+          "entity_type": "Expert",
+          "name": "Andrew F. Walters",
+          "theme": "smart-water",
+          "proposed_profile": "CEO of H2O America."
+        },
+        {
+          "entity_id": "expert:aundrea-williams",
+          "entity_type": "Expert",
+          "name": "Aundrea Williams",
+          "theme": "smart-water",
+          "proposed_profile": "President of The Texas Water Company."
+        },
+        {
+          "entity_id": "expert:simon-sequeira",
+          "entity_type": "Expert",
+          "name": "Simon Sequeira",
+          "theme": "smart-water",
+          "proposed_profile": "CEO of Quadvest."
+        }
+      ],
+      "proposed_relationships": [
+        {
+          "from_entity_id": "company:h2o-america",
+          "to_entity_id": "company:quadvest",
+          "relationship_type": "acquired",
+          "label": "H2O America / Texas Water Company agreed to acquire Quadvest",
+          "confidence": 0.86,
+          "evidence_text": "H2O America announced its Texas subsidiary agreement to acquire Quadvest."
+        },
+        {
+          "from_entity_id": "expert:andrew-walters",
+          "to_entity_id": "company:h2o-america",
+          "relationship_type": "led",
+          "label": "Andrew F. Walters leads H2O America",
+          "confidence": 0.86,
+          "evidence_text": "The release names Andrew F. Walters as CEO of H2O America."
+        },
+        {
+          "from_entity_id": "expert:aundrea-williams",
+          "to_entity_id": "company:texas-water-company",
+          "relationship_type": "led",
+          "label": "Aundrea Williams leads The Texas Water Company",
+          "confidence": 0.86,
+          "evidence_text": "The release names Aundrea Williams as President of The Texas Water Company."
+        },
+        {
+          "from_entity_id": "expert:simon-sequeira",
+          "to_entity_id": "company:quadvest",
+          "relationship_type": "led",
+          "label": "Simon Sequeira leads Quadvest",
+          "confidence": 0.84,
+          "evidence_text": "The release names Simon Sequeira as CEO of Quadvest."
+        }
+      ]
+    },
+    {
+      "candidate_id": "candidate-american-water-digital-leaders",
+      "theme": "smart-water",
+      "source": {
+        "source_id": "graph-american-water-4",
+        "title": "American Water Announces State Leadership Changes and New Customer Strategy Role",
+        "url": "https://newsroom.amwater.com/2024-12-12-American-Water-Announces-State-Leadership-Changes-and-New-Customer-Strategy-Role",
+        "publisher": "American Water",
+        "date": "n.d.",
+        "source_type": "transaction-announcement",
+        "source_origin": "public"
+      },
+      "terminal_ui": {
+        "route": "/discover",
+        "queue": "Discovery Review Queue",
+        "evidence_rail": true,
+        "source_register_route": "/sources",
+        "primary_row_label": "American Water digital and customer leaders"
+      },
+      "evidence": [
+        {
+          "evidence_id": "candidate-american-water-digital-leaders:e1",
+          "source_url": "https://newsroom.amwater.com/2024-12-12-American-Water-Announces-State-Leadership-Changes-and-New-Customer-Strategy-Role",
+          "evidence_text": "American Water announced a new customer strategy role and referenced customer service and technology coordination across the enterprise.",
+          "confidence": 0.84,
+          "found_in_clean_text": true
+        }
+      ],
+      "confidence": 0.84,
+      "review": {
+        "status": "needs_review",
+        "reviewer": "",
+        "notes": "Confirm current roles and whether to split technology, customer strategy, and customer operations into separate records."
+      },
+      "duplicate_warning": "Experts already exist in production graph; review candidate should confirm titles and digital/customer remit.",
+      "proposed_entities": [
+        {
+          "entity_id": "company:american-water",
+          "entity_type": "Company",
+          "name": "American Water",
+          "theme": "smart-water",
+          "proposed_profile": "Large regulated US water and wastewater utility."
+        },
+        {
+          "entity_id": "expert:lynnae-wilson",
+          "entity_type": "Expert",
+          "name": "Lynnae Wilson",
+          "theme": "smart-water",
+          "proposed_profile": "Senior Vice President, Customer Strategy."
+        },
+        {
+          "entity_id": "expert:deb-degillio",
+          "entity_type": "Expert",
+          "name": "Deb Degillio",
+          "theme": "smart-water",
+          "proposed_profile": "Chief Technology and Information Officer."
+        },
+        {
+          "entity_id": "expert:matthew-prine",
+          "entity_type": "Expert",
+          "name": "Matthew Prine",
+          "theme": "smart-water",
+          "proposed_profile": "Chief Customer Officer."
+        }
+      ],
+      "proposed_relationships": [
+        {
+          "from_entity_id": "expert:lynnae-wilson",
+          "to_entity_id": "company:american-water",
+          "relationship_type": "led",
+          "label": "Lynnae Wilson leads customer strategy at American Water",
+          "confidence": 0.84,
+          "evidence_text": "American Water announced Lynnae Wilson in a new senior customer strategy role."
+        },
+        {
+          "from_entity_id": "expert:deb-degillio",
+          "to_entity_id": "company:american-water",
+          "relationship_type": "led",
+          "label": "Deb Degillio leads technology and information at American Water",
+          "confidence": 0.84,
+          "evidence_text": "The release names Deb Degillio as Chief Technology and Information Officer."
+        },
+        {
+          "from_entity_id": "expert:matthew-prine",
+          "to_entity_id": "company:american-water",
+          "relationship_type": "led",
+          "label": "Matthew Prine leads customer operations at American Water",
+          "confidence": 0.82,
+          "evidence_text": "The release names Matthew Prine as Chief Customer Officer."
+        }
+      ]
+    },
+    {
+      "candidate_id": "candidate-jpm-erm-water-resilience-advisers",
+      "theme": "smart-water",
+      "source": {
+        "source_id": "graph-j-p-morgan",
+        "title": "The Future of Water Resilience in the U.S.",
+        "url": "https://www.jpmorgan.com/insights/banking/investment-banking/water-resilience",
+        "publisher": "J.P. Morgan",
+        "date": "n.d.",
+        "source_type": "transaction-announcement",
+        "source_origin": "public"
+      },
+      "terminal_ui": {
+        "route": "/discover",
+        "queue": "Discovery Review Queue",
+        "evidence_rail": true,
+        "source_register_route": "/sources",
+        "primary_row_label": "J.P. Morgan / ERM water resilience advisers"
+      },
+      "evidence": [
+        {
+          "evidence_id": "candidate-jpm-erm-water-resilience-advisers:e1",
+          "source_url": "https://www.jpmorgan.com/insights/banking/investment-banking/water-resilience",
+          "evidence_text": "J.P. Morgan published water resilience work with ERM and named Vamsi Alla, Pradipta Parhi and Mark Lee as authors/contributors.",
+          "confidence": 0.8,
+          "found_in_clean_text": true
+        }
+      ],
+      "confidence": 0.8,
+      "review": {
+        "status": "needs_review",
+        "reviewer": "",
+        "notes": "Reviewer should confirm whether these should be categorized as banker, advisor or service-provider in production."
+      },
+      "duplicate_warning": "Expert records are advisory/report-derived, not transaction-banker records; keep type confidence moderate.",
+      "proposed_entities": [
+        {
+          "entity_id": "company:jp-morgan",
+          "entity_type": "Company",
+          "name": "J.P. Morgan",
+          "theme": "smart-water",
+          "proposed_profile": "Investment bank and water resilience advisory source."
+        },
+        {
+          "entity_id": "company:erm",
+          "entity_type": "Company",
+          "name": "ERM",
+          "theme": "smart-water",
+          "proposed_profile": "Sustainability consultancy partnering on water resilience advisory."
+        },
+        {
+          "entity_id": "expert:vamsi-alla",
+          "entity_type": "Expert",
+          "name": "Vamsi Alla",
+          "theme": "smart-water",
+          "proposed_profile": "J.P. Morgan corporate advisory and sustainable solutions banker."
+        },
+        {
+          "entity_id": "expert:pradipta-parhi",
+          "entity_type": "Expert",
+          "name": "Pradipta Parhi",
+          "theme": "smart-water",
+          "proposed_profile": "J.P. Morgan climate technology and strategic investment adviser."
+        },
+        {
+          "entity_id": "expert:mark-lee-erm",
+          "entity_type": "Expert",
+          "name": "Mark Lee",
+          "theme": "smart-water",
+          "proposed_profile": "ERM Sustainability Institute director."
+        }
+      ],
+      "proposed_relationships": [
+        {
+          "from_entity_id": "expert:vamsi-alla",
+          "to_entity_id": "company:jp-morgan",
+          "relationship_type": "partner",
+          "label": "Vamsi Alla is a J.P. Morgan water resilience adviser",
+          "confidence": 0.8,
+          "evidence_text": "The water resilience report names Vamsi Alla at J.P. Morgan."
+        },
+        {
+          "from_entity_id": "expert:pradipta-parhi",
+          "to_entity_id": "company:jp-morgan",
+          "relationship_type": "partner",
+          "label": "Pradipta Parhi is a J.P. Morgan water resilience adviser",
+          "confidence": 0.8,
+          "evidence_text": "The water resilience report names Pradipta Parhi at J.P. Morgan."
+        },
+        {
+          "from_entity_id": "expert:mark-lee-erm",
+          "to_entity_id": "company:erm",
+          "relationship_type": "led",
+          "label": "Mark Lee contributes ERM water resilience advisory expertise",
+          "confidence": 0.8,
+          "evidence_text": "The water resilience report names Mark Lee at ERM."
+        }
+      ]
+    },
+    {
+      "candidate_id": "candidate-porter-hedges-quadvest-counsel",
+      "theme": "smart-water",
+      "source": {
+        "source_id": "graph-porter-hedges",
+        "title": "Porter Hedges Represents Quadvest in its $540 Million Sale to H2O America",
+        "url": "https://www.porterhedges.com/newsroom-news-porter-hedges-represents-quadvest-in-its-540-million-sale-to-h2o-america",
+        "publisher": "Porter Hedges",
+        "date": "n.d.",
+        "source_type": "transaction-announcement",
+        "source_origin": "public"
+      },
+      "terminal_ui": {
+        "route": "/discover",
+        "queue": "Discovery Review Queue",
+        "evidence_rail": true,
+        "source_register_route": "/sources",
+        "primary_row_label": "Porter Hedges / Quadvest counsel"
+      },
+      "evidence": [
+        {
+          "evidence_id": "candidate-porter-hedges-quadvest-counsel:e1",
+          "source_url": "https://www.porterhedges.com/newsroom-news-porter-hedges-represents-quadvest-in-its-540-million-sale-to-h2o-america",
+          "evidence_text": "Porter Hedges announced it represented Quadvest in its $540 million sale to H2O America and named transaction lawyers.",
+          "confidence": 0.82,
+          "found_in_clean_text": true
+        }
+      ],
+      "confidence": 0.82,
+      "review": {
+        "status": "needs_review",
+        "reviewer": "",
+        "notes": "Confirm named lawyers and whether all should be promoted individually or only lead partner."
+      },
+      "duplicate_warning": "Production graph already contains Porter Hedges and Quadvest counsel records.",
+      "proposed_entities": [
+        {
+          "entity_id": "company:porter-hedges",
+          "entity_type": "Company",
+          "name": "Porter Hedges",
+          "theme": "smart-water",
+          "proposed_profile": "Sell-side law firm on Quadvest sale."
+        },
+        {
+          "entity_id": "expert:joseph-morrel",
+          "entity_type": "Expert",
+          "name": "Joseph L. Morrel",
+          "theme": "smart-water",
+          "proposed_profile": "Porter Hedges partner on Quadvest sale."
+        },
+        {
+          "entity_id": "expert:colin-cox",
+          "entity_type": "Expert",
+          "name": "Colin L. Cox",
+          "theme": "smart-water",
+          "proposed_profile": "Porter Hedges partner on Quadvest sale."
+        },
+        {
+          "entity_id": "company:quadvest",
+          "entity_type": "Company",
+          "name": "Quadvest",
+          "theme": "smart-water",
+          "proposed_profile": "Water utility sale target."
+        }
+      ],
+      "proposed_relationships": [
+        {
+          "from_entity_id": "expert:joseph-morrel",
+          "to_entity_id": "company:quadvest",
+          "relationship_type": "legal_counsel",
+          "label": "Joseph L. Morrel advised Quadvest",
+          "confidence": 0.82,
+          "evidence_text": "Porter Hedges named Joseph L. Morrel on Quadvest sale representation."
+        },
+        {
+          "from_entity_id": "expert:colin-cox",
+          "to_entity_id": "company:quadvest",
+          "relationship_type": "legal_counsel",
+          "label": "Colin L. Cox advised Quadvest",
+          "confidence": 0.8,
+          "evidence_text": "Porter Hedges named Colin L. Cox on Quadvest sale representation."
+        }
+      ]
+    }
+  ]
+}

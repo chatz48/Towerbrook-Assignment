@@ -1,0 +1,29 @@
+[project]
+name = "towerbrook-backend-api"
+version = "0.1.0"
+description = "FastAPI intelligence backend for TowerBrook people expert engine"
+requires-python = ">=3.12"
+dependencies = [
+  "fastapi>=0.117.1",
+  "httpx>=0.28.0",
+  "fastembed>=0.4.0",
+  "langchain-core>=0.3.0",
+  "langgraph>=0.2.0",
+  "pydantic>=2.10.0",
+  "pypdf>=6.4.0",
+  "python-multipart>=0.0.20",
+  "supabase>=2.10.0",
+  "uvicorn>=0.32.0"
+]
+
+[project.scripts]
+app = "app.main:app"
+
+[project.optional-dependencies]
+test = [
+  "pytest>=8.3.0"
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

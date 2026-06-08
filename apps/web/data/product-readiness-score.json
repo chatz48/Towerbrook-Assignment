@@ -1,0 +1,136 @@
+{
+  "generated_at": "2026-06-07T19:21:36.929Z",
+  "score_out_of_10": 10,
+  "passed": 12,
+  "total": 12,
+  "status": "10/10 capability score",
+  "checks": [
+    {
+      "id": "theme_coverage",
+      "label": "All required themes represented in experts and companies",
+      "pass": true,
+      "evidence": {
+        "expertThemes": [
+          "clean-energy-advisory",
+          "grid-infrastructure",
+          "smart-water"
+        ],
+        "companyThemes": [
+          "smart-water",
+          "clean-energy-advisory",
+          "grid-infrastructure"
+        ]
+      }
+    },
+    {
+      "id": "expert_universe",
+      "label": "Expert universe has all requested archetypes and sufficient breadth",
+      "pass": true,
+      "evidence": {
+        "experts": 256,
+        "expertTypes": [
+          "advisor",
+          "banker",
+          "commercial-dd",
+          "engineering-consultant",
+          "ex-founder",
+          "investor",
+          "lawyer",
+          "operator",
+          "service-provider",
+          "technical-dd"
+        ]
+      }
+    },
+    {
+      "id": "company_derivation",
+      "label": "Expert-derived company universe is broad and connected",
+      "pass": true,
+      "evidence": {
+        "companies": 287,
+        "linkedCompanies": 214,
+        "derivedCandidates": 40
+      }
+    },
+    {
+      "id": "evidence_trust",
+      "label": "Source-backed records and confidence/trust UI are present",
+      "pass": true,
+      "evidence": {
+        "sourceBackedExperts": 256,
+        "sourceBackedCompanies": 287
+      }
+    },
+    {
+      "id": "call_actionability",
+      "label": "Call readiness, contact path, and outreach workflow are implemented",
+      "pass": true,
+      "evidence": {
+        "contactableExperts": 28
+      }
+    },
+    {
+      "id": "target_actionability",
+      "label": "PE target scorecards and company readiness filters are implemented",
+      "pass": true,
+      "evidence": {
+        "scorecardFunction": true
+      }
+    },
+    {
+      "id": "nontechnical_workflow",
+      "label": "Home decision dashboard guides non-technical workflow",
+      "pass": true,
+      "evidence": {
+        "homeDashboard": true
+      }
+    },
+    {
+      "id": "campaign_workflow",
+      "label": "Call list workflow closes the loop from map to outreach",
+      "pass": true,
+      "evidence": {
+        "expertCallList": true,
+        "outreachPlan": true
+      }
+    },
+    {
+      "id": "ranking_transparency",
+      "label": "Expert rankings expose score components and trust rationale",
+      "pass": true,
+      "evidence": {
+        "scoreComponents": true,
+        "trustDossier": true
+      }
+    },
+    {
+      "id": "research_queue",
+      "label": "Research queues and generated jobs cover verification loops",
+      "pass": true,
+      "evidence": {
+        "expertCandidates": 86,
+        "advisorGaps": 72,
+        "jobs": 127
+      }
+    },
+    {
+      "id": "live_search_llm",
+      "label": "Live search and LLM provider fallbacks are implemented on frontend and backend",
+      "pass": true,
+      "evidence": {
+        "webSearchRoute": true,
+        "backendSearchRoute": true,
+        "geminiFallback": true
+      }
+    },
+    {
+      "id": "reporting_and_export",
+      "label": "Meeting-pack/reporting path and source register remain available",
+      "pass": true,
+      "evidence": {
+        "reports": true,
+        "sources": true
+      }
+    }
+  ]
+}

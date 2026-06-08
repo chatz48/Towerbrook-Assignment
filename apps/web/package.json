@@ -1,0 +1,53 @@
+{
+  "name": "@towerbrook/web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit --pretty false",
+    "ingest:validate": "node scripts/validate-ingest.mjs",
+    "companies:targeted": "node scripts/build-targeted-company-expansion.mjs",
+    "investment:census": "node scripts/build-investment-census.mjs",
+    "private-equity:census": "node scripts/build-private-equity-deal-census.mjs",
+    "deals:canonical": "node scripts/build-canonical-deals.mjs",
+    "expert:census": "node scripts/build-expert-first-census.mjs",
+    "origination:jobs": "node scripts/build-origination-research-jobs.mjs",
+    "government-investment:census": "node scripts/build-government-investment-census.mjs",
+    "db:seed": "node scripts/seed-supabase.mjs",
+    "db:seed:graph": "node scripts/seed-people-graph.mjs",
+    "product:score": "node scripts/score-product-readiness.mjs",
+    "test:unit": "node --experimental-strip-types --test tests/*.test.mjs tests/*.test.ts",
+    "test:e2e": "playwright install chromium && playwright test",
+    "test:e2e:ci": "playwright test",
+    "test:e2e:ui": "playwright test --ui",
+    "test:e2e:headed": "playwright test --headed",
+    "test:e2e:smoke": "playwright test --grep @smoke",
+    "test:e2e:copilot": "playwright test --grep @copilot",
+    "test:e2e:basket": "playwright test --grep @basket",
+    "test:e2e:workflows": "playwright test --grep @workflow",
+    "test:e2e:report": "playwright show-report playwright-report"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.107.0",
+    "next": "16.2.6",
+    "pdf-parse": "^2.4.5",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@next/env": "16.2.6",
+    "@playwright/test": "^1.60.0",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.6",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

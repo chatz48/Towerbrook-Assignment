@@ -1,0 +1,74 @@
+{
+  "schema_version": "graph-ready.v1",
+  "generated_by": "scripts/data-pipeline.mjs build-graph",
+  "production_mutation": false,
+  "review_gate": "approved_candidates_only",
+  "review_summary": {
+    "total_candidates": 15,
+    "approved": 1,
+    "needs_review": 13,
+    "needs_more_evidence": 1,
+    "rejected": 0,
+    "merge": 0
+  },
+  "sources": [
+    {
+      "source_id": "tb-gmc-release",
+      "title": "TowerBrook strategic investment in GMC Group",
+      "url": "https://www.towerbrook.com/towerbrook-announces-strategic-investment-in-the-irish-infrastructure-services-provider-and-engineering-firm-gmc-group/",
+      "publisher": "TowerBrook",
+      "date": "2025",
+      "source_type": "transaction-announcement",
+      "source_origin": "public"
+    }
+  ],
+  "nodes": [
+    {
+      "entity_id": "company:towerbrook",
+      "entity_type": "Fund",
+      "name": "TowerBrook",
+      "theme": "smart-water",
+      "proposed_profile": "Private equity investor and source publisher for the transaction announcement.",
+      "evidence_ids": [
+        "candidate-tb-gmc-investment:e1"
+      ],
+      "source_urls": [
+        "https://www.towerbrook.com/towerbrook-announces-strategic-investment-in-the-irish-infrastructure-services-provider-and-engineering-firm-gmc-group/"
+      ],
+      "candidate_ids": [
+        "candidate-tb-gmc-investment"
+      ]
+    },
+    {
+      "entity_id": "company:gmc-group",
+      "entity_type": "Company",
+      "name": "GMC Group",
+      "theme": "smart-water",
+      "proposed_profile": "Irish infrastructure services provider and engineering firm with water, gas, power, and renewables relevance.",
+      "evidence_ids": [
+        "candidate-tb-gmc-investment:e1"
+      ],
+      "source_urls": [
+        "https://www.towerbrook.com/towerbrook-announces-strategic-investment-in-the-irish-infrastructure-services-provider-and-engineering-firm-gmc-group/"
+      ],
+      "candidate_ids": [
+        "candidate-tb-gmc-investment"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "relationship_id": "candidate-tb-gmc-investment:r1:invested_in",
+      "candidate_id": "candidate-tb-gmc-investment",
+      "from_entity_id": "company:towerbrook",
+      "to_entity_id": "company:gmc-group",
+      "relationship_type": "invested_in",
+      "label": "TowerBrook invested in GMC Group",
+      "confidence": 0.88,
+      "evidence_text": "TowerBrook announces strategic investment in the Irish infrastructure services provider and engineering firm GMC Group.",
+      "source_url": "https://www.towerbrook.com/towerbrook-announces-strategic-investment-in-the-irish-infrastructure-services-provider-and-engineering-firm-gmc-group/",
+      "source_id": "tb-gmc-release",
+      "review_status": "approved"
+    }
+  ]
+}

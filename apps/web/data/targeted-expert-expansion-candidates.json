@@ -1,0 +1,650 @@
+{
+  "schema_version": "targeted-expert-expansion-candidates.v1",
+  "generated_at": "2026-06-04",
+  "generated_by": "manual_targeted_search_pass",
+  "operating_principle": "Targeted searches should fill expert-type gaps using recent PE tombstones, peer-fund transaction pages, law-firm team pages, lender-credit sources, and specialist trade publications. All records remain review-gated until identity, role and conflicts are verified.",
+  "coverage": {
+    "expert_candidates": 34,
+    "recent_pe_deals_covered": 5,
+    "specialist_publications": 12,
+    "by_expert_type": {
+      "investor": 12,
+      "lawyer": 6,
+      "lender-credit": 8,
+      "operator": 4,
+      "ex-founder": 2,
+      "commercial-dd": 1,
+      "strategy-consultant": 1
+    }
+  },
+  "targeted_queries": [
+    "\"Qualus\" \"Clearlake\" deal team lawyers financing",
+    "\"Qualus\" \"AEC Advisors\" \"Harris Williams\" named professionals",
+    "\"Scale Microgrids\" \"EQT Transition Infrastructure\" deal team",
+    "\"United Flow Technologies\" \"Berkshire Partners\" Ropes Gray team",
+    "\"XPV Water Partners\" investment water services named executives",
+    "\"Emerald\" \"Global Water Fund II\" water startups investment team",
+    "\"Smart Water Magazine\" private equity water infrastructure founders",
+    "\"BlueTech Research\" water technology investment due diligence"
+  ],
+  "expert_candidates": [
+    {
+      "candidate_id": "targeted-expert:jose-feliciano-clearlake-qualus",
+      "name": "José E. Feliciano",
+      "expert_type": "investor",
+      "themes": ["grid-infrastructure", "clean-energy-advisory"],
+      "organization": "Clearlake Capital",
+      "role": "Co-Founder and Managing Partner",
+      "deal_or_source": "Clearlake acquisition of Qualus from New Mountain Capital",
+      "why_useful": "Peer-fund dealmaker on a recent grid modernization platform transaction; useful for understanding sponsor appetite for engineering-led grid services platforms.",
+      "source": {
+        "title": "Clearlake to Acquire Qualus",
+        "url": "https://clearlake.com/news/clearlake-to-acquire-qualus-a-pure-play-power-electric-grid-services-platform-from-new-mountain-capital/"
+      },
+      "confidence": 0.86,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "targeted-expert:arta-tabaee-clearlake-qualus",
+      "name": "Arta Tabaee",
+      "expert_type": "investor",
+      "themes": ["grid-infrastructure", "clean-energy-advisory"],
+      "organization": "Clearlake Capital",
+      "role": "Partner and Managing Director",
+      "deal_or_source": "Clearlake acquisition of Qualus from New Mountain Capital",
+      "why_useful": "Named Clearlake dealmaker on a 2026 grid infrastructure services platform acquisition.",
+      "source": {
+        "title": "Clearlake to Acquire Qualus",
+        "url": "https://clearlake.com/news/clearlake-to-acquire-qualus-a-pure-play-power-electric-grid-services-platform-from-new-mountain-capital/"
+      },
+      "confidence": 0.86,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "targeted-expert:naveen-shahani-clearlake-qualus",
+      "name": "Naveen Shahani",
+      "expert_type": "investor",
+      "themes": ["grid-infrastructure"],
+      "organization": "Clearlake Capital",
+      "role": "Principal",
+      "deal_or_source": "Clearlake acquisition of Qualus from New Mountain Capital",
+      "why_useful": "Named principal on a grid services buyout thesis tied to load growth, utility complexity and technical capacity gaps.",
+      "source": {
+        "title": "Clearlake to Acquire Qualus",
+        "url": "https://clearlake.com/news/clearlake-to-acquire-qualus-a-pure-play-power-electric-grid-services-platform-from-new-mountain-capital/"
+      },
+      "confidence": 0.84,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "targeted-expert:joe-walker-new-mountain-qualus",
+      "name": "Joe Walker",
+      "expert_type": "investor",
+      "themes": ["grid-infrastructure"],
+      "organization": "New Mountain Capital",
+      "role": "Managing Director",
+      "deal_or_source": "New Mountain sale of Qualus to Clearlake",
+      "why_useful": "Seller-side peer-fund dealmaker with prior ownership view on a power and electric grid services platform.",
+      "source": {
+        "title": "Clearlake to Acquire Qualus",
+        "url": "https://clearlake.com/news/clearlake-to-acquire-qualus-a-pure-play-power-electric-grid-services-platform-from-new-mountain-capital/"
+      },
+      "confidence": 0.84,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "targeted-expert:lars-johansson-new-mountain-qualus",
+      "name": "Lars Johansson",
+      "expert_type": "investor",
+      "themes": ["grid-infrastructure"],
+      "organization": "New Mountain Capital",
+      "role": "Managing Director",
+      "deal_or_source": "New Mountain sale of Qualus to Clearlake",
+      "why_useful": "Repeat infrastructure services investor already relevant in the graph; source strengthens recent-deal evidence.",
+      "source": {
+        "title": "Clearlake to Acquire Qualus",
+        "url": "https://clearlake.com/news/clearlake-to-acquire-qualus-a-pure-play-power-electric-grid-services-platform-from-new-mountain-capital/"
+      },
+      "confidence": 0.84,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "targeted-expert:greg-herasymuik-qualus",
+      "name": "Greg Herasymuik",
+      "expert_type": "operator",
+      "themes": ["grid-infrastructure"],
+      "organization": "Qualus",
+      "role": "Chief Executive Officer",
+      "deal_or_source": "Clearlake acquisition of Qualus from New Mountain Capital",
+      "why_useful": "Current operator of a pure-play power solutions platform serving utilities, data centers and grid modernization customers.",
+      "source": {
+        "title": "Clearlake Completes Acquisition of Qualus",
+        "url": "https://clearlake.com/news/clearlake-completes-acquisition-of-qualus/"
+      },
+      "confidence": 0.88,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "targeted-expert:brian-ford-kirkland-qualus",
+      "name": "Brian Ford",
+      "expert_type": "lender-credit",
+      "themes": ["grid-infrastructure"],
+      "organization": "Kirkland & Ellis",
+      "role": "Debt finance lawyer",
+      "deal_or_source": "Private credit financing for Clearlake acquisition of Qualus",
+      "why_useful": "Named financing lawyer on a recent grid services buyout; useful for credit-market and lender-process intelligence.",
+      "source": {
+        "title": "Kirkland Represents Clearlake Capital on Private Credit Financing for Clearlake’s Acquisition of Qualus Corp.",
+        "url": "https://www.kirkland.com/news/press-release/2026/03/kirkland-represents-clearlake-capital-on-pcf-for-clearlakes-acquisition-of-qualus-corp"
+      },
+      "confidence": 0.82,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "targeted-expert:kendra-armstrong-kirkland-qualus",
+      "name": "Kendra Armstrong",
+      "expert_type": "lender-credit",
+      "themes": ["grid-infrastructure"],
+      "organization": "Kirkland & Ellis",
+      "role": "Debt finance lawyer",
+      "deal_or_source": "Private credit financing for Clearlake acquisition of Qualus",
+      "why_useful": "Named financing professional on a recent grid infrastructure services platform transaction.",
+      "source": {
+        "title": "Kirkland Represents Clearlake Capital on Private Credit Financing for Clearlake’s Acquisition of Qualus Corp.",
+        "url": "https://www.kirkland.com/news/press-release/2026/03/kirkland-represents-clearlake-capital-on-pcf-for-clearlakes-acquisition-of-qualus-corp"
+      },
+      "confidence": 0.8,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "targeted-expert:alborz-tolou-kirkland-qualus",
+      "name": "Alborz Tolou",
+      "expert_type": "lender-credit",
+      "themes": ["grid-infrastructure"],
+      "organization": "Kirkland & Ellis",
+      "role": "Capital markets lawyer",
+      "deal_or_source": "Private credit financing for Clearlake acquisition of Qualus",
+      "why_useful": "Named capital-markets professional on a PE grid infrastructure transaction financing.",
+      "source": {
+        "title": "Kirkland Represents Clearlake Capital on Private Credit Financing for Clearlake’s Acquisition of Qualus Corp.",
+        "url": "https://www.kirkland.com/news/press-release/2026/03/kirkland-represents-clearlake-capital-on-pcf-for-clearlakes-acquisition-of-qualus-corp"
+      },
+      "confidence": 0.8,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "targeted-expert:matthew-rogers-simpson-qualus",
+      "name": "Matthew Rogers",
+      "expert_type": "lawyer",
+      "themes": ["grid-infrastructure"],
+      "organization": "Simpson Thacher & Bartlett",
+      "role": "M&A lawyer",
+      "deal_or_source": "Qualus sale to Clearlake",
+      "why_useful": "Named M&A lawyer for Qualus/New Mountain side on the 2026 grid infrastructure services transaction.",
+      "source": {
+        "title": "Clearlake to Acquire Qualus",
+        "url": "https://www.stblaw.com/about-us/news/view/2026/03/26/clearlake-to-acquire-qualus"
+      },
+      "confidence": 0.82,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "targeted-expert:elizabeth-cooper-simpson-qualus",
+      "name": "Elizabeth Cooper",
+      "expert_type": "lawyer",
+      "themes": ["grid-infrastructure"],
+      "organization": "Simpson Thacher & Bartlett",
+      "role": "M&A lawyer",
+      "deal_or_source": "Qualus sale to Clearlake",
+      "why_useful": "Named M&A lawyer on the Qualus/New Mountain sale to Clearlake.",
+      "source": {
+        "title": "Clearlake to Acquire Qualus",
+        "url": "https://www.stblaw.com/about-us/news/view/2026/03/26/clearlake-to-acquire-qualus"
+      },
+      "confidence": 0.8,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "targeted-expert:stelios-saffos-latham-qualus",
+      "name": "Stelios Saffos",
+      "expert_type": "lender-credit",
+      "themes": ["grid-infrastructure"],
+      "organization": "Latham & Watkins",
+      "role": "Capital markets and hybrid capital partner",
+      "deal_or_source": "Private credit financing sources for Clearlake acquisition of Qualus",
+      "why_useful": "Named leader for lender-side financing counsel; useful for private credit process and capital structure intelligence.",
+      "source": {
+        "title": "Latham Advises on Private Credit Financing for Clearlake Completed Acquisition of Qualus Corp.",
+        "url": "https://www.lw.com/en/news/latham-advises-on-private-credit-financing-for-clearlake-completed-acquisition-of-qualus-corp"
+      },
+      "confidence": 0.82,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "targeted-expert:jesse-sheff-latham-qualus",
+      "name": "Jesse Sheff",
+      "expert_type": "lender-credit",
+      "themes": ["grid-infrastructure"],
+      "organization": "Latham & Watkins",
+      "role": "Partner",
+      "deal_or_source": "Private credit financing sources for Clearlake acquisition of Qualus",
+      "why_useful": "Named financing counsel on a recent PE-backed grid infrastructure services acquisition.",
+      "source": {
+        "title": "Latham Advises on Private Credit Financing for Clearlake Completed Acquisition of Qualus Corp.",
+        "url": "https://www.lw.com/en/news/latham-advises-on-private-credit-financing-for-clearlake-completed-acquisition-of-qualus-corp"
+      },
+      "confidence": 0.8,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "targeted-expert:jan-vesely-eqt-scale",
+      "name": "Jan Vesely",
+      "expert_type": "investor",
+      "themes": ["clean-energy-advisory", "grid-infrastructure"],
+      "organization": "EQT Transition Infrastructure",
+      "role": "Partner and Head of EQT Transition Infrastructure",
+      "deal_or_source": "EQT acquisition of Scale Microgrids",
+      "why_useful": "Peer-fund dealmaker on a distributed energy and microgrid platform acquisition; relevant to grid bottlenecks, C&I resilience and DER platforms.",
+      "source": {
+        "title": "EQT to acquire distributed energy company Scale Microgrids",
+        "url": "https://eqtgroup.com/news/eqt-to-acquire-distributed-energy-company-scale-microgrids"
+      },
+      "confidence": 0.88,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "targeted-expert:jacqui-bogucki-weil-scale",
+      "name": "Jacqui Bogucki",
+      "expert_type": "lawyer",
+      "themes": ["clean-energy-advisory", "grid-infrastructure"],
+      "organization": "Weil, Gotshal & Manges",
+      "role": "Private equity partner",
+      "deal_or_source": "EQT acquisition of Scale Microgrids",
+      "why_useful": "Named legal lead on EQT's Scale Microgrids acquisition.",
+      "source": {
+        "title": "Weil Advises EQT Transition Infrastructure in Acquisition of Scale Microgrids",
+        "url": "https://www.weil.com/articles/weil-advises-eqt-transition-infrastructure-in-acquisition-of-scale-microgrids"
+      },
+      "confidence": 0.82,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "targeted-expert:doug-warner-weil-scale",
+      "name": "Doug Warner",
+      "expert_type": "lawyer",
+      "themes": ["clean-energy-advisory", "grid-infrastructure"],
+      "organization": "Weil, Gotshal & Manges",
+      "role": "Private equity partner",
+      "deal_or_source": "EQT acquisition of Scale Microgrids",
+      "why_useful": "Named legal lead on EQT's Scale Microgrids acquisition.",
+      "source": {
+        "title": "Weil Advises EQT Transition Infrastructure in Acquisition of Scale Microgrids",
+        "url": "https://www.weil.com/articles/weil-advises-eqt-transition-infrastructure-in-acquisition-of-scale-microgrids"
+      },
+      "confidence": 0.82,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "targeted-expert:irina-tsveklova-weil-scale",
+      "name": "Irina Tsveklova",
+      "expert_type": "lawyer",
+      "themes": ["clean-energy-advisory", "grid-infrastructure"],
+      "organization": "Weil, Gotshal & Manges",
+      "role": "Energy partner",
+      "deal_or_source": "EQT acquisition of Scale Microgrids",
+      "why_useful": "Named energy-sector legal specialist on a distributed energy acquisition.",
+      "source": {
+        "title": "Weil Advises EQT Transition Infrastructure in Acquisition of Scale Microgrids",
+        "url": "https://www.weil.com/articles/weil-advises-eqt-transition-infrastructure-in-acquisition-of-scale-microgrids"
+      },
+      "confidence": 0.82,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "targeted-expert:paul-overmyer-weil-scale",
+      "name": "Paul Overmyer",
+      "expert_type": "lender-credit",
+      "themes": ["clean-energy-advisory", "grid-infrastructure"],
+      "organization": "Weil, Gotshal & Manges",
+      "role": "Banking and finance partner",
+      "deal_or_source": "EQT acquisition of Scale Microgrids",
+      "why_useful": "Named banking/finance partner on a microgrid and DER platform transaction.",
+      "source": {
+        "title": "Weil Advises EQT Transition Infrastructure in Acquisition of Scale Microgrids",
+        "url": "https://www.weil.com/articles/weil-advises-eqt-transition-infrastructure-in-acquisition-of-scale-microgrids"
+      },
+      "confidence": 0.8,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "targeted-expert:larry-hamelsky-berkshire-uft",
+      "name": "Larry Hamelsky",
+      "expert_type": "investor",
+      "themes": ["smart-water"],
+      "organization": "Berkshire Partners",
+      "role": "Managing Director",
+      "deal_or_source": "Berkshire Partners investment in United Flow Technologies",
+      "why_useful": "Peer-fund dealmaker for a 2025 water/wastewater technical distributor and solutions platform investment.",
+      "source": {
+        "title": "United Flow Technologies - Berkshire Partners",
+        "url": "https://berkshirepartners.com/portfolio-companies/united-flow-technologies/"
+      },
+      "confidence": 0.86,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "targeted-expert:candice-corvetti-berkshire-uft",
+      "name": "Candice Corvetti",
+      "expert_type": "investor",
+      "themes": ["smart-water"],
+      "organization": "Berkshire Partners",
+      "role": "Managing Director",
+      "deal_or_source": "Berkshire Partners investment in United Flow Technologies",
+      "why_useful": "Named current Berkshire team member for United Flow Technologies; useful for water services platform market mapping.",
+      "source": {
+        "title": "United Flow Technologies - Berkshire Partners",
+        "url": "https://berkshirepartners.com/portfolio-companies/united-flow-technologies/"
+      },
+      "confidence": 0.86,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "targeted-expert:matt-hart-uft",
+      "name": "Matt Hart",
+      "expert_type": "operator",
+      "themes": ["smart-water"],
+      "organization": "United Flow Technologies",
+      "role": "CEO",
+      "deal_or_source": "Berkshire Partners strategic investment in United Flow Technologies",
+      "why_useful": "Operator of a PE-backed municipal and industrial water/wastewater platform.",
+      "source": {
+        "title": "H.I.G. Capital Completes the Sale of United Flow Technologies",
+        "url": "https://www.prnewswire.com/news-releases/hig-capital-completes-the-sale-of-united-flow-technologies-302634349.html"
+      },
+      "confidence": 0.88,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "targeted-expert:taylor-hart-ropes-uft",
+      "name": "Taylor Hart",
+      "expert_type": "lawyer",
+      "themes": ["smart-water"],
+      "organization": "Ropes & Gray",
+      "role": "Private equity partner",
+      "deal_or_source": "Berkshire Partners investment in United Flow Technologies",
+      "why_useful": "Named PE legal lead on a recent water/wastewater services investment.",
+      "source": {
+        "title": "Berkshire Partners Makes Strategic Investment in United Flow Technologies",
+        "url": "https://www.ropesgray.com/en/news-and-events/news/2025/12/berkshire-partners-makes-strategic-investment-in-united-flow-technologies"
+      },
+      "confidence": 0.82,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "targeted-expert:jeffrey-lang-ropes-uft",
+      "name": "Jeffrey Lang",
+      "expert_type": "lender-credit",
+      "themes": ["smart-water"],
+      "organization": "Ropes & Gray",
+      "role": "Finance partner",
+      "deal_or_source": "Berkshire Partners investment in United Flow Technologies",
+      "why_useful": "Named finance partner on a water infrastructure platform investment.",
+      "source": {
+        "title": "Berkshire Partners Makes Strategic Investment in United Flow Technologies",
+        "url": "https://www.ropesgray.com/en/news-and-events/news/2025/12/berkshire-partners-makes-strategic-investment-in-united-flow-technologies"
+      },
+      "confidence": 0.8,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "targeted-expert:helge-daebel-emerald-water",
+      "name": "Dr. Helge Daebel",
+      "expert_type": "investor",
+      "themes": ["smart-water"],
+      "organization": "Emerald Technology Ventures",
+      "role": "Partner, Head of Water",
+      "deal_or_source": "Emerald Global Water Fund II",
+      "why_useful": "Dedicated water venture investor tracking early and growth-stage water infrastructure, treatment, reuse and analytics companies.",
+      "source": {
+        "title": "Emerald Water Fund II hits €100 million",
+        "url": "https://smartwatermagazine.com/news/smart-water-magazine/emerald-water-fund-ii-hits-eu100-million-backing-temasek-and-grundfos"
+      },
+      "confidence": 0.88,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "targeted-expert:kim-nohr-skibsted-grundfos-foundation",
+      "name": "Kim Nøhr Skibsted",
+      "expert_type": "investor",
+      "themes": ["smart-water"],
+      "organization": "Grundfos Foundation",
+      "role": "Executive Director",
+      "deal_or_source": "Grundfos Foundation backing of Emerald Global Water Fund II",
+      "why_useful": "Strategic LP/sector investor connected to water startups and innovation through Emerald's dedicated water fund.",
+      "source": {
+        "title": "Emerald Water Fund II hits €100 million",
+        "url": "https://smartwatermagazine.com/news/smart-water-magazine/emerald-water-fund-ii-hits-eu100-million-backing-temasek-and-grundfos"
+      },
+      "confidence": 0.84,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "targeted-expert:david-henderson-xpv",
+      "name": "David Henderson",
+      "expert_type": "investor",
+      "themes": ["smart-water"],
+      "organization": "XPV Water Partners",
+      "role": "Managing Partner",
+      "deal_or_source": "XPV Water Partners fundraise and Weisinger investment",
+      "why_useful": "Specialist water growth investor with current activity across water services and infrastructure platforms.",
+      "source": {
+        "title": "XPV Water Partners raises over $625 Million",
+        "url": "https://smartwatermagazine.com/news/smart-water-magazine/xpv-water-partners-raises-over-625-million-expand-investments-water"
+      },
+      "confidence": 0.9,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "targeted-expert:scott-weisinger-weisinger",
+      "name": "Scott Weisinger",
+      "expert_type": "operator",
+      "themes": ["smart-water"],
+      "organization": "Weisinger Incorporated",
+      "role": "President",
+      "deal_or_source": "XPV investment in Weisinger",
+      "why_useful": "Operator of a groundwater and water well services business backed by a specialist water investor.",
+      "source": {
+        "title": "XPV Water Partners invests in Weisinger Incorporated",
+        "url": "https://smartwatermagazine.com/news/smart-water-magazine/xpv-water-partners-invests-weisinger-incorporated-drive-growth-water"
+      },
+      "confidence": 0.86,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "targeted-expert:tom-vossman-weisinger",
+      "name": "Tom Vossman",
+      "expert_type": "operator",
+      "themes": ["smart-water"],
+      "organization": "Weisinger Incorporated",
+      "role": "Chief Executive Officer",
+      "deal_or_source": "XPV investment in Weisinger",
+      "why_useful": "Incoming CEO with water-sector operating background across Holland Pump, Newterra and Insituform.",
+      "source": {
+        "title": "XPV Water Partners invests in Weisinger Incorporated",
+        "url": "https://smartwatermagazine.com/news/smart-water-magazine/xpv-water-partners-invests-weisinger-incorporated-drive-growth-water"
+      },
+      "confidence": 0.84,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "targeted-expert:aleem-remtula-waterequity",
+      "name": "Aleem Remtula",
+      "expert_type": "investor",
+      "themes": ["smart-water"],
+      "organization": "WaterEquity",
+      "role": "Head of Private Equity and Infrastructure Investments",
+      "deal_or_source": "WaterEquity first private equity strategy investment in SunCulture",
+      "why_useful": "Named water-focused PE/infrastructure investor with emerging-market water infrastructure strategy.",
+      "source": {
+        "title": "WaterEquity announces first investment under new private equity strategy",
+        "url": "https://smartwatermagazine.com/news/waterequity/waterequity-announces-first-investment-under-new-private-equity-strategy"
+      },
+      "confidence": 0.88,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "targeted-expert:samir-ibrahim-sunculture",
+      "name": "Samir Ibrahim",
+      "expert_type": "ex-founder",
+      "themes": ["smart-water"],
+      "organization": "SunCulture",
+      "role": "CEO and Co-Founder",
+      "deal_or_source": "WaterEquity investment in SunCulture parent Savant Group",
+      "why_useful": "Founder/operator receiving water infrastructure-focused private equity capital; potential source of founder referrals and emerging-market water platform intelligence.",
+      "source": {
+        "title": "WaterEquity announces first investment under new private equity strategy",
+        "url": "https://smartwatermagazine.com/news/waterequity/waterequity-announces-first-investment-under-new-private-equity-strategy"
+      },
+      "confidence": 0.86,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "targeted-expert:casey-allen-h2o-innovation",
+      "name": "Casey Allen",
+      "expert_type": "lender-credit",
+      "themes": ["smart-water"],
+      "organization": "H2O Innovation",
+      "role": "Vice President and Managing Director, Water Infrastructure Development",
+      "deal_or_source": "US$200 million Blue Loan for H2O Innovation WaterHub portfolio",
+      "why_useful": "Named water infrastructure development and financing professional tied to a recent platform-level project debt facility.",
+      "source": {
+        "title": "H2O Innovation closes US$200 million Blue Loan",
+        "url": "https://smartwatermagazine.com/news/smart-water-magazine/h2o-innovation-closes-us200-million-blue-loan-expand-us-waterhub-portfolio"
+      },
+      "confidence": 0.84,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "targeted-expert:megan-glover-120water",
+      "name": "Megan Glover",
+      "expert_type": "ex-founder",
+      "themes": ["smart-water"],
+      "organization": "120Water",
+      "role": "Founder and former CEO",
+      "deal_or_source": "Founder departure after 120Water leadership transition",
+      "why_useful": "Recent ex-founder signal in water data management and regulatory compliance software; likely strong source of market and founder referrals.",
+      "source": {
+        "title": "120Water founder Megan Glover announces departure",
+        "url": "https://smartwatermagazine.com/news/smart-water-magazine/120water-founder-megan-glover-announces-departure-following-leadership"
+      },
+      "confidence": 0.88,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "targeted-expert:saurabh-singh-bluetech",
+      "name": "Saurabh Singh",
+      "expert_type": "strategy-consultant",
+      "themes": ["smart-water"],
+      "organization": "BlueTech Research",
+      "role": "VP of Advisory Services",
+      "deal_or_source": "Smart Water Magazine feature on private equity and water technology",
+      "why_useful": "Named advisory professional in a water technology/private equity feature; useful for market mapping and specialist publication follow-up.",
+      "source": {
+        "title": "Scaling water technology and private equity",
+        "url": "https://smartwatermagazine.com/sites/default/files/article-download/feature_private_equitys_saurabh_singh_bluetech_research_swm25.pdf"
+      },
+      "confidence": 0.78,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "targeted-expert:jacob-steele-bluetech",
+      "name": "Jacob Steele",
+      "expert_type": "commercial-dd",
+      "themes": ["smart-water"],
+      "organization": "BlueTech Research",
+      "role": "Senior Research Analyst",
+      "deal_or_source": "BlueTech Research team page",
+      "why_useful": "Named water-technology diligence specialist; BlueTech states he assists startups with go-to-market strategy and conducts commercial and technical due diligence for investors.",
+      "source": {
+        "title": "BlueTech Research - Who we are",
+        "url": "https://www.bluetechresearch.com/about/who-we-are/"
+      },
+      "confidence": 0.76,
+      "review_status": "needs_review"
+    }
+  ],
+  "specialist_publications": [
+    {
+      "name": "Smart Water Magazine",
+      "themes": ["smart-water"],
+      "why_useful": "High-yield source for water infrastructure investments, founder transitions, fundraises, specialist investors and emerging technology companies.",
+      "url": "https://smartwatermagazine.com/"
+    },
+    {
+      "name": "BlueTech Research",
+      "themes": ["smart-water"],
+      "why_useful": "Dedicated water technology market intelligence, startup evaluation, investment strategy, due diligence and regulatory tracking.",
+      "url": "https://www.bluetechresearch.com/"
+    },
+    {
+      "name": "Global Water Intelligence",
+      "themes": ["smart-water"],
+      "why_useful": "Water market intelligence and M&A tracking source for private investment, strategic acquirers and water technology transactions.",
+      "url": "https://www.globalwaterintel.com/"
+    },
+    {
+      "name": "Water Finance & Management",
+      "themes": ["smart-water"],
+      "why_useful": "Water infrastructure finance, P3, utility investment and capital planning publication.",
+      "url": "https://waterfm.com/"
+    },
+    {
+      "name": "WaterWorld",
+      "themes": ["smart-water"],
+      "why_useful": "Utility water/wastewater operations and technology publication; useful for operator, vendor and project signals.",
+      "url": "https://www.waterworld.com/"
+    },
+    {
+      "name": "Water Online",
+      "themes": ["smart-water"],
+      "why_useful": "Vendor, technology, utility and treatment market publication; useful for finding lower-publicity technical experts.",
+      "url": "https://www.wateronline.com/"
+    },
+    {
+      "name": "IJGlobal",
+      "themes": ["clean-energy-advisory", "grid-infrastructure", "smart-water"],
+      "why_useful": "Infrastructure and project finance intelligence source for lenders, sponsors, advisors and project-finance transactions.",
+      "url": "https://www.ijglobal.com/"
+    },
+    {
+      "name": "DealFlow.energy",
+      "themes": ["clean-energy-advisory", "grid-infrastructure"],
+      "why_useful": "Clean energy transaction intelligence with project finance, BESS, M&A and lender/advisor details.",
+      "url": "https://dealflow.energy/"
+    },
+    {
+      "name": "Infrastructure Investor",
+      "themes": ["clean-energy-advisory", "grid-infrastructure", "smart-water"],
+      "why_useful": "Sponsor, fundraise, strategy and infrastructure asset-class publication for peer-fund dealmakers.",
+      "url": "https://www.infrastructureinvestor.com/"
+    },
+    {
+      "name": "PE Hub",
+      "themes": ["clean-energy-advisory", "grid-infrastructure", "smart-water"],
+      "why_useful": "Broad private equity deal feed; useful for add-ons, platform creation and sponsor activity in fragmented services markets.",
+      "url": "https://www.pehub.com/"
+    },
+    {
+      "name": "Utility Dive",
+      "themes": ["grid-infrastructure", "clean-energy-advisory"],
+      "why_useful": "Utility capex, regulatory and grid modernization publication; useful for buyer pain and project signals.",
+      "url": "https://www.utilitydive.com/"
+    },
+    {
+      "name": "Microgrid Knowledge",
+      "themes": ["grid-infrastructure", "clean-energy-advisory"],
+      "why_useful": "Microgrid and distributed energy publication; useful for Scale Microgrids-style platforms and emerging founder/operator signals.",
+      "url": "https://www.microgridknowledge.com/"
+    }
+  ]
+}
