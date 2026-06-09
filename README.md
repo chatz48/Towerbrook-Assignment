@@ -4,7 +4,6 @@ Live Site: [https://towerbrook-arun.vercel.app](https://towerbrook-arun.vercel.a
 
 TowerBrook People Expert Engine is a graph-backed origination platform for thematic private equity sourcing. It turns a sector thesis into a practical calling plan: the most relevant experts, the companies they can unlock, the evidence behind each recommendation, and the warmest relationship paths into the market.
 
-Hosted demo: add your deployment URL here.
 
 The demo focuses on three themes:
 
